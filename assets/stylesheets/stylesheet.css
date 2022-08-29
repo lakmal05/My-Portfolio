@@ -1,7 +1,18 @@
 
 
 
+
+#mainImg{
+width: 1500px;
+    height: 1000px;
+    opacity: 10;
+
+}
+
+
+
 .publicSection{
     height: 1000px;
-    width: 90%;
+    width: 100%;
+    background-color: rgba(74, 71, 71, 0.6);
 }
