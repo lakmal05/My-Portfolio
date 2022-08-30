@@ -17,8 +17,19 @@ width: 1500px;
     background-color: rgba(74, 71, 71, 0.6);
 }
 
+
+
+
+.testimonials{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(74, 71, 71, 0.6);
+}
+
+
+
 .footer{
-    height: 50px;
+    height: 60px;
     width: 100%;
     background-color: rgba(74, 71, 71, 0.6);
 
