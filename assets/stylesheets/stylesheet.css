@@ -1,6 +1,16 @@
 
 
+.headerNavigation{
+    font-family: Consolas;
+    position: absolute;
+    font-weight: 550;
+    font-size: 17px;
 
+    color: #3C3535;
+    top: 15px;
+    left: 1004px;
+
+}
 
 #mainImg{
 width: 1500px;
