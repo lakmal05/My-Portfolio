@@ -12,6 +12,20 @@
 
 }
 
+
+.mainSection{
+    height: 1000px;
+    width: 100%;
+}
+.mainText{
+    position: absolute;
+    width: 850px;
+    height: 165px;
+    top: 400px;
+    left: 0px;
+}
+
+
 #mainImg{
 width: 1500px;
     height: 1000px;
