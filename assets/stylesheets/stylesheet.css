@@ -13,7 +13,7 @@ header > nav > article {
     padding-right: 10px;
 }
 
-body > header > nav > article >a, u{
+body > header > nav > article> a{
     text-decoration: none;
     color: #FFFFFF;
     padding-right: 10px;
