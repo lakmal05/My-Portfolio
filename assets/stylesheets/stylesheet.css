@@ -1,14 +1,24 @@
 
-
-
-
-header>nav>article{
+header > nav > article {
     position: absolute;
     right: 14px;
     top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Nunito', sans-serif;
 
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-right: 10px;
 }
 
+body > header > nav > article >a, u{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-right: 10px;
+
+}
 
 /*.headerNavigation{*/
 /*    font-family: Consolas;*/
@@ -23,11 +33,12 @@ header>nav>article{
 /*}*/
 
 
-.mainSection{
+.mainSection {
     height: 1000px;
     width: 100%;
 }
-.mainText{
+
+.mainText {
     position: absolute;
     width: 850px;
     height: 165px;
@@ -36,33 +47,29 @@ header>nav>article{
 }
 
 
-#mainImg{
-width: 1500px;
+#mainImg {
+    width: 1500px;
     height: 1000px;
     opacity: 10;
 
 }
 
 
-
-.aboutmeSection{
+.aboutmeSection {
     height: 1000px;
     width: 100%;
     background-color: rgba(74, 71, 71, 0.6);
 }
 
 
-
-
-.testimonials{
+.testimonials {
     height: 200px;
     width: 200px;
     background-color: rgba(74, 71, 71, 0.6);
 }
 
 
-
-.footer{
+.footer {
     height: 60px;
     width: 100%;
     background-color: rgba(74, 71, 71, 0.6);
