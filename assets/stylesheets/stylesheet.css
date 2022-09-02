@@ -81,6 +81,35 @@ body > div:nth-child(2) >a>img{
 
 
 
+body > div:nth-child(3) {   /*  img moving and doesnot scrolling*/
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 800px;
+    right: 4px;
+    z-index: 9;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 58px;
+
+    background: linear-gradient(to top, #ffffff 11%, #ff99cc 100%);
+
+}
+
+/*add image to div go top up*/
+body > div:nth-child(3) >a>img{
+    width: 50px;
+    height: auto;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 50px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
 
 
 
