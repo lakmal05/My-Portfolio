@@ -151,7 +151,10 @@ body > div:nth-child(3) >a>img{
 
 
 #span001{
- color: #F44530;
+ color: white;
+font-weight: 650;
+    font-family:'Poppins' ;
+    font-size: 36px;
 
 }
 
