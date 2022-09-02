@@ -38,6 +38,17 @@ body > header > nav > article> a{
     width: 100%;
 }
 
+.mainText01{
+   font-family:poppins;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
 .mainText {
     position: absolute;
     width: 850px;
