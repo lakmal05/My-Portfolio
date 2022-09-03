@@ -188,7 +188,7 @@ body > div:nth-child(3) > a > img {
     background-color: rgba(74, 71, 71, 0.6);
 }
 
-.skill_headlines{
+#skill_headlines1{
     position: relative;
     color: #FFFFFF;
     font-size:19px;
@@ -196,6 +196,23 @@ body > div:nth-child(3) > a > img {
     font-weight: 55;
     left: 1200px;
 
+}
+#skill_headlines2{
+    position: relative;
+    color: #FFFFFF;
+    font-size:19px;
+    font-family: 'Poppins';
+    font-weight: 55;
+    left: 1200px;
+}
+
+#skill_headlines3{
+    position: relative;
+    color: #FFFFFF;
+    font-size:19px;
+    font-family: 'Poppins';
+    font-weight: 55;
+    left: 1200px;
 }
 
 
@@ -378,11 +395,14 @@ main>section:nth-child(5)>section:nth-child(2)>div:nth-child(4)>a:nth-child(1)>i
 
 .Headlines {
  left: 600px;
-    position: relative;
+    position: absolute;
     color: #FFFFFF;
     font-size: 36px;
     font-family: 'Poppins';
     font-weight: 600;
+  display: inline-block;
+    text-align: center;
+    margin: auto;
 
 }
 
