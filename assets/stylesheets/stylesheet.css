@@ -5,7 +5,7 @@ header > nav > article {
     top: 20px;
     font-size: 21px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: 'Poppins',"Regular";
+    font-family: 'Poppins', "Regular";
 
 
     color: #FFFFFF;
@@ -34,8 +34,6 @@ body > header > nav > article > a {
 /*    left: 1004px;*/
 
 /*}*/
-
-
 
 
 /*scroling arrow styles*/
@@ -120,37 +118,87 @@ body > div:nth-child(3) > a > img {
     font-family: 'poppins';
     font-weight: 600;
     font-size: 32px;
-  color: #FFFFFF;
-position: relative;
+    color: #FFFFFF;
+    position: relative;
     left: 60px;
     bottom: 245px;
 }
 
-.mainText02{
-font-family:'Poppins' ;
+.mainText02 {
+    font-family: 'Poppins';
     font-weight: bold;
     font-size: 64px;
- color: white;
+    color: white;
     left: 58px;
     bottom: 267px;
     position: relative;
 }
-.mainText03{
-font-family: 'Poppins',"Segoe UI Semibold";
+
+.mainText03 {
+    font-family: 'Poppins', "Segoe UI Semibold";
     font-size: 24px;
- color: white;
+    color: white;
     left: 62px;
     bottom: 293px;
     position: relative;
 
 }
 
-.mainText04{
-    font-family: 'Poppins',"Segoe UI Semibold";
+.mainText04 {
+    font-family: 'Poppins', "Segoe UI Semibold";
     font-size: 24px;
- color: white;
+    color: white;
+    /*position: relative;*/
+    /*left: 60px;*/
+    /*bottom: 10px;*/
 }
 
+.childText01 {
+    font-family: 'Poppins', "Segoe UI Semibold";
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+#m01 {
+    position: relative;
+    left: 60px;
+    bottom: 10px;
+}
+
+#m02 {
+    position: relative;
+    left: 60px;
+    bottom: 10px
+
+}
+
+#m03 {
+    position: relative;
+    left: 200px;
+    bottom: 110px
+
+}
+
+#m04 {
+    position: relative;
+    left: 60px;
+    bottom: 10px
+
+}
+
+#m05 {
+    position: relative;
+    left: 355px;
+    bottom: 209px
+
+}
+
+#m06 {
+    position: relative;
+    left: 60px;
+    bottom: 10px
+
+}
 
 
 .mainText {
@@ -167,52 +215,37 @@ font-family: 'Poppins',"Segoe UI Semibold";
     height: 1000px;
     opacity: 53%;
     position: relative;
-   left: -1px;
+    left: -1px;
     top: 0px;
 
 }
 
 
-#moving{
+#moving01 {
     position: relative;
     left: -18px;
     bottom: 10px;
 }
 
 
-
-#HireMe_button{
+#HireMe_button {
     position: relative;
     left: 48px;
     bottom: 267px;
 
 
-
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.childText01 {
+    position: initial;
+}
 
 
 /*about me*/
 
 
-
-#semipic{
+#semipic {
     width: 380px;
     height: 480px;
     position: relative;
@@ -227,26 +260,25 @@ font-family: 'Poppins',"Segoe UI Semibold";
 }
 
 
-#span_about{
+#span_about {
     color: white;
     font-weight: 650;
-    font-family: 'Poppins',"Segoe UI Semibold";
+    font-family: 'Poppins', "Segoe UI Semibold";
     font-size: 50px;
     position: relative;
-    top : -470px;
- left: 570px;
-
+    top: -470px;
+    left: 570px;
 
 
 }
 
-#span_developer\&designer{
+#span_developer\&designer {
     color: white;
     font-weight: 650;
-    font-family: 'Poppins',"Segoe UI Semibold";
+    font-family: 'Poppins', "Segoe UI Semibold";
     font-size: 24px;
     position: relative;
-    top : -470px;
+    top: -470px;
     left: 570px;
 }
 
@@ -254,30 +286,30 @@ font-family: 'Poppins',"Segoe UI Semibold";
 #span001 {
     color: white;
     font-weight: 650;
-    font-family: 'Poppins',"Segoe UI Semibold";
+    font-family: 'Poppins', "Segoe UI Semibold";
     font-size: 34px;
     position: relative;
-    top : -380px;
+    top: -380px;
     left: 680px;
 }
 
 
 /*Paragph*/
 
-main>section:nth-child(2)>section:nth-child(2)>section:nth-child(4)>p{
+main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p {
 
     font-size: 23px;
     width: 350px;
     left: 740px;
     top: -350px;
-   position: relative;
-color: #ddd9d9;
-    font-family: 'inter',bold;
+    position: relative;
+    color: #ddd9d9;
+    font-family: 'inter', bold;
 
 }
 
 
-#DownloadResume{
+#DownloadResume {
     padding: 15px 25px;
     font-size: 24px;
     text-align: center;
@@ -291,40 +323,37 @@ color: #ddd9d9;
 
     position: relative;
     left: 750px;
-top: -350px;
-    
+    top: -350px;
+
 }
-#DownloadResume:hover{
-    background:linear-gradient(to top, #ffffff 11%, #ff99cc 100%);
+
+#DownloadResume:hover {
+    background: linear-gradient(to top, #ffffff 11%, #ff99cc 100%);
 }
-#DownloadResume:active{
-    background:linear-gradient(to top, #ffffff 11%, #ff99cc 100%);
+
+#DownloadResume:active {
+    background: linear-gradient(to top, #ffffff 11%, #ff99cc 100%);
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
 
 
-
-
-
 /************************************************/
-
-
 
 
 /*Services*/
 
-.servicesSection{
-    height:900px;
+.servicesSection {
+    height: 900px;
     width: 100%;
     background-color: rgba(74, 71, 71, 0.6);
 }
 
 
-#serviceSemiheadline{
+#serviceSemiheadline {
     position: relative;
     color: #ddd9d9;
-    font-size:19px;
+    font-size: 19px;
     font-family: 'inter';
     font-weight: 55;
     left: 550px;
@@ -333,77 +362,72 @@ top: -350px;
 }
 
 
-
 /*My Slills*/
 
 
+.skills {
 
-.skills{
-
-    height:900px;
+    height: 900px;
     width: 100%;
     background-color: rgba(74, 71, 71, 0.6);
 }
 
-#skill_headlines1{
+#skill_headlines1 {
     position: relative;
     color: #FFFFFF;
-    font-size:19px;
+    font-size: 19px;
     font-family: 'Poppins';
     font-weight: 55;
     left: 1200px;
 
 }
-#skill_headlines2{
+
+#skill_headlines2 {
     position: relative;
     color: #FFFFFF;
-    font-size:19px;
+    font-size: 19px;
     font-family: 'Poppins';
     font-weight: 55;
     left: 1200px;
 }
 
-#skill_headlines3{
+#skill_headlines3 {
     position: relative;
     color: #FFFFFF;
-    font-size:19px;
+    font-size: 19px;
     font-family: 'Poppins';
     font-weight: 55;
     left: 1200px;
 }
 
 
-main > section:nth-child(4) > section:nth-child(2) > div > p{
-    font-family: 'Poppins';
-    font-weight: 600;
-    color: #FFFFFF;
-}
-main > section:nth-child(4) > section:nth-child(3) > div > p{
+main > section:nth-child(4) > section:nth-child(2) > div > p {
     font-family: 'Poppins';
     font-weight: 600;
     color: #FFFFFF;
 }
 
-main > section:nth-child(4) > section:nth-child(4) > div > p{
+main > section:nth-child(4) > section:nth-child(3) > div > p {
     font-family: 'Poppins';
     font-weight: 600;
     color: #FFFFFF;
 }
 
-
-
-
+main > section:nth-child(4) > section:nth-child(4) > div > p {
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #FFFFFF;
+}
 
 
 /*My Projects*/
 
-.myprojects{
+.myprojects {
     height: 1000px;
     width: 100%;
     background-color: rgba(74, 71, 71, 0.6);
 
 }
-
 
 
 main > section:nth-child(5) > section:nth-child(2) {
@@ -417,6 +441,7 @@ main > section:nth-child(5) > section:nth-child(2) {
     width: 90vw;
 
 }
+
 /*.img{*/
 /*    width: 100px;*/
 /*    height: 220px;*/
@@ -434,7 +459,7 @@ main > section:nth-child(5) > section:nth-child(2) > div {
     height: 250px;
 }
 
-main > section:nth-child(5) > section:nth-child(2) > div:nth-child(1) > a:nth-child(1)>img {
+main > section:nth-child(5) > section:nth-child(2) > div:nth-child(1) > a:nth-child(1) > img {
     width: 270px;
     height: 180px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -444,7 +469,7 @@ main > section:nth-child(5) > section:nth-child(2) > div:nth-child(1) > a:nth-ch
     /*border: 1px yellow;*/
 }
 
-main>section:nth-child(5)>section:nth-child(2)>div:nth-child(2)>a:nth-child(1)>img{
+main > section:nth-child(5) > section:nth-child(2) > div:nth-child(2) > a:nth-child(1) > img {
     width: 270px;
     height: 180px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -453,16 +478,18 @@ main>section:nth-child(5)>section:nth-child(2)>div:nth-child(2)>a:nth-child(1)>i
     top: 95px;
 
 }
-main>section:nth-child(5)>section:nth-child(2)>div:nth-child(3)>a:nth-child(1)>img{
+
+main > section:nth-child(5) > section:nth-child(2) > div:nth-child(3) > a:nth-child(1) > img {
     width: 270px;
-    height:180px;
+    height: 180px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     position: relative;
     left: 90px;
     top: 120px;
 
 }
-main>section:nth-child(5)>section:nth-child(2)>div:nth-child(4)>a:nth-child(1)>img{
+
+main > section:nth-child(5) > section:nth-child(2) > div:nth-child(4) > a:nth-child(1) > img {
     width: 270px;
     height: 180px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -473,37 +500,26 @@ main>section:nth-child(5)>section:nth-child(2)>div:nth-child(4)>a:nth-child(1)>i
 }
 
 
-
-
-
-
-
-
-
 /*MyJourney*/
 
-.myJourney{
+.myJourney {
 
-    height:1000px;
+    height: 1000px;
     width: 100%;
-    background-color:white;
+    background-color: white;
 
 }
 
 
-
-
-
-
 /*Portfolio*/
 
-.portfolio{
+.portfolio {
     border: 1px crimson;
     display: grid;
-    height:720px;
+    height: 720px;
     width: 300px;
-    grid-template-columns:repeat(3,1fr);
-    grid-template-rows:repeat(3,1fr);
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:repeat(3, 1fr);
     grid-gap: 10px;
     top: 10px;
     left: 50px;
@@ -511,45 +527,49 @@ main>section:nth-child(5)>section:nth-child(2)>div:nth-child(4)>a:nth-child(1)>i
     background-color: #1e2225;
 
 
-
 }
 
 
-main>section:nth-child(7)>section:nth-child(3)>div:nth-child(1)>img{
-   position: relative;
+main > section:nth-child(7) > section:nth-child(3) > div:nth-child(1) > img {
+    position: relative;
     left: 100px;
     top: 50px;
     width: 190px;
     height: auto;
 }
-main>section:nth-child(7)>section:nth-child(3)>div:nth-child(2)>img{
+
+main > section:nth-child(7) > section:nth-child(3) > div:nth-child(2) > img {
     position: relative;
     left: 330px;
     top: -220px;
     width: 190px;
     height: auto;
 }
-main>section:nth-child(7)>section:nth-child(3)>div:nth-child(3)>img{
+
+main > section:nth-child(7) > section:nth-child(3) > div:nth-child(3) > img {
     position: relative;
     left: 550px;
     top: -470px;
     width: 190px;
     height: auto;
 }
-main>section:nth-child(7)>section:nth-child(3)>div:nth-child(4)>img{
+
+main > section:nth-child(7) > section:nth-child(3) > div:nth-child(4) > img {
     position: relative;
     left: 323px;
     top: -345px;
     width: 190px;
     height: auto;
 }
-main>section:nth-child(7)>section:nth-child(3)>div:nth-child(5)>img{
+
+main > section:nth-child(7) > section:nth-child(3) > div:nth-child(5) > img {
     position: relative;
     left: 75px;
     top: -480px;
     width: 280px;
     height: 290px;
 }
+
 /*main>section:nth-child(7)>section:nth-child(3)>div:nth-child(6)>img{*/
 /*    position: relative;*/
 /*    left: 200px;*/
@@ -559,22 +579,13 @@ main>section:nth-child(7)>section:nth-child(3)>div:nth-child(5)>img{
 /*}*/
 
 
-
-
-
-
-
-
-
 /*Testimonials*/
 
-.class_testimonials{
-    height:1000px;
+.class_testimonials {
+    height: 1000px;
     width: 100%;
     background-color: rgba(74, 71, 71, 0.6);
 }
-
-
 
 
 .testimonials {
@@ -584,22 +595,14 @@ main>section:nth-child(7)>section:nth-child(3)>div:nth-child(5)>img{
 }
 
 
-
-
-
-
 /*Get In Touch*/
 
 
-.getInTouch{
-    height:750px;
+.getInTouch {
+    height: 750px;
     width: 100%;
     background-color: rgba(74, 71, 71, 0.6);
 }
-
-
-
-
 
 
 /*footer*/
@@ -611,10 +614,6 @@ main>section:nth-child(7)>section:nth-child(3)>div:nth-child(5)>img{
 }
 
 
-
-
-
-
 /*Publlic styles*/
 
 
@@ -623,13 +622,13 @@ main>section:nth-child(7)>section:nth-child(3)>div:nth-child(5)>img{
 }
 
 .Headlines {
- left: 600px;
+    left: 600px;
     position: absolute;
     color: #FFFFFF;
     font-size: 36px;
     font-family: 'Poppins';
     font-weight: 600;
-  display: inline-block;
+    display: inline-block;
     text-align: center;
     margin: auto;
 
