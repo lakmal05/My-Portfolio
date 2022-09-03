@@ -174,8 +174,9 @@ main > section:nth-child(5) > section:nth-child(2) {
     display: flex;
     position: relative;
     top: 20px;
+    left: 70px;
     /*height: 400px;*/
-    width: 98.4vw;
+    width: 90vw;
 
 }
 /*.img{*/
@@ -190,38 +191,62 @@ main > section:nth-child(5) > section:nth-child(2) {
 
 
 main > section:nth-child(5) > section:nth-child(2) > div {
-    border: 10px solid orange;
-    width: 50%;
-    height: 650px;
+    border: 1px solid orange;
+    width: 40%;
+    height: 250px;
 }
 
-main > section:nth-child(5) > section:nth-child(2) > div:nth-child(1) > img:nth-child(2) {
-    width: 20px;
-    height: 20px;
+main > section:nth-child(5) > section:nth-child(2) > div:nth-child(1) > a:nth-child(1)>img {
+    width: 270px;
+    height: 180px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     position: relative;
     left: 74px;
     top: 120px;
-    border: 1px yellow;
+    /*border: 1px yellow;*/
 }
 
-main>section:nth-child(5)>section:nth-child(2)>div:nth-child(2)>img:nth-child(3){
-    width: 100px;
-    height: 220px;
+main>section:nth-child(5)>section:nth-child(2)>div:nth-child(2)>a:nth-child(1)>img{
+    width: 270px;
+    height: 180px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     position: relative;
     left: 74px;
-    top: 120px;
-    border: 10px yellow;
+    top: 95px;
+
 }
-main>section:nth-child(5)>section:nth-child(2)>div:nth-child(3)>img:nth-child(4){
-    width: 100px;
-    height: 220px;
+main>section:nth-child(5)>section:nth-child(2)>div:nth-child(3)>a:nth-child(1)>img{
+    width: 270px;
+    height:180px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     position: relative;
-    left: 74px;
+    left: 90px;
     top: 120px;
-    border: 10px yellow;
+
+}
+main>section:nth-child(5)>section:nth-child(2)>div:nth-child(4)>a:nth-child(1)>img{
+    width: 270px;
+    height: 180px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position: relative;
+    left: 80px;
+    top: 120px;
+
+}
+
+
+
+
+
+
+
+
+/*Portfolio*/
+
+.portfolio{
+    height:1000px;
+    width: 100%;
+    background-color: rgba(74, 71, 71, 0.6);
 }
 
 
@@ -233,16 +258,13 @@ main>section:nth-child(5)>section:nth-child(2)>div:nth-child(3)>img:nth-child(4)
 
 
 
+/*Testimonials*/
 
-
-
-
-
-
-
-
-
-
+.class_testimonials{
+    height:1000px;
+    width: 100%;
+    background-color: rgba(74, 71, 71, 0.6);
+}
 
 
 
@@ -254,6 +276,24 @@ main>section:nth-child(5)>section:nth-child(2)>div:nth-child(3)>img:nth-child(4)
 }
 
 
+
+
+
+
+/*Get In Touch*/
+
+
+.getInTouch{
+    height:750px;
+    width: 100%;
+    background-color: rgba(74, 71, 71, 0.6);
+}
+
+
+
+
+
+
 /*footer*/
 .footer {
     height: 60px;
@@ -261,6 +301,10 @@ main>section:nth-child(5)>section:nth-child(2)>div:nth-child(3)>img:nth-child(4)
     background-color: rgba(74, 71, 71, 0.6);
 
 }
+
+
+
+
 
 
 /*Publlic styles*/
@@ -271,6 +315,12 @@ main>section:nth-child(5)>section:nth-child(2)>div:nth-child(3)>img:nth-child(4)
 }
 
 .Headlines {
+ left: 600px;
+    position: relative;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-family: 'Poppins';
+    font-weight: 600;
 
 }
 
