@@ -159,6 +159,12 @@ body > div:nth-child(3) > a > img {
     color: #FFFFFF;
 }
 
+.mainAside{
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+}
+
 #m01 {
     position: relative;
     left: 60px;
@@ -167,36 +173,36 @@ body > div:nth-child(3) > a > img {
 
 #m02 {
     position: relative;
-    left: 60px;
-    bottom: 10px
+    left: 20px;
+    bottom: 20px
 
 }
 
 #m03 {
     position: relative;
-    left: 200px;
-    bottom: 110px
+    left: 221px;
+    bottom: 128px
 
 }
 
 #m04 {
     position: relative;
-    left: 60px;
-    bottom: 10px
+    left: 176px;
+    bottom: 142px
 
 }
 
 #m05 {
     position: relative;
-    left: 355px;
-    bottom: 209px
+    left: 381px;
+    bottom: 245px
 
 }
 
 #m06 {
     position: relative;
-    left: 60px;
-    bottom: 10px
+    left: 350px;
+    bottom: 263px
 
 }
 
