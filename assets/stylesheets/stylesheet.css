@@ -129,7 +129,7 @@ body > div:nth-child(3) > a > img {
 font-family:'Poppins' ;
     font-weight: bold;
     font-size: 64px;
-
+ color: white;
 }
 .mainText03{
 font-family: 'Poppins',"Segoe UI Semibold";
@@ -186,6 +186,17 @@ font-family: 'Poppins',"Segoe UI Semibold";
 
 
 /*about me*/
+
+
+
+#semipic{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    top: 150px;
+    left: 120px;
+}
+
 .aboutmeSection {
     height: 1000px;
     width: 100%;
@@ -193,13 +204,38 @@ font-family: 'Poppins',"Segoe UI Semibold";
 }
 
 
+#span_about{
+    color: white;
+    font-weight: 650;
+    font-family: 'Poppins',"Segoe UI Semibold";
+    font-size: 50px;
+    position: relative;
+    top : -470px;
+ left: 570px;
+   
+
+
+}
+
+#span_developer\&designer{
+    color: white;
+    font-weight: 650;
+    font-family: 'Poppins',"Segoe UI Semibold";
+    font-size: 24px;
+
+}
+
+
 #span001 {
     color: white;
     font-weight: 650;
-    font-family: 'Poppins';
-    font-size: 36px;
+    font-family: 'Poppins',"Segoe UI Semibold";
+    font-size: 34px;
 
 }
+
+
+
 
 
 /************************************************/
