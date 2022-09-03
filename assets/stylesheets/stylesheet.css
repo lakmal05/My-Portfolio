@@ -1,12 +1,11 @@
 /*head navigattions*/
 header > nav > article {
     position: absolute;
-    right: 14px;
+    right: 80px;
     top: 20px;
-    font-weight: 600;
-    font-size: 24px;
+    font-size: 21px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: 'Poppins';
+    font-family: 'Poppins',"Regular";
 
 
     color: #FFFFFF;
@@ -158,6 +157,8 @@ font-family: 'Poppins',"Segoe UI Semibold";
     width: 1490px;
     height: 1000px;
     opacity: 90%;
+    position: relative;
+   left: 430px;
 
 }
 
