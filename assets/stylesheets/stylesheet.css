@@ -260,7 +260,7 @@ body > div:nth-child(3) > a > img {
 }
 
 .aboutmeSection {
-    height: 1000px;
+    height: 930px;
     width: 100%;
     background-color: rgba(74, 71, 71, 0.6);
 }
@@ -272,8 +272,8 @@ body > div:nth-child(3) > a > img {
     font-family: 'Poppins', "Segoe UI Semibold";
     font-size: 50px;
     position: relative;
-    top: -470px;
-    left: 570px;
+    top: -496px;
+    left: 539px;
 
 
 }
@@ -284,8 +284,8 @@ body > div:nth-child(3) > a > img {
     font-family: 'Poppins', "Segoe UI Semibold";
     font-size: 24px;
     position: relative;
-    top: -470px;
-    left: 570px;
+    top: -517px;
+    left: 541px;
 }
 
 
