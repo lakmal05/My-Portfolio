@@ -212,7 +212,7 @@ font-family: 'Poppins',"Segoe UI Semibold";
     position: relative;
     top : -470px;
  left: 570px;
-   
+
 
 
 }
@@ -222,7 +222,9 @@ font-family: 'Poppins',"Segoe UI Semibold";
     font-weight: 650;
     font-family: 'Poppins',"Segoe UI Semibold";
     font-size: 24px;
-
+    position: relative;
+    top : -470px;
+    left: 570px;
 }
 
 
@@ -231,7 +233,51 @@ font-family: 'Poppins',"Segoe UI Semibold";
     font-weight: 650;
     font-family: 'Poppins',"Segoe UI Semibold";
     font-size: 34px;
+    position: relative;
+    top : -380px;
+    left: 680px;
+}
 
+
+/*Paragph*/
+
+main>section:nth-child(2)>section:nth-child(2)>section:nth-child(4)>p{
+
+    font-size: 23px;
+    width: 350px;
+    left: 740px;
+    top: -350px;
+   position: relative;
+color: #ddd9d9;
+    font-family: 'inter',bold;
+
+}
+
+
+#DownloadResume{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #e736d5;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px #999;
+
+    position: relative;
+    left: 750px;
+top: -350px;
+    
+}
+#DownloadResume:hover{
+    background:linear-gradient(to top, #ffffff 11%, #ff99cc 100%);
+}
+#DownloadResume:active{
+    background:linear-gradient(to top, #ffffff 11%, #ff99cc 100%);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 
@@ -252,6 +298,16 @@ font-family: 'Poppins',"Segoe UI Semibold";
 }
 
 
+#serviceSemiheadline{
+    position: relative;
+    color: #ddd9d9;
+    font-size:19px;
+    font-family: 'inter';
+    font-weight: 55;
+    left: 550px;
+    top: 60px;
+
+}
 
 
 
