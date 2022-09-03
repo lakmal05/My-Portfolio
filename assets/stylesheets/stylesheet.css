@@ -3,14 +3,16 @@ header > nav > article {
     position: absolute;
     right: 14px;
     top: 20px;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 24px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins';
 
-    text-decoration: none;
+
     color: #FFFFFF;
     padding-right: 10px;
+
+    opacity: 99%;
 }
 
 body > header > nav > article > a {
@@ -34,16 +36,6 @@ body > header > nav > article > a {
 /*}*/
 
 
-.mainSection {
-    height: 1000px;
-    width: 100%;
-}
-
-.mainText01 {
-    font-family: poppins;
-    font-weight: bold;
-
-}
 
 
 /*scroling arrow styles*/
@@ -112,12 +104,26 @@ body > div:nth-child(3) > a > img {
 
 /*end question and arrow lofo styles*/
 
-
-/*Main  page section */
-
 .main {
     background-color: #1e2225;
 }
+
+/*Main  page section */
+
+
+.mainSection {
+    height: 1000px;
+    width: 100%;
+}
+
+.mainText01 {
+    font-family: poppins;
+    font-weight: bold;
+
+}
+
+
+
 
 
 .mainText {
@@ -181,6 +187,17 @@ body > div:nth-child(3) > a > img {
     width: 100%;
     background-color: rgba(74, 71, 71, 0.6);
 }
+
+.skill_headlines{
+    position: relative;
+    color: #FFFFFF;
+    font-size:19px;
+    font-family: 'Poppins';
+    font-weight: 55;
+    left: 1200px;
+
+}
+
 
 
 
