@@ -252,11 +252,11 @@ body > div:nth-child(3) > a > img {
 
 
 #semipic {
-    width: 380px;
-    height: 480px;
+    width: 406px;
+    height: 566px;
     position: relative;
-    top: 150px;
-    left: 120px;
+    top: 127px;
+    left: 56px;
 }
 
 .aboutmeSection {
@@ -272,7 +272,7 @@ body > div:nth-child(3) > a > img {
     font-family: 'Poppins', "Segoe UI Semibold";
     font-size: 50px;
     position: relative;
-    top: -496px;
+    top: -575px;
     left: 539px;
 
 
@@ -284,7 +284,7 @@ body > div:nth-child(3) > a > img {
     font-family: 'Poppins', "Segoe UI Semibold";
     font-size: 24px;
     position: relative;
-    top: -517px;
+    top: -589px;
     left: 541px;
 }
 
@@ -295,8 +295,8 @@ body > div:nth-child(3) > a > img {
     font-family: 'Poppins', "Segoe UI Semibold";
     font-size: 34px;
     position: relative;
-    top: -380px;
-    left: 680px;
+    top: -532px;
+    left: 543px;
 }
 
 
@@ -306,8 +306,8 @@ main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p {
 
     font-size: 23px;
     width: 350px;
-    left: 740px;
-    top: -350px;
+    left:543px;
+    top: -523px;
     position: relative;
     color: #ddd9d9;
     font-family: 'inter', bold;
@@ -328,8 +328,8 @@ main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p {
     box-shadow: 0 4px #999;
 
     position: relative;
-    left: 750px;
-    top: -350px;
+    left: 544px;
+    top: -500px;
 
 }
 
