@@ -121,7 +121,9 @@ body > div:nth-child(3) > a > img {
     font-weight: 600;
     font-size: 32px;
   color: #FFFFFF;
-
+position: relative;
+    left: 60px;
+    bottom: 245px;
 }
 
 .mainText02{
@@ -129,6 +131,8 @@ font-family:'Poppins' ;
     font-weight: bold;
     font-size: 64px;
  color: white;
+    left: 60px;
+    bottom: 245px;
 }
 .mainText03{
 font-family: 'Poppins',"Segoe UI Semibold";
@@ -154,11 +158,12 @@ font-family: 'Poppins',"Segoe UI Semibold";
 
 
 #mainImg {
-    width: 1490px;
+    width: 1348px;
     height: 1000px;
-    opacity: 90%;
+    opacity: 53%;
     position: relative;
-   left: 430px;
+   left: -1px;
+    top: 0px;
 
 }
 
