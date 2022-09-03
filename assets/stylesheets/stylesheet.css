@@ -13,7 +13,7 @@ header > nav > article {
     padding-right: 10px;
 }
 
-body > header > nav > article> a{
+body > header > nav > article > a {
     text-decoration: none;
     color: #FFFFFF;
     padding-right: 10px;
@@ -39,17 +39,16 @@ body > header > nav > article> a{
     width: 100%;
 }
 
-.mainText01{
-   font-family:poppins;
+.mainText01 {
+    font-family: poppins;
     font-weight: bold;
 
 }
 
 
-
 /*scroling arrow styles*/
 
-body > div:nth-child(2) {   /*  img moving and doesnot scrolling*/
+body > div:nth-child(2) { /*  img moving and doesnot scrolling*/
     width: 70px;
     height: 70px;
     position: fixed;
@@ -65,7 +64,7 @@ body > div:nth-child(2) {   /*  img moving and doesnot scrolling*/
 }
 
 /*add image to div go top up*/
-body > div:nth-child(2) >a>img{
+body > div:nth-child(2) > a > img {
     width: 50px;
     height: auto;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -80,8 +79,7 @@ body > div:nth-child(2) >a>img{
 }
 
 
-
-body > div:nth-child(3) {   /*  img moving and doesnot scrolling*/
+body > div:nth-child(3) { /*  img moving and doesnot scrolling*/
     width: 70px;
     height: 70px;
     position: fixed;
@@ -97,7 +95,7 @@ body > div:nth-child(3) {   /*  img moving and doesnot scrolling*/
 }
 
 /*add image to div go top up*/
-body > div:nth-child(3) >a>img{
+body > div:nth-child(3) > a > img {
     width: 50px;
     height: auto;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -115,11 +113,10 @@ body > div:nth-child(3) >a>img{
 /*end question and arrow lofo styles*/
 
 
-
 /*Main  page section */
 
-.main{
-    background-color:#1e2225 ;
+.main {
+    background-color: #1e2225;
 }
 
 
@@ -148,14 +145,83 @@ body > div:nth-child(3) >a>img{
 }
 
 
-
-
-#span001{
- color: white;
-font-weight: 650;
-    font-family:'Poppins' ;
+#span001 {
+    color: white;
+    font-weight: 650;
+    font-family: 'Poppins';
     font-size: 36px;
 
+}
+
+
+/************************************************/
+
+
+/*My Projects*/
+
+.myprojects{
+    height: 1000px;
+    width: 100%;
+    background-color: rgba(74, 71, 71, 0.6);
+
+}
+
+
+
+main > section:nth-child(5) > section:nth-child(2) {
+
+    border: 10px brown;
+    display: flex;
+    position: relative;
+    top: 20px;
+    /*height: 400px;*/
+    width: 98.4vw;
+
+}
+/*.img{*/
+/*    width: 100px;*/
+/*    height: 220px;*/
+/*    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));*/
+/*    position: relative;*/
+/*    left: 74px;*/
+/*    top: 120px;*/
+/*    border: 10px yellow;*/
+/*}*/
+
+
+main > section:nth-child(5) > section:nth-child(2) > div {
+    border: 10px solid orange;
+    width: 50%;
+    height: 650px;
+}
+
+main > section:nth-child(5) > section:nth-child(2) > div:nth-child(1) > img:nth-child(2) {
+    width: 20px;
+    height: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position: relative;
+    left: 74px;
+    top: 120px;
+    border: 1px yellow;
+}
+
+main>section:nth-child(5)>section:nth-child(2)>div:nth-child(2)>img:nth-child(3){
+    width: 100px;
+    height: 220px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position: relative;
+    left: 74px;
+    top: 120px;
+    border: 10px yellow;
+}
+main>section:nth-child(5)>section:nth-child(2)>div:nth-child(3)>img:nth-child(4){
+    width: 100px;
+    height: 220px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position: relative;
+    left: 74px;
+    top: 120px;
+    border: 10px yellow;
 }
 
 
@@ -166,7 +232,16 @@ font-weight: 650;
 
 
 
-/************************************************/
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -179,7 +254,6 @@ font-weight: 650;
 }
 
 
-
 /*footer*/
 .footer {
     height: 60px;
@@ -189,54 +263,14 @@ font-weight: 650;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Publlic styles*/
 
 
-
-.span_font_color{
-    color:#e736d5;
+.span_font_color {
+    color: #e736d5;
 }
 
-.Headlines{
+.Headlines {
 
 }
 
