@@ -382,10 +382,10 @@ main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p {
     position: relative;
     color: #FFFFFF;
     font-size: 19px;
-    font-family: 'Poppins';
+    font-family: 'Poppins',"Segoe UI Semibold";
     font-weight: 55;
-    left: 1145px;
-    bottom: 100px;
+    left: 1110px;
+    bottom: -100px;
 
 }
 
@@ -393,20 +393,20 @@ main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p {
     position: relative;
     color: #FFFFFF;
     font-size: 19px;
-    font-family: 'Poppins';
+    font-family: 'Poppins',"Segoe UI Semibold";
     font-weight: 55;
-    left: 1200px;
-    bottom: 100px;
+    left: 1115px;
+    bottom: 215px;
 }
 
 #skill_headlines3 {
     position: relative;
     color: #FFFFFF;
     font-size: 19px;
-    font-family: 'Poppins';
+    font-family: 'Poppins',"Segoe UI Semibold";
     font-weight: 55;
-    left: 1200px;
-    bottom: 100px;
+    left: 1110px;
+    bottom: 963px;
 }
 
 
@@ -516,6 +516,23 @@ main > section:nth-child(5) > section:nth-child(2) > div:nth-child(4) > a:nth-ch
     height: 1000px;
     width: 100%;
     background-color: white;
+
+}
+
+/*My Journey Head Line */
+main>section:nth-child(6)>p{
+    color: black;
+    left: 545px;
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Poppins',"Segoe UI Semibold";
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+
+
+
 
 }
 
