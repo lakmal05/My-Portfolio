@@ -131,13 +131,18 @@ font-family:'Poppins' ;
     font-weight: bold;
     font-size: 64px;
  color: white;
-    left: 60px;
-    bottom: 245px;
+    left: 58px;
+    bottom: 267px;
+    position: relative;
 }
 .mainText03{
 font-family: 'Poppins',"Segoe UI Semibold";
     font-size: 24px;
  color: white;
+    left: 62px;
+    bottom: 293px;
+    position: relative;
+
 }
 
 .mainText04{
@@ -168,10 +173,22 @@ font-family: 'Poppins',"Segoe UI Semibold";
 }
 
 
+#moving{
+    position: relative;
+    left: -18px;
+    bottom: 10px;
+}
 
 
 
+#HireMe_button{
+    position: relative;
+    left: 48px;
+    bottom: 267px;
 
+
+
+}
 
 
 
