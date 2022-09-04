@@ -427,9 +427,32 @@ main>section:nth-child(3)>div>i{
 
  }
 
+ #div03{
+     position: relative;
+     left: 514px;
+     top: -293px;
 
+ }
+#div04{
+    position: relative;
+    left: 514px;
+    top: -226px;
 
+}
 
+#div05{
+    position: relative;
+    left: 813px;
+    top: -693px;
+
+}
+
+#div06{
+    position: relative;
+    left: 813px;
+    top: -620px;
+
+}
 
 
 
