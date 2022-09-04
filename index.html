@@ -539,7 +539,7 @@
 
     </section>
 
-<!-- get in touch-->
+    <!-- get in touch-->
     <section id="getInTouch" class="getInTouch">
 
         <p><span class="Headlines"> Get In To<span class="span_font_color">uch</span>  </span></p>
@@ -566,17 +566,27 @@
 
 
         <form>
+            <div>
+                <label for="txtCusName"></label>
+                <input id="txtCusName" name="CustomerName" placeholder="Name" required type="text">
+            </div>
 
-            <label for="txtName"> Name</label>
-            <input type="text" id="txtName" name="txtName">
 
-            <label for="txtFullName"> Name</label>
-            <input type="text" id="txtFullName" name="txtFullName">
+            <div>
+                <label for="txtCusEmail"></label>
+                <input id="txtCusEmail" name="CustomerEmail" placeholder="Email" required type="email">
+            </div>
+
+
+            <div>
+                <label for="txtCusMessage"></label>
+                <textarea cols="40" id="txtCusMessage" name="CustomerMessage"
+                          placeholder="Describe your message here..." required rows="10"
+                          type="text" > </textarea>
+            </div>
 
 
         </form>
-
-        <br>
 
 
         <button>Connect</button>

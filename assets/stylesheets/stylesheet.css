@@ -887,6 +887,61 @@ main>section:nth-child(9)>div>p{
 
 }
 
+/*Text Field*/
+
+/*main>section:nth-child(9)>form:nth-child(5)>div{*/
+/*    position: relative;*/
+/*    padding-bottom: 20px;*/
+/*}*/
+
+main>section:nth-child(9)>form:nth-child(5)>div:nth-child(1)>input{
+   width: 410px;
+    height: 30px;
+    background: #ddd9d9;
+    border: 1px solid #ddd9d9;
+    border-radius: 10px;
+    font-family: 'Poppins', "Segoe UI Semibold";
+    color: black;
+
+    position: relative;
+    padding-bottom: 20px;
+    left: 188px;
+    top: -224px;
+
+}
+
+main>section:nth-child(9)>form:nth-child(5)>div:nth-child(2)>input{
+    width: 410px;
+    height: 30px;
+    background: #ddd9d9;
+    border: 1px solid #ddd9d9;
+    border-radius: 10px;
+    font-family: 'Poppins', "Segoe UI Semibold";
+    color: black;
+
+    position: relative;
+    padding-bottom: 20px;
+    left: 639px;
+    top: -278px;
+
+}
+main>section:nth-child(9)>form:nth-child(5)>div:nth-child(3)>textarea{
+    background:#ddd9d9;
+    border: 1px solid #ddd9d9;
+    border-radius: 10px;
+    height: 200px;
+
+    position: relative;
+    padding-bottom: 9px;
+    left: 425px;
+    top: -248px;
+    width : 338px;
+
+}
+
+
+
+
 
 /*positions*/
 
