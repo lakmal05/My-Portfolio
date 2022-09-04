@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case Two </title>
+  <script crossorigin="anonymous" src="https://kit.fontawesome.com/f7d94b6141.js"></script>
+
+  <style>
+
+    body {
+      background-color: #3030cd;
+    }
+
+    body > div {
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      cursor: pointer;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+
+    body > div > h1 {
+      width: 80px;
+      height: 50px;
+      color: white;
+      position: absolute;
+
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+
+    div::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: gray;
+      border-radius: 100%;
+      border: 15px solid white;
+      border-top-color: red;
+    }
+
+    div:hover::before {
+      transition: all 2s;
+      transform: rotate(360deg);
+
+      /*-webkit-animation-name: rotate;*/
+      /*-webkit-animation-duration: 2s;*/
+      /*-webkit-animation-iteration-count: infinite;*/
+      /*-webkit-animation-timing-function: linear;*/
+
+    }
+
+    /*@-webkit-keyframes rotate {*/
+    /*    from {*/
+    /*        -webkit-transform: rotate(0deg);*/
+    /*    }*/
+    /*    to*/
+    /*    {*/
+    /*        -webkit-transform: rotate(360deg);*/
+    /*    }*/
+    /*}*/
+
+
+
+
+  </style>
+
+</head>
+<body>
+
+<div>
+  <h1>RWAD</h1>
+</div>
+
+
+</body>
+</html>

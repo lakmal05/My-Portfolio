@@ -11,7 +11,7 @@ header > nav > article {
     color: #FFFFFF;
     padding-right: 10px;
 
-    opacity: 99%;
+    /*opacity: 99%;*/
     -ms-high-contrast-adjust: inherit;
 }
 
