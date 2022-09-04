@@ -369,16 +369,31 @@ main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p {
 
 
 
+.serviceTitle{
+    font-size: 18px;
+    font-family: 'Poppins',"Segoe UI Semibold";
+    color: #FFFFFF;
+
+}
+
+main>section:nth-child(3)>div{
+    background-color: #d9d9d9;
+    width: 200px;
+    height: 200px;
+
+}
+
+
 
 main>section:nth-child(3)>div>p{
     position: relative;
     width: 189px;
     height: 150px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', "Regular";
     font-weight: 600;
     font-size: 15px;
     text-align: center;
-    color: #262222;
+    color: red;
 }
 main>section:nth-child(3)>div>p{
 
@@ -392,8 +407,29 @@ main>section:nth-child(3)>div>i{
     width: 169px;
     height: 119px;
     font-size: 13px;
-    color: white;
+    color: #2eac95;
 }
+
+
+/*Div loactons*/
+
+ #div01{
+     position: relative;
+     left: 200px;
+     top: 106px;
+
+
+ }
+ #div02{
+     position: relative;
+     left: 200px;
+     top: 170px;
+
+ }
+
+
+
+
 
 
 
