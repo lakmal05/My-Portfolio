@@ -370,6 +370,10 @@ main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p {
 
 
 .serviceTitle{
+
+   position: relative;
+    top: -75px;
+left: 12px;
     font-size: 18px;
     font-family: 'Poppins',"Segoe UI Semibold";
     color: #FFFFFF;
@@ -396,7 +400,9 @@ main>section:nth-child(3)>div>p{
     color: red;
 }
 main>section:nth-child(3)>div>p{
-
+   position: relative;
+    top: -56px;
+    left: 23px;
     width: 169px;
     height: 119px;
     font-size: 13px;
@@ -470,7 +476,7 @@ main>section:nth-child(3)>div>i{
 
 
 .skills {
-
+   position: relative;
     height: 900px;
     width: 100%;
     background-color: rgba(74, 71, 71, 0.6);
@@ -525,6 +531,143 @@ main > section:nth-child(4) > section:nth-child(4) > div > p {
     font-weight: 600;
     color: #FFFFFF;
 }
+
+/*Skills Languages*/
+main>section:nth-child(4)>section:nth-child(2){
+    height: 250px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 80%;
+    position: relative;
+    top: 137px;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+}
+
+main>section:nth-child(4)>section:nth-child(2)>div{
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+main>section:nth-child(4)>section:nth-child(2)>div>img{
+    height: 83px;
+    width: 83px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+main>section:nth-child(4)>section:nth-child(2)>div>img>p{
+    font-family: 'Poppins', "Segoe UI Semibold";
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    height: max-content;
+    width: max-content;
+}
+
+/*Tools*/
+
+main>section:nth-child(4)>section:nth-child(3){
+    height: 250px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 80%;
+    position: relative;
+    top: 137px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+main>section:nth-child(4)>section:nth-child(3)>div{
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+
+main>section:nth-child(4)>section:nth-child(3)>div>img{
+    height: 83px;
+    width: 83px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+main>section:nth-child(4)>section:nth-child(3)>div>img>p{
+    font-family: 'Poppins', "Segoe UI Semibold";
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    height: max-content;
+    width: max-content;
+}
+
+
+/*FraimWorks*/
+
+main>section:nth-child(4)>section:nth-child(4){
+    height: 250px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 80%;
+    position: relative;
+    top: 137px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+main>section:nth-child(4)>section:nth-child(4)>div{
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+
+main>section:nth-child(4)>section:nth-child(4)>div>img{
+    height: 83px;
+    width: 83px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+main>section:nth-child(4)>section:nth-child(4)>div>img>p{
+    font-family: 'Poppins', "Segoe UI Semibold";
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    height: max-content;
+    width: max-content;
+}
+
+
 
 
 /*My Projects*/
