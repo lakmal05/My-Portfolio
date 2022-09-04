@@ -404,6 +404,9 @@ main>section:nth-child(3)>div>p{
 }
 main>section:nth-child(3)>div>i{
 
+   position: relative;
+    left: 84px;
+    top: 19px;
     width: 169px;
     height: 119px;
     font-size: 13px;
@@ -453,6 +456,10 @@ main>section:nth-child(3)>div>i{
     top: -620px;
 
 }
+
+
+/*SVG POSITION*/
+
 
 
 
