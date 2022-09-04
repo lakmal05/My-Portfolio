@@ -110,7 +110,7 @@ body > div:nth-child(3) > a > img {
 
 
 .mainSection {
-    height: 1000px;
+    height: 1000vm;
     width: 100%;
 }
 
@@ -217,11 +217,11 @@ body > div:nth-child(3) > a > img {
 
 
 #mainImg {
-    width: 1348px;
-    height: 1000px;
-    opacity: 53%;
+    width: 1414px;
+    height: 1044px;
+    opacity: 32%;
     position: relative;
-    left: -1px;
+    left: 232px;
     top: 0px;
 
 }
@@ -366,6 +366,38 @@ main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p {
     top: 50px;
 
 }
+
+
+
+
+main>section:nth-child(3)>div>p{
+    position: relative;
+    width: 189px;
+    height: 150px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    color: #262222;
+}
+main>section:nth-child(3)>div>p{
+
+    width: 169px;
+    height: 119px;
+    font-size: 13px;
+    color: white;
+}
+main>section:nth-child(3)>div>i{
+
+    width: 169px;
+    height: 119px;
+    font-size: 13px;
+    color: white;
+}
+
+
+
+
 
 
 /*My Slills*/
