@@ -1,4 +1,21 @@
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #0022ff;
+}
+
+
+
+
 /*head navigattions*/
+ header{
+     position: relative;
+     width: 100%;
+ }
+
+
 header > nav > article {
     position: absolute;
     right: 80px;
@@ -110,7 +127,8 @@ body > div:nth-child(3) > a > img {
 
 
 .mainSection {
-    height: 1000vm;
+    position: relative;
+    height: 1046px;
     width: 100%;
 }
 
@@ -260,6 +278,8 @@ body > div:nth-child(3) > a > img {
 }
 
 .aboutmeSection {
+
+    position: relative;
     height: 880px;
     width: 100%;
     background-color: rgba(74, 71, 71, 0.6);
@@ -350,6 +370,7 @@ main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p {
 /*Services*/
 
 .servicesSection {
+    position: relative;
     height: 835px;
     width: 100%;
     /*background-color: rgba(74, 71, 71, 0.6);*/
@@ -364,6 +385,8 @@ main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p {
     font-weight: 55;
     left: 295px;
     top: 50px;
+
+    display: inline-block;
 
 }
 
@@ -398,6 +421,9 @@ main>section:nth-child(3)>div>p{
     font-size: 15px;
     text-align: center;
     color: red;
+
+    display: inline-block;
+
 }
 main>section:nth-child(3)>div>p{
    position: relative;
@@ -407,6 +433,8 @@ main>section:nth-child(3)>div>p{
     height: 119px;
     font-size: 13px;
     color: white;
+
+    display: inline-block;
 }
 main>section:nth-child(3)>div>i{
 
@@ -417,6 +445,8 @@ main>section:nth-child(3)>div>i{
     height: 119px;
     font-size: 13px;
     color: #2eac95;
+
+
 }
 
 
@@ -427,32 +457,38 @@ main>section:nth-child(3)>div>i{
      left: 200px;
      top: 106px;
 
+     display: inline-block;
+
 
  }
  #div02{
      position: relative;
      left: 200px;
      top: 170px;
+     display: inline-block;
 
  }
 
  #div03{
      position: relative;
-     left: 514px;
+     left: 189px;
      top: -293px;
+     display: inline-block;
 
  }
 #div04{
     position: relative;
-    left: 514px;
+    left: -4px;
     top: -226px;
+    display: inline-block;
 
 }
 
 #div05{
     position: relative;
-    left: 813px;
+    left: 59px;
     top: -693px;
+    display: inline-block;
 
 }
 
@@ -460,6 +496,7 @@ main>section:nth-child(3)>div>i{
     position: relative;
     left: 813px;
     top: -620px;
+    display: inline-block;
 
 }
 
@@ -476,7 +513,7 @@ main>section:nth-child(3)>div>i{
 
 
 .skills {
-   position: relative;
+    position: relative;
     height: 900px;
     width: 100%;
     background-color: rgba(74, 71, 71, 0.6);
@@ -491,6 +528,12 @@ main>section:nth-child(3)>div>i{
     left: 1110px;
     bottom: -100px;
 
+    margin: auto;
+    padding: 0;
+    border: 0;
+
+
+    display: inline-block;
 }
 
 #skill_headlines2 {
@@ -501,6 +544,8 @@ main>section:nth-child(3)>div>i{
     font-weight: 55;
     left: 1115px;
     bottom: 215px;
+
+   display: inline-block;
 }
 
 #skill_headlines3 {
@@ -511,6 +556,9 @@ main>section:nth-child(3)>div>i{
     font-weight: 55;
     left: 1110px;
     bottom: 963px;
+
+
+    display: inline-block;
 }
 
 
@@ -673,6 +721,7 @@ main>section:nth-child(4)>section:nth-child(4)>div>img>p{
 /*My Projects*/
 
 .myprojects {
+    position: relative;
     height: 1000px;
     width: 100%;
     background-color: rgba(74, 71, 71, 0.6);
@@ -755,7 +804,7 @@ main > section:nth-child(5) > section:nth-child(2) > div:nth-child(4) > a:nth-ch
 .myJourney {
 
     height: 1000px;
-    width: 100%;
+    width: 99.8%;
     background-color: white;
 
 }
@@ -906,6 +955,7 @@ main>section:nth-child(8)>div>p{
 
 
 .getInTouch {
+    position: relative;
     height: 670px;
     width: 100%;
     background-color: #1e2225;
@@ -916,14 +966,14 @@ main>section:nth-child(9)>div>h4{
     font-family: 'Poppins',"Segoe UI Semibold";
     color: #FFFFFF;
     font-size: 24px;
-
+    display: inline-block;
 
 }
 main>section:nth-child(9)>div>p{
     font-family: 'Poppins',"Regular";
     font-size: 16px;
     color:#a49d9d;
-
+    display: inline-block;
 
 }
 
@@ -950,7 +1000,7 @@ main>section:nth-child(9)>form:nth-child(5)>div:nth-child(1)>input{
 
     width : 289px;
     opacity: 20%;
-
+    display: inline-block;
 }
 
 main>section:nth-child(9)>form:nth-child(5)>div:nth-child(2)>input{
@@ -970,6 +1020,10 @@ main>section:nth-child(9)>form:nth-child(5)>div:nth-child(2)>input{
     width : 289px;
     opacity: 20%;
 
+    display: inline-block;
+
+
+
 }
 main>section:nth-child(9)>form:nth-child(5)>div:nth-child(3)>textarea{
     background:#ddd9d9;
@@ -984,6 +1038,7 @@ main>section:nth-child(9)>form:nth-child(5)>div:nth-child(3)>textarea{
     width : 625px;
 
     opacity: 20%;
+    display: inline-block;
 }
 
 
@@ -996,6 +1051,7 @@ main>section:nth-child(9)>div:nth-child(2){
     position: relative;
    top: 132px;
    left: 290px;
+    display: inline-block;
 
 }
 main>section:nth-child(9)>div:nth-child(3){
@@ -1003,11 +1059,14 @@ main>section:nth-child(9)>div:nth-child(3){
     top: -97px;
     left: 571px;
 
+    display: inline-block;
+
 }
 main>section:nth-child(9)>div:nth-child(4){
     position: relative;
     top: -294px;
-    left: 855px;
+    left: 591px;
+    display: inline-block;
 
 }
 
@@ -1027,6 +1086,8 @@ main>section:nth-child(9)>div:nth-child(4){
     cursor: pointer;
 
     top: -292px;
+
+    display: inline-block;
 }
 
 
@@ -1040,7 +1101,7 @@ main>section:nth-child(9)>div:nth-child(4){
 .footer {
     position: relative;
     height: 63px;
-    width: 100%;
+    width: 99.8%;
     background-color: rgba(74, 71, 71, 0.6);
   top: -16px;
 }
@@ -1063,6 +1124,9 @@ main>section:nth-child(9)>div:nth-child(4){
     display: inline-block;
     text-align: center;
     margin: auto;
+
+
+
 
 }
 
