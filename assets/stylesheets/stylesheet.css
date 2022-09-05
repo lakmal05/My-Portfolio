@@ -866,7 +866,7 @@ main > section:nth-child(7) > section:nth-child(3) > div:nth-child(5) > img {
 
 
 .getInTouch {
-    height: 750px;
+    height: 670px;
     width: 100%;
     background-color: #1e2225;
 
@@ -895,28 +895,31 @@ main>section:nth-child(9)>div>p{
 /*}*/
 
 main>section:nth-child(9)>form:nth-child(5)>div:nth-child(1)>input{
-   width: 410px;
+
     height: 30px;
     background: #ddd9d9;
     border: 1px solid #ddd9d9;
-    border-radius: 10px;
-    font-family: 'Poppins', "Segoe UI Semibold";
+
+    font-family: 'Poppins', "Regular";
     color: black;
 
     position: relative;
     padding-bottom: 20px;
-    left: 188px;
+    left: 302px;
     top: -224px;
+
+    width : 289px;
+    opacity: 20%;
 
 }
 
 main>section:nth-child(9)>form:nth-child(5)>div:nth-child(2)>input{
-    width: 410px;
+
     height: 30px;
     background: #ddd9d9;
     border: 1px solid #ddd9d9;
-    border-radius: 10px;
-    font-family: 'Poppins', "Segoe UI Semibold";
+
+    font-family: 'Poppins', "Regular";
     color: black;
 
     position: relative;
@@ -924,19 +927,23 @@ main>section:nth-child(9)>form:nth-child(5)>div:nth-child(2)>input{
     left: 639px;
     top: -278px;
 
+    width : 289px;
+    opacity: 20%;
+
 }
 main>section:nth-child(9)>form:nth-child(5)>div:nth-child(3)>textarea{
     background:#ddd9d9;
     border: 1px solid #ddd9d9;
-    border-radius: 10px;
-    height: 200px;
+    font-family: 'Poppins', "Regular";
+    height: 144px;
 
     position: relative;
     padding-bottom: 9px;
-    left: 425px;
+    left: 305px;
     top: -248px;
-    width : 338px;
+    width : 625px;
 
+    opacity: 20%;
 }
 
 
@@ -964,7 +971,23 @@ main>section:nth-child(9)>div:nth-child(4){
 
 }
 
+#connect{
+   background: #27E1C0;
 
+    border: 2px solid #27E1C0;
+    border-radius: 50px;
+    width: 100px;
+    height: 39px;
+    font-size: 18px;
+    font-family: 'Poppins', "Segoe UI Semibold";
+
+    color: #FFFFFF;
+    position: relative;
+    left: 971px;
+    cursor: pointer;
+
+    top: -292px;
+}
 
 
 
@@ -975,10 +998,11 @@ main>section:nth-child(9)>div:nth-child(4){
 
 /*footer*/
 .footer {
-    height: 60px;
+    position: relative;
+    height: 63px;
     width: 100%;
     background-color: rgba(74, 71, 71, 0.6);
-
+  top: -16px;
 }
 
 
