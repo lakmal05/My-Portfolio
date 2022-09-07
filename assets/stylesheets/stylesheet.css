@@ -1,29 +1,64 @@
 ::-webkit-scrollbar {
     width: 10px;
-    background-color: #ffffff;
+    background-color: white;
 }
+
 ::-webkit-scrollbar-thumb {
-    background-color: #0022ff;
+    background-color: #1e2225;
 }
 
+.body{
+    background-color: #1e2225;
+}
 
+/*#head-area.cus-nav {*/
+/*    color: #FFFFFF;*/
+
+/*}*/
+/*#head-area.cus-nav{*/
+
+/*    background: #F44530;*/
+
+/*}*/
+
+
+.body {
+
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+
+}
 
 
 /*head navigattions*/
- header{
-     position: relative;
-     width: 100%;
- }
+header {
+
+    position: sticky;
+    width: 100%;
+
+    top: 0px;
+
+    z-index: 5;
+    /*height: 50px;*/
+    /*background-color: #4A4747;*/
+
+    /*opacity: 75%;*/
+
+
+}
 
 
 header > nav > article {
     position: absolute;
     right: 80px;
-    top: 20px;
+    top: 10px;
     font-size: 21px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: 'Poppins', "Regular";
 
+    display: inline-block;
 
     color: #FFFFFF;
     padding-right: 10px;
@@ -32,28 +67,14 @@ header > nav > article {
     -ms-high-contrast-adjust: inherit;
 }
 
-body > header > nav > article > a {
+body > header > nav > article > a, u {
     text-decoration: none;
     color: #FFFFFF;
     padding-right: 10px;
 
+    display: inline-block;
 }
 
-
-/*.headerNavigation{*/
-/*    font-family: Consolas;*/
-/*    position: absolute;*/
-/*    font-weight: 550;*/
-/*    font-size: 17px;*/
-
-/*    color: #3C3535;*/
-/*    top: 15px;*/
-/*    left: 1004px;*/
-
-/*}*/
-
-
-/*scroling arrow styles*/
 
 body > div:nth-child(2) { /*  img moving and doesnot scrolling*/
     width: 70px;
@@ -130,6 +151,7 @@ body > div:nth-child(3) > a > img {
     position: relative;
     height: 1046px;
     width: 100%;
+    top: 0px;
 }
 
 .mainText01 {
@@ -177,7 +199,7 @@ body > div:nth-child(3) > a > img {
     color: #FFFFFF;
 }
 
-.mainAside{
+.mainAside {
     position: relative;
     top: 10px;
     bottom: 10px;
@@ -326,7 +348,7 @@ main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p {
 
     font-size: 23px;
     width: 350px;
-    left:543px;
+    left: 543px;
     top: -523px;
     position: relative;
     color: #ddd9d9;
@@ -373,140 +395,273 @@ main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p {
     position: relative;
     height: 835px;
     width: 100%;
+
+
     /*background-color: rgba(74, 71, 71, 0.6);*/
 }
 
 
-#serviceSemiheadline {
+/*mainhead line*/
+
+main > section:nth-child(3) > p:nth-child(1) {
+
+    position: relative;
+    left: 550px;
+    top: 10px;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+
+/*Semi headline*/
+main > section:nth-child(3) > p:nth-child(2) {
     position: relative;
     color: #ddd9d9;
     font-size: 19px;
     font-family: 'inter';
     font-weight: 55;
-    left: 295px;
-    top: 50px;
+    left: -45px;
+    top: 35px;
 
     display: inline-block;
 
 }
 
+.serviceTitle {
 
-
-.serviceTitle{
-
-   position: relative;
-    top: -75px;
-left: 12px;
-    font-size: 18px;
-    font-family: 'Poppins',"Segoe UI Semibold";
-    color: #FFFFFF;
-
-}
-
-main>section:nth-child(3)>div{
-    background-color: #d9d9d9;
-    width: 200px;
-    height: 200px;
-
-}
-
-
-
-main>section:nth-child(3)>div>p{
     position: relative;
-    width: 189px;
-    height: 150px;
+    top: 19px;
+    left: -6px;
+    font-size: 18px;
+    font-family: 'Poppins', "Segoe UI Semibold";
+    color: #FFFFFF;
+}
+
+/*grid*/
+main > section:nth-child(3) > section:nth-child(3) {
+
+    border: 1px solid red;
+    height: 300px;
+    /*width: 1000px;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    top: 52px;
+}
+
+/*grid*/
+main > section:nth-child(3) > section:nth-child(4) {
+
+    border: 1px solid red;
+    height: 300px;
+    /*width: 1000px;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    top: 127px;
+
+}
+
+/*Section 1 div 3*/
+main > section:nth-child(3) > section:nth-child(3) > div {
+    background-color: #d9d9d9;
+    width: 250px;
+    height: 250px;
+    /*flex-shrink: 3;*/
+    flex-grow: 0;
+
+
+}
+
+/*Section 2 div 3*/
+main > section:nth-child(3) > section:nth-child(4) > div {
+    background-color: #d9d9d9;
+    width: 250px;
+    height: 250px;
+    /*flex-shrink: 3;*/
+    flex-grow: 0;
+
+
+}
+
+
+/*1,2,3 ddiv*/
+
+main > section:nth-child(3) > section:nth-child(3) > div:nth-child(1) {
+    background-color: #d9d9d9;
+    /*flex-shrink: 3;*/
+    row-gap: 10px;
+
+    position: relative;
+    left: -31px;
+
+}
+
+
+main > section:nth-child(3) > section:nth-child(3) > div:nth-child(2) {
+    background-color: #d9d9d9;
+    /*flex-shrink: 3;*/
+    flex-grow: 0;
+    row-gap: 5px;
+
+    position: relative;
+    left: 10px;
+
+}
+
+main > section:nth-child(3) > section:nth-child(3) > div:nth-child(3) {
+    background-color: #d9d9d9;
+    /*flex-shrink: 3;*/
+    flex-grow: 0;
+    row-gap: 5px;
+
+    position: relative;
+    left: 50px;
+
+}
+
+
+/*4,5,6 div*/
+
+main > section:nth-child(3) > section:nth-child(4) > div:nth-child(1) {
+    background-color: #d9d9d9;
+    /*flex-shrink: 3;*/
+    flex-grow: 0;
+    row-gap: 5px;
+
+    position: relative;
+    left: -33px;
+
+}
+
+main > section:nth-child(3) > section:nth-child(4) > div:nth-child(2) {
+    background-color: #d9d9d9;
+    /*flex-shrink: 3;*/
+    flex-grow: 0;
+    row-gap: 5px;
+
+    position: relative;
+    left: 16px;
+
+}
+
+main > section:nth-child(3) > section:nth-child(4) > div:nth-child(3) {
+    background-color: #d9d9d9;
+    /*flex-shrink: 3;*/
+    flex-grow: 0;
+    row-gap: 5px;
+
+    position: relative;
+    left: 53px;
+
+}
+
+/*icons*/
+main > section:nth-child(3) > section > div > i {
+
+    position: relative;
+    left: 32px;
+    top: 19px;
+    /*width: 169px;*/
+    /*height: 119px;*/
+    font-size: 33px;
+    color: #2eac95;
+
+    display: inline-block;
+
+
+}
+
+/*paragpsh*/
+main > section:nth-child(3) > section:nth-child(3) > div:nth-child(1) > p {
+    position: relative;
     font-family: 'Poppins', "Regular";
-    font-weight: 600;
     font-size: 15px;
     text-align: center;
     color: red;
-
     display: inline-block;
 
-}
-main>section:nth-child(3)>div>p{
-   position: relative;
-    top: -56px;
-    left: 23px;
-    width: 169px;
-    height: 119px;
-    font-size: 13px;
-    color: white;
-
-    display: inline-block;
-}
-main>section:nth-child(3)>div>i{
-
-   position: relative;
-    left: 84px;
-    top: 19px;
-    width: 169px;
-    height: 119px;
-    font-size: 13px;
-    color: #2eac95;
-
-
+    top: 10px;
 }
 
-
-/*Div loactons*/
-
- #div01{
-     position: relative;
-     left: 200px;
-     top: 106px;
-
-     display: inline-block;
-
-
- }
- #div02{
-     position: relative;
-     left: 200px;
-     top: 170px;
-     display: inline-block;
-
- }
-
- #div03{
-     position: relative;
-     left: 189px;
-     top: -293px;
-     display: inline-block;
-
- }
-#div04{
+main > section:nth-child(3) > section:nth-child(3) > div:nth-child(2) > p {
     position: relative;
-    left: -4px;
-    top: -226px;
+    font-family: 'Poppins', "Regular";
+    font-size: 15px;
+    text-align: center;
+    color: red;
     display: inline-block;
 
+    top: 10px;
 }
 
-#div05{
+main > section:nth-child(3) > section:nth-child(3) > div:nth-child(3) > p {
     position: relative;
-    left: 59px;
-    top: -693px;
+    font-family: 'Poppins', "Regular";
+    font-size: 15px;
+    text-align: center;
+    color: red;
     display: inline-block;
 
+    top: 10px;
 }
 
-#div06{
+main > section:nth-child(3) > section:nth-child(4) > div:nth-child(1) > p {
     position: relative;
-    left: 813px;
-    top: -620px;
+    font-family: 'Poppins', "Regular";
+    font-size: 15px;
+    text-align: center;
+    color: red;
     display: inline-block;
 
+    top: 10px;
 }
+
+main > section:nth-child(3) > section:nth-child(4) > div:nth-child(2) > p {
+    position: relative;
+    font-family: 'Poppins', "Regular";
+    font-size: 15px;
+    text-align: center;
+    color: red;
+    display: inline-block;
+
+    top: 10px;
+}
+
+main > section:nth-child(3) > section:nth-child(4) > div:nth-child(3) > p {
+    position: relative;
+    font-family: 'Poppins', "Regular";
+    font-size: 15px;
+    text-align: center;
+    color: red;
+    display: inline-block;
+
+    top: 10px;
+}
+
+
+/*main>section:nth-child(3)>div>p{*/
+/*   position: relative;*/
+/*    top: -56px;*/
+/*    left: 23px;*/
+/*    width: 169px;*/
+/*    height: 119px;*/
+/*    font-size: 13px;*/
+/*    color: white;*/
+
+/*    display: inline-block;*/
+/*}*/
 
 
 /*SVG POSITION*/
-
-
-
-
-
 
 
 /*My Slills*/
@@ -519,11 +674,28 @@ main>section:nth-child(3)>div>i{
     background-color: rgba(74, 71, 71, 0.6);
 }
 
+
+/*main HEad line skills*/
+
+main > section:nth-child(4) > p {
+    position: relative;
+    left: 635px;
+    top: 10px;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+
+/*Languages head line*/
 #skill_headlines1 {
     position: relative;
     color: #FFFFFF;
     font-size: 19px;
-    font-family: 'Poppins',"Segoe UI Semibold";
+    font-family: 'Poppins', "Segoe UI Semibold";
     font-weight: 55;
     left: 1110px;
     bottom: -100px;
@@ -536,23 +708,25 @@ main>section:nth-child(3)>div>i{
     display: inline-block;
 }
 
+/*Tools head lINE*/
 #skill_headlines2 {
     position: relative;
     color: #FFFFFF;
     font-size: 19px;
-    font-family: 'Poppins',"Segoe UI Semibold";
+    font-family: 'Poppins', "Segoe UI Semibold";
     font-weight: 55;
     left: 1115px;
     bottom: 215px;
 
-   display: inline-block;
+    display: inline-block;
 }
 
+/*fraimworks head line*/
 #skill_headlines3 {
     position: relative;
     color: #FFFFFF;
     font-size: 19px;
-    font-family: 'Poppins',"Segoe UI Semibold";
+    font-family: 'Poppins', "Segoe UI Semibold";
     font-weight: 55;
     left: 1110px;
     bottom: 963px;
@@ -581,10 +755,10 @@ main > section:nth-child(4) > section:nth-child(4) > div > p {
 }
 
 /*Skills Languages*/
-main>section:nth-child(4)>section:nth-child(2){
+main > section:nth-child(4) > section:nth-child(2) {
     height: 250px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     width: 80%;
     position: relative;
@@ -595,12 +769,13 @@ main>section:nth-child(4)>section:nth-child(2){
 
 }
 
-main>section:nth-child(4)>section:nth-child(2)>div{
+main > section:nth-child(4) > section:nth-child(2) > div {
     height: 200px;
     width: 200px;
     position: relative;
 }
-main>section:nth-child(4)>section:nth-child(2)>div>img{
+
+main > section:nth-child(4) > section:nth-child(2) > div > img {
     height: 83px;
     width: 83px;
     position: absolute;
@@ -612,7 +787,7 @@ main>section:nth-child(4)>section:nth-child(2)>div>img{
 
 }
 
-main>section:nth-child(4)>section:nth-child(2)>div>img>p{
+main > section:nth-child(4) > section:nth-child(2) > div > img > p {
     font-family: 'Poppins', "Segoe UI Semibold";
     font-size: 20px;
     position: absolute;
@@ -626,10 +801,10 @@ main>section:nth-child(4)>section:nth-child(2)>div>img>p{
 
 /*Tools*/
 
-main>section:nth-child(4)>section:nth-child(3){
+main > section:nth-child(4) > section:nth-child(3) {
     height: 250px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     width: 80%;
     position: relative;
@@ -639,13 +814,13 @@ main>section:nth-child(4)>section:nth-child(3){
     margin: auto;
 }
 
-main>section:nth-child(4)>section:nth-child(3)>div{
+main > section:nth-child(4) > section:nth-child(3) > div {
     height: 200px;
     width: 200px;
     position: relative;
 }
 
-main>section:nth-child(4)>section:nth-child(3)>div>img{
+main > section:nth-child(4) > section:nth-child(3) > div > img {
     height: 83px;
     width: 83px;
     position: absolute;
@@ -657,7 +832,7 @@ main>section:nth-child(4)>section:nth-child(3)>div>img{
 
 }
 
-main>section:nth-child(4)>section:nth-child(3)>div>img>p{
+main > section:nth-child(4) > section:nth-child(3) > div > img > p {
     font-family: 'Poppins', "Segoe UI Semibold";
     font-size: 20px;
     position: absolute;
@@ -672,10 +847,10 @@ main>section:nth-child(4)>section:nth-child(3)>div>img>p{
 
 /*FraimWorks*/
 
-main>section:nth-child(4)>section:nth-child(4){
+main > section:nth-child(4) > section:nth-child(4) {
     height: 250px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     width: 80%;
     position: relative;
@@ -685,13 +860,13 @@ main>section:nth-child(4)>section:nth-child(4){
     margin: auto;
 }
 
-main>section:nth-child(4)>section:nth-child(4)>div{
+main > section:nth-child(4) > section:nth-child(4) > div {
     height: 200px;
     width: 200px;
     position: relative;
 }
 
-main>section:nth-child(4)>section:nth-child(4)>div>img{
+main > section:nth-child(4) > section:nth-child(4) > div > img {
     height: 83px;
     width: 83px;
     position: absolute;
@@ -703,7 +878,7 @@ main>section:nth-child(4)>section:nth-child(4)>div>img{
 
 }
 
-main>section:nth-child(4)>section:nth-child(4)>div>img>p{
+main > section:nth-child(4) > section:nth-child(4) > div > img > p {
     font-family: 'Poppins', "Segoe UI Semibold";
     font-size: 20px;
     position: absolute;
@@ -716,9 +891,8 @@ main>section:nth-child(4)>section:nth-child(4)>div>img>p{
 }
 
 
-
-
 /*My Projects*/
+
 
 .myprojects {
     position: relative;
@@ -729,72 +903,132 @@ main>section:nth-child(4)>section:nth-child(4)>div>img>p{
 }
 
 
-main > section:nth-child(5) > section:nth-child(2) {
+/*my prjects main head line*/
+main>section:nth-child(5)>p:nth-child(1){
+    position: relative;
+    left: 635px;
+    top: 10px;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+/*SEMI head line*/
+main>section:nth-child(5)>p:nth-child(2){
+    position: relative;
+    color: #ddd9d9;
+    font-size: 19px;
+    font-family: 'inter';
+    font-weight: 55;
+    left: 30px;
+    top: 40px;
 
-    border: 10px brown;
+    display: inline-block;
+
+}
+
+
+
+
+main > section:nth-child(5) > section:nth-child(3) {
+
+    border: 1px solid red;
     display: flex;
+
     position: relative;
-    top: 20px;
+
+    top: 90px;
     left: 70px;
-    /*height: 400px;*/
-    width: 90vw;
-
-}
-
-/*.img{*/
-/*    width: 100px;*/
-/*    height: 220px;*/
-/*    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));*/
-/*    position: relative;*/
-/*    left: 74px;*/
-/*    top: 120px;*/
-/*    border: 10px yellow;*/
-/*}*/
 
 
-main > section:nth-child(5) > section:nth-child(2) > div {
-    border: 1px solid orange;
-    width: 40%;
     height: 250px;
-}
+    width: 300px;
 
-main > section:nth-child(5) > section:nth-child(2) > div:nth-child(1) > a:nth-child(1) > img {
-    width: 270px;
-    height: 180px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    position: relative;
-    left: 74px;
-    top: 120px;
-    /*border: 1px yellow;*/
-}
+    align-items: center;
+    justify-content: center;
 
-main > section:nth-child(5) > section:nth-child(2) > div:nth-child(2) > a:nth-child(1) > img {
-    width: 270px;
-    height: 180px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    position: relative;
-    left: 74px;
-    top: 95px;
 
 }
 
-main > section:nth-child(5) > section:nth-child(2) > div:nth-child(3) > a:nth-child(1) > img {
-    width: 270px;
-    height: 180px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+/*Sections*/
+main > section:nth-child(5) > section:nth-child(4) {
+
+    border: 1px solid red;
+
+    height: 250px;
+    width: 300px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+
     position: relative;
-    left: 90px;
-    top: 120px;
+
+
+    top: 190px;
+    left: 10px;
+
 
 }
 
-main > section:nth-child(5) > section:nth-child(2) > div:nth-child(4) > a:nth-child(1) > img {
-    width: 270px;
-    height: 180px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+/*sefcton 1 div*/
+main > section:nth-child(5) > section:nth-child(3) > div {
+    border: 1px solid orange;
+    width: 250px;
+    height: 250px;
+
+}
+
+
+/*section 2 div*/
+
+main > section:nth-child(5) > section:nth-child(4) > div {
+    border: 1px solid orange;
+    width: 250px;
+    height: 250px;
+
+}
+
+
+main > section:nth-child(5) > section:nth-child(3) > div > a > img {
+
+    width: 100px;
+    height: 100px;
+
+    flex-grow: 0;
+
     position: relative;
-    left: 80px;
-    top: 120px;
+
+    left: -30px;
+}
+
+
+main > section:nth-child(5) > section:nth-child(4) > div > a > img {
+
+    width: 100px;
+    height: 100px;
+
+    flex-grow: 0;
+
+    position: relative;
+
+    left: 10px;
+}
+
+/*Text Styles my project*/
+
+main > section:nth-child(5) > section > div > p {
+
+    font-family: 'Poppins', Regular;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    /*text-combine: 10;*/
 
 }
 
@@ -810,37 +1044,361 @@ main > section:nth-child(5) > section:nth-child(2) > div:nth-child(4) > a:nth-ch
 }
 
 /*My Journey Head Line */
-main>section:nth-child(6)>p{
+main > section:nth-child(6) > p {
     color: black;
     left: 545px;
     position: absolute;
     font-size: 40px;
-    font-family: 'Poppins',"Segoe UI Semibold";
+    font-family: 'Poppins', "Segoe UI Semibold";
     font-weight: 600;
     display: inline-block;
     text-align: center;
     margin: auto;
 
+    display: inline-block;
+
+}
+
+/*Imag position my jorney*/
+main > section:nth-child(6) > section:nth-child(2) > img:nth-child(1) {
+
+    position: relative;
+    left: 0;
+    top: 120px;
+    right: 0;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 100px;
+
+    display: inline-block;
+
+}
+
+/*secind hedline*/
+main > section:nth-child(6) > section:nth-child(2) > p:nth-child(2) {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    width: 180px;
+    text-align: center;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+
+    left: 290px;
+    top: 120px;
+
+    right: 0;
+    margin: auto;
+
+    display: inline-block;
+}
+
+/*pargafh*/
+main > section:nth-child(6) > section:nth-child(2) > pre:nth-child(3) {
+    position: relative;
+    left: 731px;
+    top: 150px;
+    right: 0;
+
+    color: black;
+
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+
+    display: inline-block;
+
+}
+
+/*Imag position my jorney 2*/
+main > section:nth-child(6) > section:nth-child(3) > img:nth-child(1) {
+
+    position: relative;
+    left: 0;
+    top: 120px;
+    right: 0;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 100px;
+
+    display: inline-block;
+
+}
+
+/*secind hedline*/
+main > section:nth-child(6) > section:nth-child(3) > p:nth-child(2) {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    width: 180px;
+    text-align: center;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+
+    left: 290px;
+    top: 120px;
+
+    right: 0;
+    margin: auto;
+
+    display: inline-block;
+}
+
+/*pargafh*/
+main > section:nth-child(6) > section:nth-child(3) > pre:nth-child(3) {
+    position: relative;
+    left: 731px;
+    top: 150px;
+    right: 0;
+
+    color: black;
+
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+
+    display: inline-block;
+
+}
+
+/*Imag position my jorney 3*/
+main > section:nth-child(6) > section:nth-child(4) > img:nth-child(1) {
+
+    position: relative;
+    left: 0;
+    top: 120px;
+    right: 0;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 100px;
+
+    display: inline-block;
+
+}
+
+/*secind hedline*/
+main > section:nth-child(6) > section:nth-child(4) > p:nth-child(2) {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    width: 180px;
+    text-align: center;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+
+    left: 290px;
+    top: 120px;
+
+    right: 0;
+    margin: auto;
+
+    display: inline-block;
+}
+
+/*pargafh*/
+main > section:nth-child(6) > section:nth-child(4) > pre:nth-child(3) {
+    position: relative;
+    left: 731px;
+    top: 150px;
+    right: 0;
+
+    color: black;
+
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+
+    display: inline-block;
+
+}
 
 
+/*Imag position my jorney 4*/
+main > section:nth-child(6) > section:nth-child(5) > img:nth-child(1) {
+
+    position: relative;
+    left: 0;
+    top: 120px;
+    right: 0;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 100px;
+
+    display: inline-block;
+
+}
+
+/*secind hedline*/
+main > section:nth-child(6) > section:nth-child(5) > p:nth-child(2) {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    width: 180px;
+    text-align: center;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+
+    left: 290px;
+    top: 120px;
+
+    right: 0;
+    margin: auto;
+
+    display: inline-block;
+}
+
+/*pargafh*/
+main > section:nth-child(6) > section:nth-child(5) > pre:nth-child(3) {
+    position: relative;
+    left: 731px;
+    top: 150px;
+    right: 0;
+
+    color: black;
+
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+
+    display: inline-block;
+
+}
+
+
+/*Hr Tags*/
+main > section:nth-child(6) > hr:nth-child(6) {
+
+    transform: rotate(90deg);
+    width: 140px;
+    position: relative;
+    border: 2px black;
+
+    top: -88px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 
 
 /*Portfolio*/
 
-.portfolio {
-    border: 1px crimson;
-    display: grid;
-    height: 720px;
-    width: 300px;
-    grid-template-columns:repeat(3, 1fr);
-    grid-template-rows:repeat(3, 1fr);
-    grid-gap: 10px;
-    top: 10px;
-    left: 50px;
 
+.portfolio {
+    /*border: 1px crimson;*/
+    /*display: grid;*/
+    /*height: 720px;*/
+    /*width: 300px;*/
+
+    /*grid-gap: 10px;*/
+    /*top: 10px;*/
+    /*left: 50px;*/
+
+    height: 800px;
+    width: 100%;
+
+    position: relative;
+    top: 10px;
     background-color: #1e2225;
+
+
+}
+
+/*Head line*/
+
+main > section:nth-child(7) > p{
+
+    position: relative;
+    left: 725px;
+    top: 10px;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+
+}
+/*Create the grid in div*/
+main > section:nth-child(7) > div:nth-child(2) {
+    display: flex;
+    height: 100px;
+    width: 665px;
+
+    align-items: center;
+    justify-content: center;
+
+
+    position: relative;
+    top: 10px;
+    left: 470px;
+
+    border: 1px solid red;
+    column-gap: 21px;
+
+
+    flex-grow: 0;
+
+}
+
+/*selected headlens*/
+main > section:nth-child(7) > div:nth-child(2) > p {
+
+    font-family: 'Poppins', "Segoe UI Semibold";
+    font-size: 18px;
+    color: white;
+    column-gap: 20px;
+
+
+}
+
+/*first pic 3 */
+main > section:nth-child(7) > section:nth-child(3) {
+
+
+    display: flex;
+    height: 253px;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 69px;
+    border: 1px solid red;
+    left: 270px;
+
+    padding: 10px;
+     column-gap: 10px;
+
+}
+
+
+/*Second pic 3 */
+main > section:nth-child(7) > section:nth-child(4) {
+
+
+    display: flex;
+
+    height: 300px;
+    width: 1000px;
+
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    left: 272px;
+
+
+    top: 100px;
+
+
+    border: 1px solid red;
+
+    padding: 10px;
+     column-gap: 10px;
 
 
 }
@@ -848,51 +1406,72 @@ main>section:nth-child(6)>p{
 
 main > section:nth-child(7) > section:nth-child(3) > div:nth-child(1) > img {
     position: relative;
-    left: 100px;
-    top: 50px;
-    width: 190px;
-    height: auto;
+
+    height: 300px;
+    width: 220px;
+
+    column-gap: 10px;
+
+    background-color: #FFFFFF;
+
+    flex-grow: 0;
 }
 
 main > section:nth-child(7) > section:nth-child(3) > div:nth-child(2) > img {
     position: relative;
-    left: 330px;
-    top: -220px;
-    width: 190px;
-    height: auto;
+
+    height: 300px;
+    width: 220px;
+
+    column-gap: 10px;
+
+    flex-grow: 0;
 }
 
 main > section:nth-child(7) > section:nth-child(3) > div:nth-child(3) > img {
     position: relative;
-    left: 550px;
-    top: -470px;
-    width: 190px;
-    height: auto;
+
+    height: 300px;
+    width: 220px;
+
+    column-gap: 10px;
+
 }
 
-main > section:nth-child(7) > section:nth-child(3) > div:nth-child(4) > img {
+
+/*Second pic*/
+
+main > section:nth-child(7) > section:nth-child(4) > div:nth-child(1) > img {
     position: relative;
-    left: 323px;
-    top: -345px;
-    width: 190px;
-    height: auto;
+
+    height: 300px;
+    width: 220px;
+
+    column-gap: 10px;
+
 }
 
-main > section:nth-child(7) > section:nth-child(3) > div:nth-child(5) > img {
+main > section:nth-child(7) > section:nth-child(4) > div:nth-child(2) > img {
     position: relative;
-    left: 75px;
-    top: -480px;
-    width: 280px;
-    height: 290px;
+
+    height: 300px;
+    width: 220px;
+
+    column-gap: 10px;
+
 }
 
-/*main>section:nth-child(7)>section:nth-child(3)>div:nth-child(6)>img{*/
-/*    position: relative;*/
-/*    left: 200px;*/
-/*    top: 50px;*/
-/*    width: 190px;*/
-/*    height: auto;*/
-/*}*/
+
+main > section:nth-child(7) > section:nth-child(4) > div:nth-child(3) > img {
+    position: relative;
+
+    height: 300px;
+    width: 220px;
+
+    column-gap: 10px;
+    background-color: #FFFFFF;
+
+}
 
 
 /*Testimonials*/
@@ -902,53 +1481,74 @@ main > section:nth-child(7) > section:nth-child(3) > div:nth-child(5) > img {
     width: 100%;
     background-color: rgba(74, 71, 71, 0.6);
     position: relative;
-top: 10px;
+    top: 10px;
     /*left: ;*/
 
 
 }
 
 
-.testimonials {
+main > section:nth-child(8)>p{
+    position: relative;
+    left: 725px;
+    top: 10px;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
 
+main > section:nth-child(8) > section {
+
+    height: 400px;
+    width: 99.8%;
+
+    position: relative;
+    display: flex;
+
+    border: 1px yellow;
+
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding: 0px;
+
+    top: 80px;
 
 
 }
 
-main>section:nth-child(8)>div:nth-child(2){
+main > section:nth-child(8) > section > div:nth-child(1) {
 
     height: 250px;
     width: 430px;
     background-color: rgba(74, 71, 71, 0.6);
 
-    position: relative;
-    top: 140px;
-    left: 200px;
+    /*position: relative;*/
+    /*top: 140px;*/
+    /*left: 200px;*/
 }
 
-main>section:nth-child(8)>div:nth-child(3){
+main > section:nth-child(8) > section > div:nth-child(2) {
     height: 260px;
     width: 430px;
     background-color: rgba(74, 71, 71, 0.6);
 
 
-    position: relative;
-    top: -129px;
-    left: 740px;
+    /*position: relative;*/
+    /*top: -129px;*/
+    /*left: 740px;*/
 }
 
 /*Paragarph*/
-main>section:nth-child(8)>div>p{
-    font-family: 'Poppins',"Segoe UI Semibold";
+main > section:nth-child(8) > section > div > p {
+    font-family: 'Poppins', "Segoe UI Semibold";
     font-size: 17px;
 
 }
-
-
-
-
-
-
 
 
 /*Get In Touch*/
@@ -962,17 +1562,75 @@ main>section:nth-child(8)>div>p{
 
 }
 
-main>section:nth-child(9)>div>h4{
-    font-family: 'Poppins',"Segoe UI Semibold";
+main>section:nth-child(9)>p{
+    position: relative;
+    left: 725px;
+    top: 10px;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+
+
+main>section:nth-child(9)>section{
+    display: flex;
+    height: 253px;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 69px;
+    border: 1px solid red;
+    left: 270px;
+
+    padding: 10px;
+    column-gap: 10px;
+}
+
+
+main > section:nth-child(9)>section:nth-child(2)> div{
+
+    height: 210px;
+    width: 400px;
+
+    /*position: relative;*/
+   background-color: crimson;
+
+
+    padding: 10px;
+    display: inline-block;
+
+
+}
+
+
+/*Icons*/
+
+main > section:nth-child(9)>section:nth-child(2)> div>img{
+    position: relative;
+    left: 117px;
+    width :60px;
+    height :60px;
+
+}
+
+
+main > section:nth-child(9)>section > div > h4 {
+    font-family: 'Poppins', "Segoe UI Semibold";
     color: #FFFFFF;
     font-size: 24px;
     display: inline-block;
 
 }
-main>section:nth-child(9)>div>p{
-    font-family: 'Poppins',"Regular";
+
+main > section:nth-child(9) >section> div > p {
+    font-family: 'Poppins', "Regular";
     font-size: 16px;
-    color:#a49d9d;
+    color: #a49d9d;
     display: inline-block;
 
 }
@@ -984,7 +1642,19 @@ main>section:nth-child(9)>div>p{
 /*    padding-bottom: 20px;*/
 /*}*/
 
-main>section:nth-child(9)>form:nth-child(5)>div:nth-child(1)>input{
+
+main > section:nth-child(9) > form:nth-child(3){
+
+    position: relative;
+
+    left: 81px;
+    top: 297px;
+
+    display: inline-block;
+}
+
+
+main > section:nth-child(9) > form:nth-child(3) > div:nth-child(1) > input {
 
     height: 30px;
     background: #ddd9d9;
@@ -998,12 +1668,12 @@ main>section:nth-child(9)>form:nth-child(5)>div:nth-child(1)>input{
     left: 302px;
     top: -224px;
 
-    width : 289px;
+    width: 289px;
     opacity: 20%;
     display: inline-block;
 }
 
-main>section:nth-child(9)>form:nth-child(5)>div:nth-child(2)>input{
+main > section:nth-child(9) > form:nth-child(3) > div:nth-child(2) > input {
 
     height: 30px;
     background: #ddd9d9;
@@ -1017,16 +1687,16 @@ main>section:nth-child(9)>form:nth-child(5)>div:nth-child(2)>input{
     left: 639px;
     top: -278px;
 
-    width : 289px;
+    width: 289px;
     opacity: 20%;
 
     display: inline-block;
 
 
-
 }
-main>section:nth-child(9)>form:nth-child(5)>div:nth-child(3)>textarea{
-    background:#ddd9d9;
+
+main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
+    background: #ddd9d9;
     border: 1px solid #ddd9d9;
     font-family: 'Poppins', "Regular";
     height: 144px;
@@ -1035,43 +1705,42 @@ main>section:nth-child(9)>form:nth-child(5)>div:nth-child(3)>textarea{
     padding-bottom: 9px;
     left: 305px;
     top: -248px;
-    width : 625px;
+    width: 625px;
 
     opacity: 20%;
     display: inline-block;
 }
 
 
-
-
-
 /*positions*/
 
-main>section:nth-child(9)>div:nth-child(2){
-    position: relative;
-   top: 132px;
-   left: 290px;
-    display: inline-block;
+/*main > section:nth-child(9) > div:nth-child(2) {*/
+/*    position: relative;*/
+/*    top: 132px;*/
+/*    left: 290px;*/
+/*    display: inline-block;*/
 
-}
-main>section:nth-child(9)>div:nth-child(3){
-    position: relative;
-    top: -97px;
-    left: 571px;
+/*}*/
 
-    display: inline-block;
+/*main > section:nth-child(9) > div:nth-child(3) {*/
+/*    position: relative;*/
+/*    top: -97px;*/
+/*    left: 571px;*/
 
-}
-main>section:nth-child(9)>div:nth-child(4){
-    position: relative;
-    top: -294px;
-    left: 591px;
-    display: inline-block;
+/*    display: inline-block;*/
 
-}
+/*}*/
 
-#connect{
-   background: #27E1C0;
+/*main > section:nth-child(9) > div:nth-child(4) {*/
+/*    position: relative;*/
+/*    top: -294px;*/
+/*    left: 591px;*/
+/*    display: inline-block;*/
+
+/*}*/
+
+#connect {
+    background: #27E1C0;
 
     border: 2px solid #27E1C0;
     border-radius: 50px;
@@ -1082,19 +1751,13 @@ main>section:nth-child(9)>div:nth-child(4){
 
     color: #FFFFFF;
     position: relative;
-    left: 971px;
+    left: 700px;
     cursor: pointer;
 
-    top: -292px;
+    top: -66px;
 
     display: inline-block;
 }
-
-
-
-
-
-
 
 
 /*footer*/
@@ -1103,8 +1766,45 @@ main>section:nth-child(9)>div:nth-child(4){
     height: 63px;
     width: 99.8%;
     background-color: rgba(74, 71, 71, 0.6);
-  top: -16px;
+    top: -16px;
 }
+
+
+.footer>aside:nth-child(2){
+    display:inline-block;
+    position: relative;
+    left: 10px;
+    top: 10px;
+
+    border-color: crimson;
+
+    padding: 0;
+
+    /*width: 50px;*/
+    /*height: 50px;*/
+
+}
+
+
+/*Icons*/
+.QuickLInks>nav>i{
+
+    /*position: relative;*/
+    /*left: 32px;*/
+    /*top: 19px;*/
+    /*width: 40px;*/
+    /*height: 40px;*/
+    font-size: 33px;
+    color: white;
+
+    display: inline-block;
+
+}
+
+
+
+
+
 
 
 /*Publlic styles*/
@@ -1114,19 +1814,16 @@ main>section:nth-child(9)>div:nth-child(4){
     color: #e736d5;
 }
 
-.Headlines {
-    left: 438px;
-    position: absolute;
-    color: #FFFFFF;
-    font-size: 36px;
-    font-family: 'Poppins';
-    font-weight: 600;
-    display: inline-block;
-    text-align: center;
-    margin: auto;
+/*.Headlines {*/
+/*    left: 640px;*/
+/*    position: absolute;*/
+/*    color: #FFFFFF;*/
+/*    font-size: 36px;*/
+/*    font-family: 'Poppins';*/
+/*    font-weight: 600;*/
+/*    display: inline-block;*/
+/*    text-align: center;*/
+/*    margin: auto;*/
 
 
-
-
-}
-
+/*}*/
