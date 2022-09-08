@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case four</title>
+  <style>
+    main{
+      width: 100vw;
+      height: 100vh;
+      background: url("assests/sky.jpg");
+      background-position: center;
+      background-size: cover;
+    }
+    main>div:nth-child(1){
+      height: 150px;
+      width: 400px;
+      background:url("assests/car.png") ;
+      background-size: cover;
+      background-position: center;
+      position: fixed;
+      bottom: 25%;
+      left: 30%;
+      margin: auto;
+      z-index: 2;
+    }
+
+    main>div:nth-child(1)>div{
+      height: 76px;
+      width: 76px;
+      border-radius: 100%;
+      background: url("assests/wheel.png");
+      background-size: cover;
+      background-position: center;
+      position: absolute;
+
+      animation-name: car-wheels;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      animation-timing-function: cubic-bezier(0, 0.22, 0.39, 1.02);
+    }
+
+    @keyframes car-wheels {
+      0%{
+        transform: rotate(0deg);
+      }
+      80%,100%{
+        transform: rotate(-360deg);
+      }
+    }
+
+    main>div:nth-child(1)>div:nth-child(1){
+      left: 33px;
+      top: 79px;
+    }
+
+    main>div:nth-child(1)>div:nth-child(2){
+      left: 278px;
+      top: 79px;
+    }
+
+    main>section{
+      height: 70%;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      overflow-x: hidden;
+    }
+
+    main>section>div{
+      height: 50%;
+      width: 400%;
+      border: none;
+
+
+      animation-name: slide-show;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      animation-timing-function: cubic-bezier(0, 0.22, 0.39, 1.02);
+    }
+    @keyframes slide-show {
+      0%{
+        transform: translateX(0%);
+      }
+      80%,100%{
+        transform: translateX(-75%);
+      }
+    }
+
+    main>section>div:nth-child(1){
+      height: 250px;
+      background: url("assests/city.png");
+      background-position: bottom;
+    }
+    main>section>div:nth-child(2){
+      height: 260px;
+      background: url("assests/road.jpg");
+      background-position: center;
+      background-size: contain;
+    }
+
+  </style>
+</head>
+<body>
+<main>
+  <div>
+    <div></div>
+    <div></div>
+  </div>
+  <section>
+    <div></div>
+    <div></div>
+  </section>
+</main>
+</body>
+</html>
