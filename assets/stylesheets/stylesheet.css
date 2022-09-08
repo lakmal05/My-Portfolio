@@ -150,7 +150,7 @@ body > div:nth-child(3) > a > img {
 .mainSection {
     position: relative;
     height: 1046px;
-    width: 100%;
+    width: 99.8%;
     top: 0px;
 }
 
@@ -257,11 +257,11 @@ body > div:nth-child(3) > a > img {
 
 
 #mainImg {
-    width: 1414px;
-    height: 1044px;
+    width: 1356px;
+    height: 962px;
     opacity: 32%;
     position: relative;
-    left: 232px;
+    /*left: 232px;*/
     top: 0px;
 
 }
@@ -302,9 +302,10 @@ body > div:nth-child(3) > a > img {
 .aboutmeSection {
 
     position: relative;
-    height: 880px;
+    height: 835px;
     width: 100%;
     background-color: rgba(74, 71, 71, 0.6);
+    top: -83px;
 }
 
 
@@ -347,14 +348,48 @@ body > div:nth-child(3) > a > img {
 main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p {
 
     font-size: 23px;
-    width: 350px;
-    left: 543px;
-    top: -523px;
-    position: relative;
+    width: 545px;
+    /*left: 543px;*/
+    /*top: -523px;*/
+    /*position: absolute;*/
     color: #ddd9d9;
     font-family: 'inter', bold;
+}
+
+/*pARAGAF 1 */
+
+main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4){
+    position: absolute;
+    left: 627px;
+    top: 239px;
+    /*background-color: red;*/
+    width: 670px;
+    height: 500px;
 
 }
+
+main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4)>p:nth-child(1){
+    left: 0px;
+    top: 22px;
+    position: absolute;
+}
+main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4)>p:nth-child(2){
+    left: 0px;
+    top: 150px;
+    position: absolute;
+}
+main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4)>p:nth-child(3){
+    left: 0px;
+    top: 230px;
+    position: absolute;
+}
+main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4)>p:nth-child(4){
+    left:0px;
+    top: 320px;
+    position: absolute;
+}
+
+
 
 
 #DownloadResume {
@@ -395,8 +430,6 @@ main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p {
     position: relative;
     height: 835px;
     width: 100%;
-
-
     /*background-color: rgba(74, 71, 71, 0.6);*/
 }
 
@@ -697,7 +730,7 @@ main > section:nth-child(4) > p {
     font-size: 19px;
     font-family: 'Poppins', "Segoe UI Semibold";
     font-weight: 55;
-    left: 1110px;
+    left: 994px;
     bottom: -100px;
 
     margin: auto;
@@ -1751,7 +1784,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     color: #FFFFFF;
     position: relative;
-    left: 700px;
+    left: 500px;
     cursor: pointer;
 
     top: -66px;
@@ -1827,3 +1860,1194 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
 /*}*/
+
+/*------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------*/
+/*Responsive*/
+
+ /*Mobile Small 320 px  Responsive*/
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+
+
+
+
+
+/*main*/
+
+
+    .main{
+        background-color: #1e2225;
+    }
+
+
+    main>section:nth-child(1){
+
+         position: relative;
+        height:1000px;
+        width: 1316px;
+       top: 0;
+
+    }
+
+
+
+    .mainText01 {
+        font-family: 'poppins';
+        font-weight: 600;
+        font-size: 32px;
+        color: #FFFFFF;
+        position: relative;
+        left: 60px;
+        bottom: 245px;
+    }
+
+    .mainText02 {
+        font-family: 'Poppins';
+        font-weight: bold;
+        font-size: 64px;
+        color: white;
+        left: 58px;
+        bottom: 267px;
+        position: relative;
+    }
+
+    .mainText03 {
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 24px;
+        color: white;
+        left: 62px;
+        bottom: 293px;
+        position: relative;
+
+    }
+
+    .mainText04 {
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 24px;
+        color: white;
+        /*position: relative;*/
+        /*left: 60px;*/
+        /*bottom: 10px;*/
+    }
+
+    .childText01 {
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 15px;
+        color: #FFFFFF;
+    }
+
+    .mainAside {
+        position: relative;
+        top: 10px;
+        bottom: 10px;
+    }
+
+    #m01 {
+        position: relative;
+        left: 60px;
+        bottom: 10px;
+    }
+
+    #m02 {
+        position: relative;
+        left: 20px;
+        bottom: 20px
+
+    }
+
+    #m03 {
+        position: relative;
+        left: 221px;
+        bottom: 128px
+
+    }
+
+    #m04 {
+        position: relative;
+        left: 176px;
+        bottom: 142px
+
+    }
+
+    #m05 {
+        position: relative;
+        left: 381px;
+        bottom: 245px
+
+    }
+
+    #m06 {
+        position: relative;
+        left: 350px;
+        bottom: 263px
+
+    }
+
+
+    .mainText {
+        position: absolute;
+        width: 850px;
+        height: 165px;
+        top: 400px;
+        left: 0px;
+    }
+
+
+
+   /*main Img*/
+    #mainImg{
+
+        position: relative;
+        left: 0;
+        width: 1313px;
+        height: 945px;
+        opacity: 32%;
+        top: 0;
+    }
+
+    #moving01 {
+        position: relative;
+        left: -18px;
+        bottom: 10px;
+    }
+
+
+    #HireMe_button {
+        position: relative;
+        left: 48px;
+        bottom: 267px;
+
+
+    }
+
+
+    .childText01 {
+        position: initial;
+    }
+
+
+/*about me*/
+    .aboutmeSection {
+
+        position: relative;
+        height: 790px;
+        width: 134%;
+        background-color: rgba(74, 71, 71, 0.6);
+        top: -54px;
+    }
+
+
+    main>section:nth-child(2)>div{
+        width: 379px;
+        height: 517px;
+        position: relative;
+        top: 127px;
+        left: 56px;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+    }
+
+    #semipic {
+        width: 372px;
+        height: 523px;
+        position: relative;
+        top: 3px;
+        left: 38px;
+        padding: 0;
+        margin: 0;
+
+
+    }
+
+
+
+
+    #span_about {
+        color: white;
+        font-weight: 650;
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 50px;
+        position: relative;
+        top: -545px;
+        left: 539px;
+
+
+    }
+
+    #span_developer\&designer {
+        color: white;
+        font-weight: 650;
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 24px;
+        position: relative;
+        top: -573px;
+        left: 538px;
+    }
+
+
+    #span001 {
+        color: white;
+        font-weight: 650;
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 34px;
+        position: relative;
+        top: -550px;
+        left: 539px;
+    }
+
+    /*paragraf sefction*/
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4){
+        display: inline-block;
+        width: 656px;
+        height: 500px;
+        position: absolute;
+        top: 195px;
+        left: 543px;
+        /*background-color: red;*/
+
+    }
+
+
+    /*Paragph*/
+
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p {
+
+        font-size: 23px;
+        width: 350px;
+        left: 543px;
+        top: -523px;
+        position: relative;
+        color: #ddd9d9;
+        font-family: 'inter', bold;
+
+    }
+
+
+    #DownloadResume {
+        padding: 15px 25px;
+        font-size: 24px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #e736d5;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 4px #999;
+
+        position: relative;
+        left: 544px;
+        top: -500px;
+
+    }
+
+    #DownloadResume:hover {
+        background: linear-gradient(to top, #ffffff 11%, #ff99cc 100%);
+    }
+
+    #DownloadResume:active {
+        background: linear-gradient(to top, #ffffff 11%, #ff99cc 100%);
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+
+/*Solution and servises*/
+
+
+    .servicesSection {
+        position: relative;
+        height: 910px;
+        width: 134%;
+        /* background-color: rgba(74, 71, 71, 0.6); */
+        /*background-color: red;*/
+        top: -52px;
+    }
+
+
+    /*mainhead line*/
+
+    main > section:nth-child(3) > p:nth-child(1) {
+
+        position: relative;
+        left: 415px;
+        top: 10px;
+        color: #FFFFFF;
+        font-size: 36px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
+
+    /*Semi headline*/
+    main > section:nth-child(3) > p:nth-child(2) {
+        position: relative;
+        color: #ddd9d9;
+        font-size: 19px;
+        font-family: 'inter';
+        font-weight: 55;
+        left: -195px;
+        top: 35px;
+
+        display: inline-block;
+
+    }
+
+    .serviceTitle {
+
+        position: relative;
+        top: 19px;
+        left: -6px;
+        font-size: 18px;
+        font-family: 'Poppins', "Segoe UI Semibold";
+        color: #FFFFFF;
+    }
+
+    /*grid*/
+    main > section:nth-child(3) > section:nth-child(3) {
+
+        border: 1px solid red;
+        height: 300px;
+        /*width: 1000px;*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+        top: 52px;
+    }
+
+    /*grid*/
+    main > section:nth-child(3) > section:nth-child(4) {
+
+        border: 1px solid red;
+        height: 300px;
+        /*width: 1000px;*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+        top: 127px;
+
+    }
+
+    /*Section 1 div 3*/
+    main > section:nth-child(3) > section:nth-child(3) > div {
+        background-color: #d9d9d9;
+        width: 275px;
+        height: 300px;
+        /*flex-shrink: 3;*/
+        flex-grow: 0;
+
+
+    }
+
+    /*Section 2 div 3*/
+    main > section:nth-child(3) > section:nth-child(4) > div {
+        background-color: #d9d9d9;
+        width: 275px;
+        height: 300px;
+        /*flex-shrink: 3;*/
+        flex-grow: 0;
+
+
+    }
+
+
+    /*1,2,3 ddiv*/
+
+    main > section:nth-child(3) > section:nth-child(3) > div:nth-child(1) {
+        background-color: #d9d9d9;
+        /*flex-shrink: 3;*/
+        row-gap: 10px;
+
+        position: relative;
+        left: -31px;
+
+    }
+
+
+    main > section:nth-child(3) > section:nth-child(3) > div:nth-child(2) {
+        background-color: #d9d9d9;
+        /*flex-shrink: 3;*/
+        flex-grow: 0;
+        row-gap: 5px;
+
+        position: relative;
+        left: 10px;
+
+    }
+
+    main > section:nth-child(3) > section:nth-child(3) > div:nth-child(3) {
+        background-color: #d9d9d9;
+        /*flex-shrink: 3;*/
+        flex-grow: 0;
+        row-gap: 5px;
+
+        position: relative;
+        left: 50px;
+
+    }
+
+
+    /*4,5,6 div*/
+
+    main > section:nth-child(3) > section:nth-child(4) > div:nth-child(1) {
+        background-color: #d9d9d9;
+        /*flex-shrink: 3;*/
+        flex-grow: 0;
+        row-gap: 5px;
+
+        position: relative;
+        left: -33px;
+
+    }
+
+    main > section:nth-child(3) > section:nth-child(4) > div:nth-child(2) {
+        background-color: #d9d9d9;
+        /*flex-shrink: 3;*/
+        flex-grow: 0;
+        row-gap: 5px;
+
+        position: relative;
+        left: 16px;
+
+    }
+
+    main > section:nth-child(3) > section:nth-child(4) > div:nth-child(3) {
+        background-color: #d9d9d9;
+        /*flex-shrink: 3;*/
+        flex-grow: 0;
+        row-gap: 5px;
+
+        position: relative;
+        left: 53px;
+
+    }
+
+    /*icons*/
+    main > section:nth-child(3) > section > div > i {
+
+        position: relative;
+        left: 32px;
+        top: 19px;
+        /*width: 169px;*/
+        /*height: 119px;*/
+        font-size: 33px;
+        color: #2eac95;
+
+        display: inline-block;
+
+
+    }
+
+    /*paragpsh*/
+    main > section:nth-child(3) > section:nth-child(3) > div:nth-child(1) > p {
+        position: relative;
+        font-family: 'Poppins', "Regular";
+        font-size: 15px;
+        text-align: center;
+        color: red;
+        display: inline-block;
+
+        top: 10px;
+    }
+
+    main > section:nth-child(3) > section:nth-child(3) > div:nth-child(2) > p {
+        position: relative;
+        font-family: 'Poppins', "Regular";
+        font-size: 15px;
+        text-align: center;
+        color: red;
+        display: inline-block;
+
+        top: 10px;
+    }
+
+    main > section:nth-child(3) > section:nth-child(3) > div:nth-child(3) > p {
+        position: relative;
+        font-family: 'Poppins', "Regular";
+        font-size: 15px;
+        text-align: center;
+        color: red;
+        display: inline-block;
+
+        top: 10px;
+    }
+
+    main > section:nth-child(3) > section:nth-child(4) > div:nth-child(1) > p {
+        position: relative;
+        font-family: 'Poppins', "Regular";
+        font-size: 15px;
+        text-align: center;
+        color: red;
+        display: inline-block;
+
+        top: 10px;
+    }
+
+    main > section:nth-child(3) > section:nth-child(4) > div:nth-child(2) > p {
+        position: relative;
+        font-family: 'Poppins', "Regular";
+        font-size: 15px;
+        text-align: center;
+        color: red;
+        display: inline-block;
+
+        top: 10px;
+    }
+
+    main > section:nth-child(3) > section:nth-child(4) > div:nth-child(3) > p {
+        position: relative;
+        font-family: 'Poppins', "Regular";
+        font-size: 15px;
+        text-align: center;
+        color: red;
+        display: inline-block;
+
+        top: 10px;
+    }
+
+
+
+/*My Skills*/
+
+
+
+
+    .skills {
+        position: relative;
+        height: 900px;
+        width: 134%;
+        background-color: rgba(74, 71, 71, 0.6);
+        background-color: aqua;
+        top: 10px;
+    }
+
+
+    /*main HEad line skills*/
+
+    main > section:nth-child(4) > p {
+        position: relative;
+        left: 635px;
+        top: 10px;
+        color: #FFFFFF;
+        font-size: 36px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
+
+    /*Languages head line*/
+    #skill_headlines1 {
+        position: absolute;
+        color: #FFFFFF;
+        font-size: 19px;
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-weight: 55;
+        left: 994px;
+        bottom: -100px;
+
+        margin: auto;
+        padding: 0;
+        border: 0;
+
+
+        display: inline-block;
+    }
+
+    /*Tools head lINE*/
+    #skill_headlines2 {
+        position: absolute;
+        color: #FFFFFF;
+        font-size: 19px;
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-weight: 55;
+        left: 0;
+        bottom: 215px;
+
+        display: inline-block;
+    }
+
+    /*fraimworks head line*/
+    #skill_headlines3 {
+        position: absolute;
+        color: #FFFFFF;
+        font-size: 19px;
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-weight: 55;
+        left: 0;
+        bottom: 150px;
+        display: inline-block;
+    }
+
+
+    main > section:nth-child(4) > section:nth-child(2) > div > p {
+        font-family: 'Poppins';
+        font-weight: 600;
+        color: #FFFFFF;
+    }
+
+    main > section:nth-child(4) > section:nth-child(3) > div > p {
+        font-family: 'Poppins';
+        font-weight: 600;
+        color: #FFFFFF;
+    }
+
+    main > section:nth-child(4) > section:nth-child(4) > div > p {
+        font-family: 'Poppins';
+        font-weight: 600;
+        color: #FFFFFF;
+    }
+
+    /*Skills Languages*/
+    main > section:nth-child(4) > section:nth-child(2) {
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        position: relative;
+        top: 137px;
+        right: 0;
+        left: 0;
+        margin: auto;
+
+    }
+
+    main > section:nth-child(4) > section:nth-child(2) > div {
+        height: 200px;
+        width: 200px;
+        position: relative;
+    }
+
+    main > section:nth-child(4) > section:nth-child(2) > div > img {
+        height: 83px;
+        width: 83px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+    }
+
+    main > section:nth-child(4) > section:nth-child(2) > div > img > p {
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 20px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        height: max-content;
+        width: max-content;
+    }
+
+    /*Tools*/
+
+    main > section:nth-child(4) > section:nth-child(3) {
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        position: relative;
+        top: 137px;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    main > section:nth-child(4) > section:nth-child(3) > div {
+        height: 200px;
+        width: 200px;
+        position: relative;
+    }
+
+    main > section:nth-child(4) > section:nth-child(3) > div > img {
+        height: 83px;
+        width: 83px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+    }
+
+    main > section:nth-child(4) > section:nth-child(3) > div > img > p {
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 20px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        height: max-content;
+        width: max-content;
+    }
+
+
+    /*FraimWorks*/
+
+    main > section:nth-child(4) > section:nth-child(4) {
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        position: relative;
+        top: 137px;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    main > section:nth-child(4) > section:nth-child(4) > div {
+        height: 200px;
+        width: 200px;
+        position: relative;
+    }
+
+    main > section:nth-child(4) > section:nth-child(4) > div > img {
+        height: 83px;
+        width: 83px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+    }
+
+    main > section:nth-child(4) > section:nth-child(4) > div > img > p {
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 20px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        height: max-content;
+        width: max-content;
+    }
+
+
+/*Projcet and reserch*/
+
+
+    .myprojects {
+        position: relative;
+        height: 1000px;
+        width: 134%;
+        background-color: rgba(74, 71, 71, 0.6);
+        top: 12px;
+
+    }
+
+
+    /*my prjects main head line*/
+    main>section:nth-child(5)>p:nth-child(1){
+        position: absolute;
+        left: 506px;
+        top: 10px;
+        color: #FFFFFF;
+        font-size: 36px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
+    /*SEMI head line*/
+    main>section:nth-child(5)>p:nth-child(2){
+        position: absolute;
+        color: #ddd9d9;
+        font-size: 19px;
+        font-family: 'inter';
+        font-weight: 55;
+        left: 231px;
+        top: 40px;
+        display: inline-block;
+
+    }
+
+
+
+/*Sections*/
+    main > section:nth-child(5) > section:nth-child(3) {
+
+        border: 1px solid red;
+        display: flex;
+        position: absolute;
+        top: 193px;
+        left: 417px;
+        height: 250px;
+        width: 375px;
+        align-items: center;
+        justify-content: center;
+
+        column-gap: 140px;
+
+
+    }
+
+    /*Sections*/
+    main > section:nth-child(5) > section:nth-child(4) {
+
+        border: 1px solid red;
+        height: 250px;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 560px;
+        left: 424px;
+
+        column-gap: 140px;
+
+
+    }
+
+    /*sefcton 1 div*/
+    main > section:nth-child(5) > section:nth-child(3) > div {
+        border: 1px solid orange;
+        width: 250px;
+        height: 250px;
+
+    }
+
+
+    /*section 2 div*/
+
+    main > section:nth-child(5) > section:nth-child(4) > div {
+        border: 1px solid orange;
+        width: 250px;
+        height: 250px;
+
+    }
+
+
+    main > section:nth-child(5) > section:nth-child(3) > div > a > img {
+
+        width: 355px;
+        height: 255px;
+
+        flex-grow: 0;
+
+        position: relative;
+
+        left: -30px;
+    }
+
+
+    main > section:nth-child(5) > section:nth-child(4) > div > a > img {
+
+        width: 355px;
+        height: 255px;
+
+        flex-grow: 0;
+
+        position: relative;
+
+        left: 10px;
+    }
+
+    /*Text Styles my project*/
+
+    main > section:nth-child(5) > section > div > p {
+
+        font-family: 'Poppins', Regular;
+        font-size: 20px;
+        color: #FFFFFF;
+        text-align: center;
+        /*text-combine: 10;*/
+
+    }
+
+/*my journey*/
+
+    .myJourney {
+        position: relative;
+        top: 14px;
+        height: 761px;
+        width: 134%;
+        background-color: white;
+    }
+
+
+
+
+    /*portfoliio*/
+
+.portfolio{
+
+    height: 935px;
+    width: 134%;
+    position: relative;
+    top: 14px;
+    background-color: red;
+}
+
+/*Head Line*/
+    main > section:nth-child(7) > p {
+        position: absolute;
+        left: 600px;
+        top: 10px;
+        color: #FFFFFF;
+        font-size: 36px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
+
+    /*Semi selection */
+    main > section:nth-child(7) > div:nth-child(2) {
+        display: flex;
+        height: 100px;
+        width: 665px;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 80px;
+        left: 332px;
+        border: 1px solid red;
+        column-gap: 20px;
+        flex-grow: 0;
+    }
+
+    /*FRAIM section*/
+    main > section:nth-child(7) > section:nth-child(3) {
+        display: flex;
+        height: 253px;
+        width: 1000px;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 208px;
+        border: 1px solid red;
+        left: 160px;
+        padding: 10px;
+        column-gap: 45px;
+    }
+
+
+
+
+
+
+/*FRAIM section*/
+    main > section:nth-child(7) > section:nth-child(4) {
+        display: flex;
+        height: 314px;
+        width: 1000px;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 158px;
+        top: 542px;
+        /*border: 1px solid red;*/
+        padding: 10px;
+        column-gap: 45px;
+    }
+
+
+
+/*Div 1*/
+    main > section:nth-child(7) > section:nth-child(3) > div > img  {
+        position: relative !important;
+        height: 355px !important;
+        width: 280px !important;
+        /* column-gap: 10px; */
+        background-color: #FFFFFF !important;
+        flex-grow: 0 !important;
+    }
+
+
+    main > section:nth-child(7) > section:nth-child(4) > div > img {
+        position: relative !important;
+        height: 355px !important;
+        width: 280px !important;
+        /* column-gap: 10px; */
+        background-color: #FFFFFF !important;
+        flex-grow: 0 !important;
+    }
+
+
+
+
+
+
+
+    /*Testimonials*/
+
+
+    .class_testimonials {
+        height: 568px;
+        width: 134%;
+        background-color: rgba(74, 71, 71, 0.6);
+        position: relative;
+        top: 14px;
+    }
+
+/*Head line*/
+    main > section:nth-child(8)>p {
+        position: absolute;
+        left: 545px;
+        top: 10px;
+        color: #FFFFFF;
+        font-size: 48px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
+
+/*SECTION*/
+    main > section:nth-child(8) > section {
+        height: 400px;
+        width: 99.8%;
+        position: absolute;
+        display: flex;
+        border: 1px yellow;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0px;
+        top: 80px;
+        /* background-color: red; */
+    }
+
+
+    /*dIV 1*/
+    ain > section:nth-child(8) > section > div:nth-child(1) {
+        height: 300px;
+        width: 475px;
+        background-color: rgba(74, 71, 71, 0.6);
+        /* position: relative; */
+        /* top: 140px; */
+        /* left: 200px; */
+    }
+
+
+
+   /*Div 2*/
+    main > section:nth-child(8) > section > div:nth-child(2) {
+        height: 300px;
+        width: 475px;
+        background-color: rgba(74, 71, 71, 0.6);
+        /* position: relative; */
+        /* top: -129px; */
+        /* left: 740px; */
+    }
+
+
+
+
+
+
+/*Get In Touch*/
+
+    .getInTouch {
+        position: relative;
+        height: 670px;
+        width: 134%;
+        background-color: #1e2225;
+
+        top: 15px;
+    }
+
+    /*HEAD LINE*/
+    main>section:nth-child(9)>p {
+        position: absolute;
+        left: 550px;
+        top: 10px;
+        color: #FFFFFF;
+        font-size: 44px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
+
+/*call daetils section*/
+    main>section:nth-child(9)>section {
+        display: flex;
+        height: 253px;
+        width: 991px;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 100px;
+        /*border: 1px solid red;*/
+        left: 194px;
+        padding: 10px;
+        column-gap: 20px;
+    }
+
+
+
+
+
+
+    /*Images*/
+    main > section:nth-child(9)>section:nth-child(2)> div>img {
+        position: relative;
+        left: 91px;
+        width: 84px;
+        height: 84px;
+        top: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*footer*/
+
+    .footer {
+        position: relative;
+        height: 68px;
+        width: 134%;
+        background-color: rgba(74, 71, 71, 0.6);
+        top: 0px;
+    }
+
+}
+
+
+
+
+
+
+
