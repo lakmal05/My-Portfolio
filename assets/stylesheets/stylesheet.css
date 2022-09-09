@@ -7,7 +7,7 @@
     background-color: #1e2225;
 }
 
-.body{
+.body {
     background-color: #1e2225;
 }
 
@@ -358,7 +358,7 @@ main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p {
 
 /*pARAGAF 1 */
 
-main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4){
+main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) {
     position: absolute;
     left: 627px;
     top: 239px;
@@ -368,28 +368,29 @@ main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4){
 
 }
 
-main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4)>p:nth-child(1){
+main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(1) {
     left: 0px;
     top: 22px;
     position: absolute;
 }
-main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4)>p:nth-child(2){
+
+main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(2) {
     left: 0px;
     top: 150px;
     position: absolute;
 }
-main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4)>p:nth-child(3){
+
+main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(3) {
     left: 0px;
     top: 230px;
     position: absolute;
 }
-main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4)>p:nth-child(4){
-    left:0px;
+
+main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(4) {
+    left: 0px;
     top: 320px;
     position: absolute;
 }
-
-
 
 
 #DownloadResume {
@@ -937,7 +938,7 @@ main > section:nth-child(4) > section:nth-child(4) > div > img > p {
 
 
 /*my prjects main head line*/
-main>section:nth-child(5)>p:nth-child(1){
+main > section:nth-child(5) > p:nth-child(1) {
     position: relative;
     left: 635px;
     top: 10px;
@@ -949,8 +950,9 @@ main>section:nth-child(5)>p:nth-child(1){
     text-align: center;
     margin: auto;
 }
+
 /*SEMI head line*/
-main>section:nth-child(5)>p:nth-child(2){
+main > section:nth-child(5) > p:nth-child(2) {
     position: relative;
     color: #ddd9d9;
     font-size: 19px;
@@ -962,8 +964,6 @@ main>section:nth-child(5)>p:nth-child(2){
     display: inline-block;
 
 }
-
-
 
 
 main > section:nth-child(5) > section:nth-child(3) {
@@ -1342,7 +1342,7 @@ main > section:nth-child(6) > hr:nth-child(6) {
 
 /*Head line*/
 
-main > section:nth-child(7) > p{
+main > section:nth-child(7) > p {
 
     position: relative;
     left: 725px;
@@ -1356,6 +1356,7 @@ main > section:nth-child(7) > p{
     margin: auto;
 
 }
+
 /*Create the grid in div*/
 main > section:nth-child(7) > div:nth-child(2) {
     display: flex;
@@ -1404,7 +1405,7 @@ main > section:nth-child(7) > section:nth-child(3) {
     left: 270px;
 
     padding: 10px;
-     column-gap: 10px;
+    column-gap: 10px;
 
 }
 
@@ -1431,7 +1432,7 @@ main > section:nth-child(7) > section:nth-child(4) {
     border: 1px solid red;
 
     padding: 10px;
-     column-gap: 10px;
+    column-gap: 10px;
 
 
 }
@@ -1521,7 +1522,7 @@ main > section:nth-child(7) > section:nth-child(4) > div:nth-child(3) > img {
 }
 
 
-main > section:nth-child(8)>p{
+main > section:nth-child(8) > p {
     position: relative;
     left: 725px;
     top: 10px;
@@ -1595,7 +1596,7 @@ main > section:nth-child(8) > section > div > p {
 
 }
 
-main>section:nth-child(9)>p{
+main > section:nth-child(9) > p {
     position: relative;
     left: 725px;
     top: 10px;
@@ -1609,7 +1610,7 @@ main>section:nth-child(9)>p{
 }
 
 
-main>section:nth-child(9)>section{
+main > section:nth-child(9) > section {
     display: flex;
     height: 253px;
     width: 1000px;
@@ -1625,13 +1626,13 @@ main>section:nth-child(9)>section{
 }
 
 
-main > section:nth-child(9)>section:nth-child(2)> div{
+main > section:nth-child(9) > section:nth-child(2) > div {
 
     height: 210px;
     width: 400px;
 
     /*position: relative;*/
-   background-color: crimson;
+    background-color: crimson;
 
 
     padding: 10px;
@@ -1643,16 +1644,16 @@ main > section:nth-child(9)>section:nth-child(2)> div{
 
 /*Icons*/
 
-main > section:nth-child(9)>section:nth-child(2)> div>img{
+main > section:nth-child(9) > section:nth-child(2) > div > img {
     position: relative;
     left: 117px;
-    width :60px;
-    height :60px;
+    width: 60px;
+    height: 60px;
 
 }
 
 
-main > section:nth-child(9)>section > div > h4 {
+main > section:nth-child(9) > section > div > h4 {
     font-family: 'Poppins', "Segoe UI Semibold";
     color: #FFFFFF;
     font-size: 24px;
@@ -1660,7 +1661,7 @@ main > section:nth-child(9)>section > div > h4 {
 
 }
 
-main > section:nth-child(9) >section> div > p {
+main > section:nth-child(9) > section > div > p {
     font-family: 'Poppins', "Regular";
     font-size: 16px;
     color: #a49d9d;
@@ -1676,7 +1677,7 @@ main > section:nth-child(9) >section> div > p {
 /*}*/
 
 
-main > section:nth-child(9) > form:nth-child(3){
+main > section:nth-child(9) > form:nth-child(3) {
 
     position: relative;
 
@@ -1803,8 +1804,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 }
 
 
-.footer>aside:nth-child(2){
-    display:inline-block;
+.footer > aside:nth-child(2) {
+    display: inline-block;
     position: relative;
     left: 10px;
     top: 10px;
@@ -1820,7 +1821,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
 /*Icons*/
-.QuickLInks>nav>i{
+.QuickLInks > nav > i {
 
     /*position: relative;*/
     /*left: 32px;*/
@@ -1833,11 +1834,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     display: inline-block;
 
 }
-
-
-
-
-
 
 
 /*Publlic styles*/
@@ -1865,9 +1861,9 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 /*------------------------------------------------------------------------------------------------------------------*/
 /*Responsive*/
 
- /*Mobile Small 320 px  Responsive*/
-@media all  and (max-width: 1024px){
-/*@media all and  (max-width: 1024px) {*/
+/*laptop  Responsive*/
+
+@media all and (max-width: 1024px) {
 
 
     /*main*/
@@ -2115,7 +2111,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
     #DownloadResume {
         padding: 15px 25px;
         font-size: 24px;
@@ -2131,7 +2126,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         left: 544px;
         top: -61px;
     }
-
 
 
     #DownloadResume:hover {
@@ -2976,12 +2970,10 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 }
 
 
-    /*Tablet Device 720*/
-
+/*Tablet Device 720*/
 
 
 /*@media all and  (max-width: 768px){*/
-
 
 
 /*        !*main section*!*/
@@ -2989,8 +2981,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 /*    .main {*/
 /*        background-color: #1e2225;*/
 /*    }*/
-
-
 
 
 /*!*section*!*/
@@ -3039,15 +3029,50 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 /*    }*/
 
 
-
-
-
-
-
-
 /*moblie  320 px*/
 
-@media all and (max-width: 320px){
+@media all and (max-width: 320px) {
+
+
+    .main {
+        background-color: white;
+        /*background-color: #1e2225;*/
+        width: 131%;
+    }
+
+    /*srolling arrow */
+    body > div:nth-child(2) {
+        width: 70px;
+        height: 70px;
+        position: fixed;
+        top: 1800px;
+        right: 5px;
+        z-index: 9;
+        background: #FFFFFF;
+        /*box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);*/
+        border-radius: 58px;
+        background: linear-gradient(to top, #ffffff 11%, #ff99cc 100%);
+    }
+
+
+    /*main section*/
+    .mainSection {
+        position: relative;
+        height: 1046px;
+        width: 131%;
+        top: 0px;
+    }
+
+
+    /*main Img*/
+    #mainImg {
+        width: 1278px;
+        height: 921px;
+        opacity: 32%;
+        position: relative;
+        /* left: 232px; */
+        top: 0px;
+    }
 
     main > section:nth-child(1) {
         position: relative;
@@ -3055,8 +3080,24 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         width: 1279px;
         top: 0;
 
+
+    }
+
+
+    /*Secton About me*/
+    .aboutmeSection {
+        position: relative;
+        height: 835px;
+        width: 131%;
+        background-color: rgba(74, 71, 71, 0.6);
+        top: -126px;
+    }
+
+
+    #mainid {
         background-color: red;
     }
+
 
 }
 
