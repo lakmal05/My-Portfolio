@@ -1865,27 +1865,55 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 @media all and (max-width: 1024px) {
 
+    /*scrolling arow*/
+
+    body > div:nth-child(2) {
+        width: 70px;
+        height: 70px;
+        position: fixed;
+        top: 562px;
+        right: 48px;
+        z-index: 9;
+        background: #FFFFFF;
+        /*box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);*/
+        border-radius: 58px;
+        background: linear-gradient(to top, #ffffff 11%, #ff99cc 100%);
+    }
+
+
+    /*scrolling arow*/
+    body > div:nth-child(3) {
+        width: 70px;
+        height: 70px;
+        position: fixed;
+        top: 664px;
+        right: 39px;
+        z-index: 9;
+        background: #FFFFFF;
+        /*box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);*/
+        border-radius: 58px;
+        background: linear-gradient(to top, #ffffff 11%, #ff99cc 100%);
+    }
+
 
     /*main*/
     .main {
         background-color: #1e2225;
     }
 
-
+    /*Section main*/
     main > section:nth-child(1) {
-
         position: relative;
-        height: 1000px;
-        width: 1316px;
+        height: 846px;
+        width: 1014px;
         top: 0;
-
     }
 
 
     .mainText01 {
         font-family: 'poppins';
         font-weight: 600;
-        font-size: 32px;
+        font-size: 28px;
         color: #FFFFFF;
         position: relative;
         left: 60px;
@@ -1895,7 +1923,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     .mainText02 {
         font-family: 'Poppins';
         font-weight: bold;
-        font-size: 64px;
+        font-size: 58px;
         color: white;
         left: 58px;
         bottom: 267px;
@@ -1904,74 +1932,76 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     .mainText03 {
         font-family: 'Poppins', "Segoe UI Semibold";
-        font-size: 24px;
+        font-size: 22px;
         color: white;
         left: 62px;
         bottom: 293px;
         position: relative;
-
     }
+
 
     .mainText04 {
         font-family: 'Poppins', "Segoe UI Semibold";
-        font-size: 24px;
+        font-size: 21px;
         color: white;
-        /*position: relative;*/
-        /*left: 60px;*/
-        /*bottom: 10px;*/
+        /* position: relative; */
+        /* left: 60px; */
+        /* bottom: 10px; */
     }
 
     .childText01 {
         font-family: 'Poppins', "Segoe UI Semibold";
-        font-size: 15px;
+        font-size: 13px;
         color: #FFFFFF;
     }
 
     .mainAside {
         position: relative;
-        top: 10px;
+        top: -56px;
         bottom: 10px;
+        display: inline-block;
     }
 
     #m01 {
         position: relative;
-        left: 60px;
+        left: 2px;
         bottom: 10px;
+        display: inline-block;
     }
 
     #m02 {
         position: relative;
-        left: 20px;
-        bottom: 20px
-
+        left: -85px;
+        bottom: -33px;
+        display: inline-block;
     }
 
     #m03 {
         position: relative;
-        left: 221px;
-        bottom: 128px
-
+        left: -7px;
+        bottom: 12px;
+        display: inline-block;
     }
 
     #m04 {
         position: relative;
-        left: 176px;
-        bottom: 142px
-
+        left: -88px;
+        bottom: -31px;
+        display: inline-block;
     }
 
     #m05 {
         position: relative;
-        left: 381px;
-        bottom: 245px
-
+        left: -10px;
+        bottom: 10px;
+        display: inline-block;
     }
 
     #m06 {
         position: relative;
-        left: 350px;
-        bottom: 263px
-
+        left: -73px;
+        bottom: -13px;
+        display: inline-block;
     }
 
 
@@ -1986,14 +2016,14 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*main Img*/
     #mainImg {
-
         position: relative;
-        left: 0;
-        width: 1313px;
-        height: 945px;
+        left: -87px;
+        width: 1099px;
+        height: 793px;
         opacity: 32%;
-        top: 0;
+        top: 0px;
     }
+
 
     #moving01 {
         position: relative;
@@ -2006,8 +2036,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         position: relative;
         left: 48px;
         bottom: 267px;
-
-
     }
 
 
@@ -2018,14 +2046,12 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*about me*/
     .aboutmeSection {
-
         position: relative;
-        height: 790px;
-        width: 134%;
+        height: 771px;
+        width: 100%;
         background-color: rgba(74, 71, 71, 0.6);
         top: -54px;
     }
-
 
     main > section:nth-child(2) > div {
         width: 379px;
@@ -2039,38 +2065,34 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
     #semipic {
-        width: 372px;
-        height: 523px;
+        width: 374px;
+        height: 542px;
         position: relative;
-        top: 3px;
-        left: 38px;
+        top: 10px;
+        left: -10px;
         padding: 0;
         margin: 0;
-
-
     }
 
-
+/*HEAD liNE*/
     #span_about {
         color: white;
         font-weight: 650;
         font-family: 'Poppins', "Segoe UI Semibold";
-        font-size: 50px;
+        font-size: 45px;
         position: relative;
         top: -545px;
-        left: 539px;
-
-
+        left: 383px;
     }
 
     #span_developer\&designer {
         color: white;
         font-weight: 650;
         font-family: 'Poppins', "Segoe UI Semibold";
-        font-size: 24px;
+        font-size: 23px;
         position: relative;
-        top: -573px;
-        left: 538px;
+        top: -566px;
+        left: 376px;
     }
 
 
@@ -2078,37 +2100,68 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         color: white;
         font-weight: 650;
         font-family: 'Poppins', "Segoe UI Semibold";
-        font-size: 34px;
+        font-size: 30px;
         position: relative;
-        top: -550px;
-        left: 539px;
+        top: -534px;
+        left: 456px;
     }
 
     /*paragraf sefction*/
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) {
         display: inline-block;
-        width: 656px;
-        height: 500px;
+        width: 516px;
+        height: 462px;
         position: absolute;
-        top: 195px;
-        left: 543px;
-        /*background-color: red;*/
-
+        top: 167px;
+        left: 474px;
+        /* background-color: red; */
     }
+
+
+    /*pargaf locatin*/
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(1) {
+        left: -11px;
+        top: 19px;
+        position: absolute;
+    }
+
 
 
     /*Paragph*/
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p {
-
-        font-size: 23px;
-        width: 350px;
-        left: 543px;
+        font-size: 16px;
+        font-size: 20px;
+        width: 545px;
         top: -523px;
         position: relative;
         color: #ddd9d9;
         font-family: 'inter', bold;
-
     }
+
+
+    /*paragaf 4 locations*/
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(1) {
+        left: -11px;
+        top: 19px;
+        position: absolute;
+    }
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(2) {
+        left: -9px;
+        top: 150px;
+        position: absolute;
+    }
+
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(3) {
+        left: -8px;
+        top: 230px;
+        position: absolute;
+    }
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(4) {
+        left: -8px;
+        top: 320px;
+        position: absolute;
+    }
+
 
 
     #DownloadResume {
@@ -2142,22 +2195,21 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     /*Solution and servises*/
     .servicesSection {
         position: relative;
-        height: 910px;
-        width: 134%;
+        height: 825px;
+        width: 100%;
         /* background-color: rgba(74, 71, 71, 0.6); */
-        /*background-color: red;*/
+        /* background-color: red; */
         top: -52px;
     }
 
 
     /*mainhead line*/
     main > section:nth-child(3) > p:nth-child(1) {
-
         position: relative;
-        left: 415px;
+        left: 290px;
         top: 10px;
         color: #FFFFFF;
-        font-size: 36px;
+        font-size: 35px;
         font-family: 'Poppins';
         font-weight: 600;
         display: inline-block;
@@ -2169,14 +2221,12 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(3) > p:nth-child(2) {
         position: relative;
         color: #ddd9d9;
-        font-size: 19px;
+        font-size: 17px;
         font-family: 'inter';
         font-weight: 55;
-        left: -195px;
-        top: 35px;
-
+        left: 175px;
+        top: -3px;
         display: inline-block;
-
     }
 
     .serviceTitle {
@@ -2191,77 +2241,64 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*grid*/
     main > section:nth-child(3) > section:nth-child(3) {
-
         border: 1px solid red;
-        height: 300px;
-        /*width: 1000px;*/
+        height: 285px;
+        /* width: 1000px; */
         display: flex;
         align-items: center;
         justify-content: center;
-
         position: relative;
         top: 52px;
     }
 
     /*grid*/
     main > section:nth-child(3) > section:nth-child(4) {
-
         border: 1px solid red;
-        height: 300px;
-        /*width: 1000px;*/
+        height: 285px;
+        /* width: 1000px; */
         display: flex;
         align-items: center;
         justify-content: center;
-
         position: relative;
-        top: 127px;
-
+        top: 131px;
     }
 
-    /*Section 1 div 3*/
+    /*Section 1 div 3 heigth and width*/
     main > section:nth-child(3) > section:nth-child(3) > div {
         background-color: #d9d9d9;
-        width: 275px;
-        height: 300px;
-        /*flex-shrink: 3;*/
+        width: 240px;
+        height: 285px;
+        /* flex-shrink: 3; */
         flex-grow: 0;
-
-
     }
 
     /*Section 2 div 3*/
     main > section:nth-child(3) > section:nth-child(4) > div {
         background-color: #d9d9d9;
-        width: 275px;
-        height: 300px;
-        /*flex-shrink: 3;*/
+        width: 240px;
+        height: 285px;
+        /* flex-shrink: 3; */
         flex-grow: 0;
-
-
     }
 
 
     /*1,2,3 ddiv*/
     main > section:nth-child(3) > section:nth-child(3) > div:nth-child(1) {
         background-color: #d9d9d9;
-        /*flex-shrink: 3;*/
+        /* flex-shrink: 3; */
         row-gap: 10px;
-
         position: relative;
         left: -31px;
-
     }
 
 
     main > section:nth-child(3) > section:nth-child(3) > div:nth-child(2) {
         background-color: #d9d9d9;
-        /*flex-shrink: 3;*/
+        /* flex-shrink: 3; */
         flex-grow: 0;
         row-gap: 5px;
-
         position: relative;
         left: 10px;
-
     }
 
     main > section:nth-child(3) > section:nth-child(3) > div:nth-child(3) {
@@ -2398,7 +2435,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     .skills {
         position: relative;
         height: 900px;
-        width: 134%;
+        width: 100%;
         background-color: rgba(74, 71, 71, 0.6);
         background-color: aqua;
         top: 10px;
@@ -2406,12 +2443,12 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
     /*main HEad line skills*/
-    main > section:nth-child(4) > p {
+   main > section:nth-child(4) > p {
         position: relative;
-        left: 635px;
+        left: 340px;
         top: 10px;
         color: #FFFFFF;
-        font-size: 36px;
+        font-size: 34px;
         font-family: 'Poppins';
         font-weight: 600;
         display: inline-block;
@@ -2426,14 +2463,11 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         font-size: 19px;
         font-family: 'Poppins', "Segoe UI Semibold";
         font-weight: 55;
-        left: 994px;
-        bottom: -100px;
-
+        left: 700px;
+        bottom: 250px;
         margin: auto;
         padding: 0;
         border: 0;
-
-
         display: inline-block;
     }
 
@@ -2503,15 +2537,14 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
     main > section:nth-child(4) > section:nth-child(2) > div > img {
-        height: 83px;
-        width: 83px;
+        height: 78px;
+        width: 71px;
         position: absolute;
         right: 0;
         left: 0;
         top: 0;
         bottom: 0;
         margin: auto;
-
     }
 
     main > section:nth-child(4) > section:nth-child(2) > div > img > p {
@@ -2620,7 +2653,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     .myprojects {
         position: relative;
         height: 1000px;
-        width: 134%;
+        width: 100%;
         background-color: rgba(74, 71, 71, 0.6);
         top: 12px;
 
@@ -2630,10 +2663,10 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     /*my prjects main head line*/
     main > section:nth-child(5) > p:nth-child(1) {
         position: absolute;
-        left: 506px;
+        left: 395px;
         top: 10px;
         color: #FFFFFF;
-        font-size: 36px;
+        font-size: 35px;
         font-family: 'Poppins';
         font-weight: 600;
         display: inline-block;
@@ -2645,32 +2678,27 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(5) > p:nth-child(2) {
         position: absolute;
         color: #ddd9d9;
-        font-size: 19px;
+        font-size: 16px;
         font-family: 'inter';
         font-weight: 55;
-        left: 231px;
+        left: 145px;
         top: 40px;
         display: inline-block;
-
     }
 
 
     /*Sections*/
     main > section:nth-child(5) > section:nth-child(3) {
-
         border: 1px solid red;
         display: flex;
         position: absolute;
-        top: 193px;
-        left: 417px;
+        top: 185px;
+        left: 320px;
         height: 250px;
         width: 375px;
         align-items: center;
         justify-content: center;
-
-        column-gap: 140px;
-
-
+        column-gap: 81px;
     }
 
     /*Sections*/
@@ -2678,15 +2706,15 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
         border: 1px solid red;
         height: 250px;
-        width: 300px;
+        width: 375px;
         display: flex;
         align-items: center;
         justify-content: center;
         position: absolute;
         top: 560px;
-        left: 424px;
+        left: 281px;
 
-        column-gap: 140px;
+        column-gap: 81px;
 
 
     }
@@ -2711,27 +2739,27 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     main > section:nth-child(5) > section:nth-child(3) > div > a > img {
 
-        width: 355px;
-        height: 255px;
+        width: 308px;
+        height: 210px;
 
         flex-grow: 0;
 
         position: relative;
 
-        left: -30px;
+        /*left: -30px;*/
     }
 
 
     main > section:nth-child(5) > section:nth-child(4) > div > a > img {
 
-        width: 355px;
-        height: 255px;
+        width: 308px;
+        height: 210px;
 
         flex-grow: 0;
 
         position: relative;
 
-        left: 10px;
+        /*left: 10px;*/
     }
 
     /*Text Styles my project*/
@@ -2750,25 +2778,74 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         position: relative;
         top: 14px;
         height: 761px;
-        width: 134%;
+        width: 100%;
         background-color: white;
     }
+
+  /*HEad Line*/
+    main > section:nth-child(6) > p {
+        color: black;
+        left: 388px;
+        position: absolute;
+        font-size: 37px;
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-weight: 600;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+        display: inline-block;
+    }
+
+/*scools semi line*/
+    main > section:nth-child(6) > section:nth-child(2) > pre:nth-child(3) {
+        position: relative;
+        left: 440px;
+        top: 150px;
+        right: 0;
+        color: black;
+        margin: auto;
+        font-family: 'Nunito', sans-serif;
+        display: inline-block;
+    }
+
+    main > section:nth-child(6) > section:nth-child(3) > pre:nth-child(3) {
+        position: relative;
+        left: 400px;
+        top: 150px;
+        right: 0;
+        color: black;
+        margin: auto;
+        font-family: 'Nunito', sans-serif;
+        display: inline-block;
+    }
+
+    main > section:nth-child(6) > section:nth-child(4) > pre:nth-child(3) {
+        position: relative;
+        left: 419px;
+        top: 150px;
+        right: 0;
+        color: black;
+        margin: auto;
+        font-family: 'Nunito', sans-serif;
+        display: inline-block;
+    }
+
 
 
     /*portfoliio*/
     .portfolio {
-
-        height: 935px;
-        width: 134%;
+        height: 915px;
+        width: 100%;
         position: relative;
         top: 14px;
         background-color: red;
     }
 
+
     /*Head Line*/
     main > section:nth-child(7) > p {
         position: absolute;
-        left: 600px;
+        left: 460px;
         top: 10px;
         color: #FFFFFF;
         font-size: 36px;
@@ -2782,18 +2859,18 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     /*Semi selection */
     main > section:nth-child(7) > div:nth-child(2) {
         display: flex;
-        height: 100px;
+        height: 43px;
         width: 665px;
         align-items: center;
         justify-content: center;
         position: absolute;
         top: 80px;
-        left: 332px;
+        left: 220px;
         border: 1px solid red;
         column-gap: 20px;
         flex-grow: 0;
-    }
 
+    }
     /*FRAIM section*/
     main > section:nth-child(7) > section:nth-child(3) {
         display: flex;
@@ -2847,10 +2924,84 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
+/*sclectin*/
+    main > section:nth-child(7) > div:nth-child(2) > p {
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 16px;
+        color: white;
+        column-gap: 20px;
+    }
+
+
+    main > section:nth-child(7) > section:nth-child(3) {
+        display: flex;
+        height: 246px;
+        width: 885px;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 169px;
+        border: 1px solid red;
+        left: 20px;
+        padding: 10px;
+        column-gap: 10px;
+    }
+
+
+
+
+    main > section:nth-child(7) > section:nth-child(4) {
+        display: flex;
+        height: 300px;
+        width: 961px;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: -17px;
+        top: 502px;
+        border: 1px solid red;
+        padding: 10px;
+        column-gap: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*Div */
+
+    main > section:nth-child(7) > section:nth-child(3) {
+        display: flex;
+        height: 253px;
+        width: 890px;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 169px;
+        border: 1px solid red;
+        left: 20px;
+        padding: 10px;
+        column-gap: 10px;
+    }
+
+
+
+
+
+
     /*Testimonials*/
     .class_testimonials {
         height: 568px;
-        width: 134%;
+        width: 100%;
         background-color: rgba(74, 71, 71, 0.6);
         position: relative;
         top: 14px;
@@ -2859,10 +3010,10 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     /*Head line*/
     main > section:nth-child(8) > p {
         position: absolute;
-        left: 545px;
+        left: 404px;
         top: 10px;
         color: #FFFFFF;
-        font-size: 48px;
+        font-size: 40px;
         font-family: 'Poppins';
         font-weight: 600;
         display: inline-block;
@@ -2886,9 +3037,9 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
     /*dIV 1*/
-    ain > section:nth-child(8) > section > div:nth-child(1) {
-        height: 300px;
-        width: 475px;
+    main > section:nth-child(8) > section > div:nth-child(1) {
+        height: 250px;
+        width: 430px;
         background-color: rgba(74, 71, 71, 0.6);
         /* position: relative; */
         /* top: 140px; */
@@ -2898,8 +3049,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*Div 2*/
     main > section:nth-child(8) > section > div:nth-child(2) {
-        height: 300px;
-        width: 475px;
+        height: 250px;
+        width: 430px;
         background-color: rgba(74, 71, 71, 0.6);
         /* position: relative; */
         /* top: -129px; */
@@ -2911,19 +3062,18 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     .getInTouch {
         position: relative;
         height: 670px;
-        width: 134%;
+        width: 100%;
         background-color: #1e2225;
-
         top: 15px;
     }
 
     /*HEAD LINE*/
     main > section:nth-child(9) > p {
         position: absolute;
-        left: 550px;
+        left: 423px;
         top: 10px;
         color: #FFFFFF;
-        font-size: 44px;
+        font-size: 36px;
         font-family: 'Poppins';
         font-weight: 600;
         display: inline-block;
@@ -2935,13 +3085,13 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(9) > section {
         display: flex;
         height: 253px;
-        width: 991px;
+        width: 947px;
         align-items: center;
         justify-content: center;
         position: absolute;
         top: 100px;
-        /*border: 1px solid red;*/
-        left: 194px;
+        /* border: 1px solid red; */
+        left: 21px;
         padding: 10px;
         column-gap: 20px;
     }
@@ -2951,23 +3101,101 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(9) > section:nth-child(2) > div > img {
         position: relative;
         left: 91px;
-        width: 84px;
-        height: 84px;
+        width: 63px;
+        height: 62px;
         top: 10px;
     }
+
+
+    /*form input 1*/
+    main > section:nth-child(9) > form:nth-child(3) > div:nth-child(1) > input {
+        height: 30px;
+        background: #ddd9d9;
+        border: 1px solid #ddd9d9;
+        font-family: 'Poppins', "Regular";
+        color: black;
+        position: absolute;
+        padding-bottom: 20px;
+        left: 0;
+        top: 0;
+        width: 289px;
+        opacity: 20%;
+        display: inline-block;
+    }
+    /*form input 2*/
+    main > section:nth-child(9) > form:nth-child(3) > div:nth-child(2) > input {
+        height: 30px;
+        background: #ddd9d9;
+        border: 1px solid #ddd9d9;
+        font-family: 'Poppins', "Regular";
+        color: black;
+        position: absolute;
+        padding-bottom: 20px;
+        left: 323px;
+        top: 0;
+        width: 289px;
+        opacity: 20%;
+        display: inline-block;
+    }
+
+    /*form input 3*/
+    main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
+        background: #ddd9d9;
+        border: 1px solid #ddd9d9;
+        font-family: 'Poppins', "Regular";
+        height: 144px;
+        position: absolute;
+        padding-bottom: 9px;
+        left: -3px;
+        top: 87px;
+        width: 625px;
+        opacity: 20%;
+        display: inline-block;
+    }
+
+
+
+
+/*Button*/
+    #connect {
+        background: #27E1C0;
+        border: 2px solid #27E1C0;
+        border-radius: 50px;
+        width: 100px;
+        height: 39px;
+        font-size: 18px;
+        font-family: 'Poppins', "Segoe UI Semibold";
+        color: #FFFFFF;
+        position: absolute;
+        left: 500px;
+        cursor: pointer;
+        top: 561px;
+        display: inline-block;
+    }
+
+
+
+
+
 
 
     /*footer*/
     .footer {
         position: relative;
         height: 68px;
-        width: 134%;
+        width: 97%;
         background-color: rgba(74, 71, 71, 0.6);
         top: 0px;
     }
 
 
 }
+
+
+
+
+
+
 
 
 /*Tablet Device 720*/
@@ -3035,7 +3263,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
     .main {
-        background-color: white;
+        background-color: red;
         /*background-color: #1e2225;*/
         width: 131%;
     }
@@ -3091,11 +3319,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         width: 131%;
         background-color: rgba(74, 71, 71, 0.6);
         top: -126px;
-    }
-
-
-    #mainid {
-        background-color: red;
     }
 
 
