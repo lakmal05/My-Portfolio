@@ -4336,6 +4336,150 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         color: #FFFFFF;
     }
 
+
+    /*about me*/
+/*section*/
+    .aboutmeSection {
+        position: relative;
+        height: 423px;
+        width: 100%;
+        background-color: rgba(74, 71, 71, 0.6);
+        top: -275px;
+    }
+
+
+    /*head line*/
+    #span_about {
+        color: white;
+        font-weight: 650;
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 28px;
+        position: relative;
+        top: -337px;
+        left: 149px;
+    }
+
+/*semi headline*/
+    #span_developer\&designer {
+        color: white;
+        font-weight: 650;
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 14px;
+        position: relative;
+        top: -355px;
+        left: 146px;
+    }
+
+
+
+ /*image DiV*/
+    main > section:nth-child(2) > div {
+        width: 175px;
+        height: 314px;
+        position: relative;
+        top: 105px;
+        left: 13px;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+    }
+
+    /*semi pic*/
+    #semipic {
+        width: 189px;
+        height: 286px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+
+/*paragraf headine*/
+    #span001 {
+        color: white;
+        font-weight: 650;
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 12px;
+        position: relative;
+        top: -321px;
+        left: 212px;
+    }
+
+     /*paragraf section*/
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) {
+        display: inline-block;
+        width: 186px;
+        height: 247px;
+        position: absolute;
+        top: 118px;
+        left: 221px;
+        /* background-color: red; */
+    }
+
+
+   /*prargraf 1*/
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(1) {
+        left: 0;
+        top: 1px;
+        position: absolute;
+    }
+    /*prargraf 1*/
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(2) {
+        left: 0px;
+        top: 68px;
+        position: absolute;
+    }
+
+    /*prargraf 1*/
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(3) {
+        left: 0px;
+        top: 107px;
+        position: absolute;
+    }
+    /*prargraf 1*/
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(4) {
+        left: 0px;
+        top: 172px;
+        position: absolute;
+    }
+
+    /*paragraf font sizes*/
+
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p {
+        /* font-size: 16px; */
+        font-size: 10px;
+        width: 174px;
+        /* top: -523px; */
+        /* position: relative; */
+        /* color: #ddd9d9; */
+        /* font-family: 'inter', bold; */
+    }
+
+
+/*Download Button*/
+    #DownloadResume {
+        padding: 6px 5px;
+        font-size: 8px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #e736d5;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 4px #999;
+        position: relative;
+        left: 220px;
+        top: -88px;
+    }
+
+
+
+
+
+
 }
 
 
