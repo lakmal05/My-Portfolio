@@ -3195,9 +3195,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
 
-
-
-
 /*Tablet Device 720*/
 
 
@@ -4167,68 +4164,177 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 /*moblie  320 px*/
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 425px) {
 
 
     .main {
-        background-color: red;
-        /*background-color: #1e2225;*/
-        width: 131%;
+        background-color: #1e2225;
+        width: 100%;
     }
 
     /*srolling arrow */
+
+
+
     body > div:nth-child(2) {
         width: 70px;
         height: 70px;
         position: fixed;
-        top: 661px;
-        right: 261px;
+        top: 660px;
+        right: 39px;
         z-index: 9;
         background: #FFFFFF;
         /* box-shadow: 0px 4px 4px rgb(0 0 0 / 25%); */
         border-radius: 58px;
         background: linear-gradient(to top, #ffffff 11%, #ff99cc 100%);
     }
+    body > div:nth-child(3) {
+        width: 70px;
+        height: 70px;
+        position: fixed;
+        top: 660px;
+        right: 324px;
+        z-index: 9;
+        /*background: #FFFFFF;*/
+        /*box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);*/
+        border-radius: 58px;
+        background: linear-gradient(to top, #ffffff 11%, #ff99cc 100%);
+    }
 
 
     /*main section*/
-    .mainSection {
-        position: relative;
-        height: 1046px;
-        width: 131%;
-        top: 0px;
-    }
 
-
-    /*main Img*/
-    #mainImg {
-        width: 1278px;
-        height: 921px;
-        opacity: 32%;
+    main>section:nth-child(1) {
         position: relative;
-        /* left: 232px; */
-        top: 0px;
-    }
-
-    main > section:nth-child(1) {
-        position: relative;
-        height: 999px;
-        width: 1279px;
+        height: 592px;
+        width: 416px;
         top: 0;
-
-
     }
-
-
-    /*Secton About me*/
-    .aboutmeSection {
+    #mainImg {
         position: relative;
-        height: 835px;
-        width: 131%;
-        background-color: rgba(74, 71, 71, 0.6);
-        top: -126px;
+        left: 0;
+        width: 415px;
+        height: 317px;
+        opacity: 32%;
+        top: 0;
+    }
+    .mainText {
+        position: absolute;
+        width: 657px;
+        height: 165px;
+        top: 276px;
+        left: -24px;
+    }
+    #moving01 {
+        position: relative;
+        left: -18px;
+        bottom: 10px;
     }
 
+
+
+
+
+    .mainText02 {
+        font-family: 'Poppins';
+        font-weight: bold;
+        font-size: 28px;
+        color: white;
+        left: 58px;
+        bottom: 267px;
+        position: relative;
+    }
+    .mainText03 {
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 15px;
+        color: white;
+        left: 62px;
+        bottom: 293px;
+        position: relative;
+    }
+
+
+    #HireMe_button {
+        position: relative;
+        left: 48px;
+        bottom: 289px;
+    }
+    button, input, optgroup, select, textarea {
+        font-family: inherit;
+        font-size: 89%;
+        line-height: 1.15;
+        margin: 0;
+    }
+
+
+
+
+
+    /*semi head line*/
+    .mainAside {
+        position: absolute;
+        top: -43px;
+        left: 71px;
+        /* display: inline-block; */
+        width: 325px;
+        height: 73px;
+    }
+
+
+    #m01 {
+        position: relative;
+        left: -8px;
+        bottom: 10px;
+        display: inline-block;
+    }
+    #m02 {
+        position: relative;
+        left: -74px;
+        bottom: -31px;
+        display: inline-block;
+    }
+
+    #m03 {
+        position: relative;
+        left: -7px;
+        bottom: 12px;
+        display: inline-block;
+    }
+    #m04 {
+        position: relative;
+        left: -77px;
+        bottom: -31px;
+        display: inline-block;
+    }
+    #m05 {
+        position: relative;
+        left: -10px;
+        bottom: 10px;
+        display: inline-block;
+    }
+
+    #m06 {
+        position: relative;
+        left: -63px;
+        bottom: -13px;
+        display: inline-block;
+    }
+
+/*headines font size*/
+    .mainText04 {
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 14px;
+        color: white;
+        /* position: relative; */
+        /* left: 60px; */
+        /* bottom: 10px; */
+    }
+
+    .childText01 {
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 9px;
+        color: #FFFFFF;
+    }
 
 }
 
