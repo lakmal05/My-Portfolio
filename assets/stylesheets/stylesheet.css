@@ -4341,3 +4341,21 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
 
+
+
+@media all and (max-width: 320px){
+    .main {
+        background-color: red;
+    }
+
+}
+@media all and (max-width: 375px){
+    .main {
+        background-color: red;
+    }
+
+}
+
+
+
+
