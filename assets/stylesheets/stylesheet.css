@@ -4171,8 +4171,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
     .main {
-        background-color: red;
-        /*background-color: #1e2225;*/
+
+        background-color: #1e2225;
         width: 131%;
     }
 
