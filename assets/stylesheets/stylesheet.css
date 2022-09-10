@@ -4481,11 +4481,20 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
 }
+@media all and (max-width: 373px){
+    .main {
+        background-color: red;
+    }
 
+@media all and (max-width: 321px){
+    .main {
+        background-color: red;
+    }
 
-
-
-
+@media all and (max-width: 310px){
+    .main {
+        background-color: red;
+    }
 
 @media all and (max-width: 320px){
     .main {
