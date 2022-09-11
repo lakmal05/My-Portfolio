@@ -5139,6 +5139,180 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
+/*Skills*/
+
+    /*section*/
+
+    .skills {
+        position: relative;
+        height: 888px;
+        width: 99.8%;
+        background-color: rgba(74, 71, 71, 0.6);
+        background-color: aqua;
+        top: 1px;
+    }
+
+    /*main headline*/
+
+    main > section:nth-child(4) > p {
+        position: relative;
+        left: 55px;
+        top: 10px;
+        color: #FFFFFF;
+        font-size: 26px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
+
+
+/*languages*/
+    main > section:nth-child(4) > section:nth-child(2) {
+        height: 231px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 82%;
+        position: relative;
+        top: 88px;
+        right: 0;
+        left: 0;
+        margin: auto;
+
+    }
+    /*languages headline*/
+    #skill_headlines1 {
+        position: absolute;
+        color: #FFFFFF;
+        font-size: 19px;
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-weight: 55;
+        left: 543px;
+        bottom: 250px;
+        margin: auto;
+        padding: 0;
+        border: 0;
+        display: inline-block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*Prject and reserch*/
+
+
+    .myprojects {
+        position: relative;
+        height: 1000px;
+        width: 100%;
+        background-color: rgba(74, 71, 71, 0.6);
+        top: 3px;
+    }
+
+
+    main > section:nth-child(5) > p:nth-child(1) {
+        position: absolute;
+        left: 88px;
+        top: 10px;
+        color: #FFFFFF;
+        font-size: 25px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
+
+    main > section:nth-child(5) > p:nth-child(2) {
+        position: absolute;
+        color: #ddd9d9;
+        font-size: 7px;
+        font-family: 'inter';
+        font-weight: 55;
+        left: 25px;
+        top: 35px;
+        display: inline-block;
+    }
+
+
+
+
+    main > section:nth-child(5) > section:nth-child(3) {
+        border: 1px solid red;
+        display: flex;
+        position: absolute;
+        top: 89px;
+        left: 24px;
+        height: 972px;
+        width: 321px;
+        align-items: center;
+        justify-content: center;
+        column-gap: 71px;
+        flex-flow: column;
+        column-gap: 33px;
+        grid-gap: 75px;
+    }
+
+    main > section:nth-child(5) > section:nth-child(3) > div {
+        border: 1px solid orange;
+        width: 260px;
+        height: 211px;
+        top: -59px;
+        position: relative;
+        left: -25px;
+    }
+    main > section:nth-child(5) > section:nth-child(3) > div > a > img {
+        width: 284px;
+        height: 217px;
+        flex-grow: 0;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    main > section:nth-child(5) > section > div > p {
+        font-family: 'Poppins', Regular;
+        font-size: 20px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+
+/*section 3 disply none*/
+    main > section:nth-child(5) > section:nth-child(4) {
+        border: 1px solid red;
+        height: 250px;
+        width: 375px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 560px;
+        left: 184px;
+        column-gap: 16px;
+        display: none;
+    }
+
+
+
+
+
+
+
 
 
 
