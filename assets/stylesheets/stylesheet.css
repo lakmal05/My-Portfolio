@@ -4983,16 +4983,161 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
 
+/*skils*/
+
+    .servicesSection {
+        position: relative;
+        height: 1783px;
+        width: 99.1%;
+        /* background-color: rgba(74, 71, 71, 0.6); */
+        /* background-color: red; */
+        top: 1px;
+    }
+
+
+    main > section:nth-child(3) > p:nth-child(1) {
+        position: relative;
+        left: 43px;
+        top: 6px;
+        color: #FFFFFF;
+        font-size: 21px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
+
+    main > section:nth-child(3) > p:nth-child(2) {
+        position: relative;
+        color: #ddd9d9;
+        font-size: 8px;
+        font-family: 'inter';
+        font-weight: 55;
+        left: 11px;
+        top: -3px;
+        display: inline-block;
+    }
+
+    main > section:nth-child(3) > section:nth-child(3) {
+        border: 1px solid red;
+        height: 707px;
+        width: 311px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 34px;
+        left: 26px;
+        flex-flow: column;
+    }
+
+    main > section:nth-child(3) > section:nth-child(3) > div:nth-child(1) {
+        background-color: #d9d9d9;
+        /* flex-shrink: 3; */
+        /* row-gap: 10px; */
+        position: absolute;
+        left: 42px;
+        display: inline-block;
+        bottom: 428px;
+    }
+
+    main > section:nth-child(3) > section:nth-child(3) > div:nth-child(2) {
+        background-color: #d9d9d9;
+        /* flex-shrink: 3; */
+        /* flex-grow: 0; */
+        /* row-gap: 5px; */
+        position: absolute;
+        left: 43px;
+        top: 287px;
+        display: inline-block;
+    }
+
+    main > section:nth-child(3) > section:nth-child(3) > div:nth-child(3) {
+        background-color: #d9d9d9;
+        /* flex-shrink: 3; */
+        /* flex-grow: 0; */
+        /* row-gap: 5px; */
+        position: relative;
+        left: 13px;
+        display: inline-block;
+        /* flex-direction: column; */
+        top: 352px;
+    }
+
+
+    main > section:nth-child(3) > section:nth-child(3) > div {
+        background-color: #d9d9d9;
+        width: 226px;
+        height: 268px;
+        /* flex-shrink: 3; */
+        flex-grow: 0;
+    }
 
 
 
 
+    /*section 2*/
 
 
+    main > section:nth-child(3) > section:nth-child(4) {
+        border: 1px solid red;
+        height: 716px;
+        width: 348px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 193px;
+        /* bottom: -1px; */
+        flex-flow: column;
+        left: 10px;
+    }
 
 
+    main > section:nth-child(3) > section:nth-child(4) > div:nth-child(1) {
+        display: inline-block;
+        background-color: #d9d9d9;
+        /* flex-shrink: 3; */
+        flex-grow: 0;
+        row-gap: 5px;
+        position: relative;
+        display: inline-block;
+        left: -3px;
+        top: -121px;
+    }
+    main > section:nth-child(3) > section:nth-child(4) > div:nth-child(2) {
+        background-color: #d9d9d9;
+        /* flex-shrink: 3; */
+        flex-grow: 0;
+        row-gap: 5px;
+        position: absolute;
+        left: 91px;
+        display: inline-block;
+        top: 244px;
+    }
 
-    
+
+    main > section:nth-child(3) > section:nth-child(4) > div:nth-child(3) {
+        background-color: #d9d9d9;
+        /* flex-shrink: 3; */
+        flex-grow: 0;
+        row-gap: 5px;
+        position: relative;
+        left: 21px;
+        display: inline-block;
+        top: 125px;
+    }
+
+    /*Div width*/
+    main > section:nth-child(3) > section:nth-child(4) > div {
+        background-color: #d9d9d9;
+        width: 188px;
+        height: 232px;
+        /* flex-shrink: 3; */
+        flex-grow: 0;
+    }
+
 
 
 
