@@ -3201,11 +3201,82 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 @media all and  (max-width: 768px){
 
 
+
+    /*scrolling arrows*/
+
+    body > div:nth-child(2) {
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        top: 679px;
+        right: 8px;
+        z-index: 9;
+        background: #FFFFFF;
+        /* box-shadow: 0px 4px 4px rgb(0 0 0 / 25%); */
+        border-radius: 100%;
+        background: linear-gradient(to top, #ffffff 11%, #ff99cc 100%);
+    }
+
+    body > div:nth-child(2) > a > img {
+        width: 40px;
+        height: auto;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 50px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+
+/*question mark */
+    body > div:nth-child(3) {
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        top: 678px;
+        right: 303px;
+        z-index: 9;
+        /* background: #FFFFFF; */
+        /* box-shadow: 0px 4px 4px rgb(0 0 0 / 25%); */
+        border-radius: 58px;
+        background: linear-gradient(to top, #ffffff 11%, #ff99cc 100%);
+    }
+
+    body > div:nth-child(3) > a > img {
+        width: 40px;
+        height: auto;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 50px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+
+
+
+
+
+
+
         /*main section*/
+
 
     .main {
         background-color: #1e2225;
     }
+
+
+
+
+
+
 
 
 /* main section*/
