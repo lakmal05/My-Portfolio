@@ -4479,7 +4479,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     .servicesSection {
         position: relative;
-        height: 775px;
+        height: 794px;
         width: 100%;
         /* background-color: rgba(74, 71, 71, 0.6); */
         /* background-color: red; */
@@ -4498,6 +4498,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         margin: auto;
     }
 
+    /*semi headline*/
     main > section:nth-child(3) > p:nth-child(2) {
         position: relative;
         color: #ddd9d9;
@@ -4511,42 +4512,499 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
 
-}
 
-
-
-
-@media all and (max-width: 373px) {
-    .main {
-        background-color: red;
-    }
-}
-
-@media all and (max-width: 321px) {
-    .main {
-        background-color: red;
-    }
-}
-
-@media all and (max-width: 310px) {
-    .main {
-        background-color: red;
-    }
-}
-
-@media all and (max-width: 320px) {
-    .main {
-        background-color: red;
-    }
-}
-
-@media all and (max-width: 375px) {
-    .main {
-        background-color: red;
+    /*section*/
+    main > section:nth-child(3) > section:nth-child(3) {
+        border: 1px solid red;
+        height: 285px;
+        width: 398px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 34px;
+        left: 9px;
     }
 
 
+
+    /*section 1- div*/
+    main > section:nth-child(3) > section:nth-child(3) > div:nth-child(1) {
+        background-color: #d9d9d9;
+        /* flex-shrink: 3; */
+        /* row-gap: 10px; */
+        position: relative;
+        left: 9px;
+        display: inline-block;
+    }
+
+
+    /*section 1 -div 2*/
+    main > section:nth-child(3) > section:nth-child(3) > div:nth-child(2) {
+        background-color: #d9d9d9;
+        /* flex-shrink: 3; */
+        flex-grow: 0;
+        row-gap: 5px;
+        position: absolute;
+        left: 190px;
+        top: 1px;
+        display: inline-block;
+    }
+
+    /*section 1-div 3*/
+    main > section:nth-child(3) > section:nth-child(3) > div:nth-child(3) {
+        background-color: #d9d9d9;
+        /* flex-shrink: 3; */
+        flex-grow: 0;
+        row-gap: 5px;
+        position: relative;
+        left: -161px;
+        display: inline-block;
+        /* flex-direction: column; */
+        top: 243px;
+    }
+
+
+    /*scetion 1 - div-width */
+    main > section:nth-child(3) > section:nth-child(3) > div {
+        background-color: #d9d9d9;
+        width: 170px;
+        height: 200px;
+        /* flex-shrink: 3; */
+        flex-grow: 0;
+    }
+
+
+    /*secftion 2*/
+
+
+    main > section:nth-child(3) > section:nth-child(4) {
+        border: 1px solid red;
+        height: 221px;
+        width: 406px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 219px;
+        /* bottom: -1px; */
+    }
+
+
+
+    /*div 1*/
+    main > section:nth-child(3) > section:nth-child(4) > div:nth-child(1) {
+        display: inline-block;
+        background-color: #d9d9d9;
+        /* flex-shrink: 3; */
+        flex-grow: 0;
+        row-gap: 5px;
+        position: relative;
+        display: inline-block;
+        left: 12px;
+        top: -10px;
+    }
+  /*div 2*/
+    main > section:nth-child(3) > section:nth-child(4) > div:nth-child(2) {
+        background-color: #d9d9d9;
+        /* flex-shrink: 3; */
+        flex-grow: 0;
+        row-gap: 5px;
+        position: absolute;
+        left: 200px;
+        display: inline-block;
+        top: 6px;
+    }
+
+    /*div 3*/
+    main > section:nth-child(3) > section:nth-child(4) > div:nth-child(3) {
+        background-color: #d9d9d9;
+        /* flex-shrink: 3; */
+        flex-grow: 0;
+        row-gap: 5px;
+        position: relative;
+        left: 35px;
+        display: inline-block;
+        top: -228px;
+    }
+
+    /*section2 -div*/
+    main > section:nth-child(3) > section:nth-child(4) > div {
+        background-color: #d9d9d9;
+        width: 170px;
+        height: 200px;
+        /* flex-shrink: 3; */
+        flex-grow: 0;
+    }
 }
+
+
+
+
+@media all and (max-width: 375px){
+
+
+
+
+
+    /*main*/
+
+    main>section:nth-child(1) {
+        position: relative;
+        height: 279px;
+        width: 375px;
+        top: 0;
+    }
+    #mainImg {
+        position: relative;
+        left: 0;
+        width: 364px;
+        height: 279px;
+        opacity: 32%;
+        top: 0;
+    }
+
+    .mainText {
+        position: absolute;
+        width: 325px;
+        height: 30px;
+        top: 275px;
+        left: -24px;
+        display: inline-block;
+    }
+
+
+
+    #moving01 {
+        position: relative;
+        left: -18px;
+        bottom: 10px;
+        height: 115px;
+    }
+
+
+
+    .mainText01 {
+        font-family: 'poppins';
+        font-weight: 600;
+        font-size: 13px;
+        color: #FFFFFF;
+        position: relative;
+        left: 60px;
+        bottom: 245px;
+    }
+
+    .mainText02 {
+        font-family: 'Poppins';
+        font-weight: bold;
+        font-size: 22px;
+        color: white;
+        left: 58px;
+        bottom: 274px;
+        position: relative;
+    }
+
+    .mainText03 {
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 11px;
+        color: white;
+        left: 59px;
+        bottom: 299px;
+        position: relative;
+    }
+
+
+    #HireMe_button {
+        position: relative;
+        left: 48px;
+        bottom: 289px;
+    }
+
+
+    /*semi headine section*/
+    .mainAside {
+        position: absolute;
+        top: -57px;
+        left: 64px;
+        /* display: inline-block; */
+        width: 231px;
+        height: 43px;
+    }
+
+
+    /*semi head line 1*/
+    #m01 {
+        position: relative;
+        left: -8px;
+        bottom: 10px;
+        display: inline-block;
+    }
+
+    #m02 {
+        position: relative;
+        left: -51px;
+        bottom: -18px;
+        display: inline-block;
+    }
+
+    #m03 {
+        position: relative;
+        left: -7px;
+        bottom: 12px;
+        display: inline-block;
+    }
+    #m04 {
+        position: relative;
+        left: -49px;
+        bottom: -16px;
+        display: inline-block;
+    }
+    #m05 {
+        position: relative;
+        left: -10px;
+        bottom: 10px;
+        display: inline-block;
+    }
+
+    #m06 {
+        position: relative;
+        left: -43px;
+        bottom: -6px;
+        display: inline-block;
+    }
+/*semi headline font zis*/
+    .mainText04 {
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 9px;
+        color: white;
+        /* position: relative; */
+        /* left: 60px; */
+        /* bottom: 10px; */
+    }
+/*semi semi font size*/
+    .childText01 {
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 6px;
+        color: #FFFFFF;
+    }
+
+
+
+    /*service adn solutions*/
+  /*section 1*/
+    main > section:nth-child(3) > section:nth-child(3) {
+        border: 1px solid red;
+        height: 640px;
+        width: 307px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 34px;
+        left: 26px;
+        flex-flow: column;
+    }
+
+
+    main > section:nth-child(3) > section:nth-child(3) > div:nth-child(1) {
+        background-color: #d9d9d9;
+        /* flex-shrink: 3; */
+        /* row-gap: 10px; */
+        position: absolute;
+        left: 42px;
+        display: inline-block;
+        bottom: 428px;
+    }
+
+    main > section:nth-child(3) > section:nth-child(3) > div:nth-child(2) {
+        background-color: #d9d9d9;
+        /* flex-shrink: 3; */
+        /* flex-grow: 0; */
+        /* row-gap: 5px; */
+        position: absolute;
+        left: 43px;
+        top: 241px;
+        display: inline-block;
+    }
+    main > section:nth-child(3) > section:nth-child(3) > div:nth-child(3) {
+        background-color: #d9d9d9;
+        /* flex-shrink: 3; */
+        /* flex-grow: 0; */
+        /* row-gap: 5px; */
+        position: relative;
+        left: -23px;
+        display: inline-block;
+        /* flex-direction: column; */
+        top: 243px;
+    }
+
+
+
+    /*about me section*/
+
+
+/*section*/
+    .aboutmeSection {
+        position: relative;
+        height: 385px;
+        width: 100%;
+        background-color: rgba(74, 71, 71, 0.6);
+        top: 1px;
+    }
+
+
+/*Img Div*/
+    main > section:nth-child(2) > div {
+        width: 182px;
+        height: 279px;
+        position: relative;
+        top: 76px;
+        left: 13px;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+    }
+
+/*Img*/
+    #semipic {
+        width: 179px;
+        height: 260px;
+        position: absolute;
+        top: -11px;
+        left: -4px;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    /*headline*/
+    #span_about {
+        color: white;
+        font-weight: 650;
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 25px;
+        position: relative;
+        top: -307px;
+        left: 134px;
+    }
+
+/*semi headline*/
+    #span_developer\&designer {
+        color: white;
+        font-weight: 650;
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 12px;
+        position: relative;
+        top: -329px;
+        left: 133px;
+    }
+
+/*paragraf headine*/
+    #span001 {
+        color: white;
+        font-weight: 650;
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 10px;
+        position: relative;
+        top: -322px;
+        left: 194px;
+    }
+
+
+
+
+
+/*paragraf secton*/
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) {
+        display: inline-block;
+        width: 155px;
+        height: 247px;
+        position: absolute;
+        top: 118px;
+        left: 199px;
+        /* background-color: red; */
+    }
+
+
+    /*paragraf 1*/
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(1) {
+        left: 0;
+        top: -32px;
+        position: absolute;
+    }
+
+    /*paragraf 2*/
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(2) {
+        left: 0px;
+        top: 19px;
+        position: absolute;
+    }
+
+    /*paragraf 3*/
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(3) {
+        left: 0px;
+        top: 53px;
+        position: absolute;
+    }
+/*paragraf 4*/
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(4) {
+        left: 0px;
+        top: 112px;
+        position: absolute;
+    }
+
+/*paragraf fontsize*/
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p {
+        /* font-size: 16px; */
+        font-size: 9px;
+        width: 159px;
+        /* top: -523px; */
+        /* position: relative; */
+        /* color: #ddd9d9; */
+        /* font-family: 'inter', bold; */
+    }
+
+    /*buttom*/
+    #DownloadResume {
+        padding: 6px 5px;
+        font-size: 8px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #e736d5;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 4px #999;
+        position: relative;
+        left: 220px;
+        top: -123px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+}
+
+
+
+
+
+
 
 
 
