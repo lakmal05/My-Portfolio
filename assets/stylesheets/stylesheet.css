@@ -4238,6 +4238,66 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 @media all and (max-width: 425px) {
 
 
+    body > div:nth-child(2) {
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        top: 677px;
+        right: 20px;
+        z-index: 9;
+        background: #FFFFFF;
+        /* box-shadow: 0px 4px 4px rgb(0 0 0 / 25%); */
+        border-radius: 100%;
+        background: linear-gradient(to top, #ffffff 11%, #ff99cc 100%);
+    }
+
+    body > div:nth-child(2) > a > img {
+        width: 40px;
+        height: auto;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 50px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    body > div:nth-child(3) {
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        top: 678px;
+        right: 337px;
+        z-index: 9;
+        /* background: #FFFFFF; */
+        /* box-shadow: 0px 4px 4px rgb(0 0 0 / 25%); */
+        border-radius: 58px;
+        background: linear-gradient(to top, #ffffff 11%, #ff99cc 100%);
+    }
+
+    body > div:nth-child(3) > a > img {
+        width: 40px;
+        height: auto;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 50px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+
+
+
+
+
+
+
+
     .main {
         background-color: #1e2225;
         width: 100%;
@@ -4247,30 +4307,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
 
-    body > div:nth-child(2) {
-        width: 70px;
-        height: 70px;
-        position: fixed;
-        top: 660px;
-        right: 39px;
-        z-index: 9;
-        background: #FFFFFF;
-        /* box-shadow: 0px 4px 4px rgb(0 0 0 / 25%); */
-        border-radius: 58px;
-        background: linear-gradient(to top, #ffffff 11%, #ff99cc 100%);
-    }
-    body > div:nth-child(3) {
-        width: 70px;
-        height: 70px;
-        position: fixed;
-        top: 660px;
-        right: 324px;
-        z-index: 9;
-        /*background: #FFFFFF;*/
-        /*box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);*/
-        border-radius: 58px;
-        background: linear-gradient(to top, #ffffff 11%, #ff99cc 100%);
-    }
 
 
     /*main section*/
@@ -4707,6 +4743,178 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         /* flex-shrink: 3; */
         flex-grow: 0;
     }
+
+
+
+/*skils*/
+    .skills {
+        position: relative;
+        height: 872px;
+        width: 99.8%;
+        background-color: rgba(74, 71, 71, 0.6);
+        background-color: aqua;
+        top: 10px;
+    }
+
+
+    main > section:nth-child(4) > p {
+        position: relative;
+        left: 84px;
+        top: 10px;
+        color: #FFFFFF;
+        font-size: 27px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
+
+
+/*languages headline*/
+    #skill_headlines1 {
+        position: absolute;
+        color: #FFFFFF;
+        font-size: 19px;
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-weight: 55;
+        left: 0;
+        bottom: 250px;
+        margin: auto;
+        padding: 0;
+        border: 0;
+        display: inline-block;
+    }
+
+
+
+
+    main > section:nth-child(4) > section:nth-child(2) > div:nth-child(1) {
+        height: 187px;
+        width: 145px;
+        position: relative;
+    }
+
+    main > section:nth-child(4) > section:nth-child(2) > div:nth-child(2) {
+        height: 187px;
+        width: 145px;
+        position: relative;
+        display: none;
+    }
+    main > section:nth-child(4) > section:nth-child(2) > div:nth-child(3) {
+        height: 187px;
+        width: 145px;
+        position: relative;
+        display: none;
+    }
+    main > section:nth-child(4) > section:nth-child(2) > div:nth-child(4) {
+        height: 187px;
+        width: 145px;
+        position: relative;
+        display: none;
+    }
+
+
+
+
+
+    /*/Tools*!*/
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(1) {
+        height: 199px;
+        width: 88px;
+        position: relative;
+    }
+
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(2) {
+        height: 199px;
+        width: 88px;
+        position: relative;
+        display: none;
+    }
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(3) {
+          height: 199px;
+          width: 88px;
+          position: relative;
+        display: none;
+      }
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(4) {
+            height: 199px;
+            width: 88px;
+            position: relative;
+        display: none;
+        }
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(5) {
+              height: 199px;
+              width: 88px;
+              position: relative;
+          }
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(6) {
+                height: 199px;
+                width: 88px;
+                position: relative;
+        display: none;
+            }
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(7) {
+                  height: 199px;
+                  width: 88px;
+                  position: relative;
+        display: none;
+              }
+
+
+
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(8) {
+        height: 199px;
+        width: 88px;
+        position: relative;
+        display: none;
+    }
+    /*main > section:nth-child(4) > section:nth-child(3) > div:nth-child(9) {*/
+    /*    height: 199px;*/
+    /*    width: 88px;*/
+    /*    position: relative;*/
+    /*    display: none;*/
+    /*}*/
+
+
+
+/*fraim works*/
+
+    main > section:nth-child(4) > section:nth-child(4) > div:nth-child(1) {
+        height: 185px;
+        width: 147px;
+        position: relative;
+      
+    }
+
+    main > section:nth-child(4) > section:nth-child(4) > div:nth-child(2) {
+        height: 185px;
+        width: 147px;
+        position: relative;
+        display: none;
+    }
+    main > section:nth-child(4) > section:nth-child(4) > div:nth-child(3) {
+        height: 185px;
+        width: 147px;
+        position: relative;
+        display: none;
+    } main > section:nth-child(4) > section:nth-child(4) > div:nth-child(4) {
+          height: 185px;
+          width: 147px;
+          position: relative;
+          display: none;
+      }
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
