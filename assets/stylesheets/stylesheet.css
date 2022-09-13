@@ -138,6 +138,12 @@ body > div:nth-child(3) > a > img {
 }
 
 
+
+
+
+
+
+
 /*end question and arrow lofo styles*/
 
 .main {
@@ -153,6 +159,7 @@ body > div:nth-child(3) > a > img {
     width: 99.8%;
     top: 0px;
 
+
 }
 
 .mainText01 {
@@ -163,6 +170,7 @@ body > div:nth-child(3) > a > img {
     position: relative;
     left: 60px;
     bottom: 245px;
+
 }
 
 .mainText02 {
@@ -264,7 +272,7 @@ body > div:nth-child(3) > a > img {
     position: relative;
     /*left: 232px;*/
     top: 0px;
-    background-attachment: fixed;
+
 
 }
 
@@ -1078,10 +1086,9 @@ main > section:nth-child(5) > section > div > p {
     display: flex;
     justify-content: center;
     align-items: center;
-
     flex-direction: column;
-
 }
+
 
 /*My Journey Head Line */
 main > section:nth-child(6) > p {
@@ -1337,9 +1344,12 @@ main > section:nth-child(6) > hr:nth-child(6) {
 
 
 .timeline {
-    width: 100%;
+    width: 94%;
     background-color: #fff;
-    box-shadow: 0 5px 25px 5px rgba(0, 0, 0, .2);
+    /*box-shadow: 0 5px 25px 5px rgb(0 0 0 / 20%);*/
+    height: 634px;
+    top: -141px;
+    position: relative;
 }
 
 .timeline .swiper-container {
