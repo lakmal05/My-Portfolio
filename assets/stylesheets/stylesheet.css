@@ -324,7 +324,7 @@ dfn a{
     transform-style: preserve-3d;
     transform: translateZ(-25px);
     transition: transform .25s;
-    font-family:'Poppins';
+    font-family: 'Poppins' ;
 
 }
 dfn a:before,
@@ -336,22 +336,27 @@ dfn a:after{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 5px solid black;
+    border: 2px solid black;
     box-sizing: border-box;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 dfn a:before{
+border: none;
     color: #fff;
-    background: #000;
+    background: #e736d5;
     transform: rotateY(0deg) translateZ(25px);
 }
 dfn a:after{
-    color: #000;
+    border: 2px solid black;
+    color: black;
     transform: rotateX(90deg) translateZ(25px);
 }
 dfn a:hover{
+    border: 2px solid black;
+    background: black;
     transform: translateZ(-25px) rotateX(-90deg);
 }
+
 
 
 
@@ -2146,6 +2151,14 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 /*------------------------------------------------------------------------------------------------------------------*/
 /*Responsive*/
 
+
+
+
+
+
+
+
+
 /*laptop  Responsive*/
 
 
@@ -2153,7 +2166,150 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 @media all and  (max-width: 1440px){
 
 
-}
+
+
+
+
+    /*main section*/
+    .mainSection {
+        position: relative;
+        height: 1053px;
+        width: 99.8%;
+        top: 0px;
+    }
+
+
+
+ /*main img*/
+    #mainImg {
+        width: 1429px;
+        height: 1009px;
+        opacity: 32%;
+        position: relative;
+        /* left: 232px; */
+        top: 0px;
+    }
+
+
+
+
+
+
+
+    .aboutmeSection {
+        position: relative;
+        height: 786px;
+        width: 99.8%;
+        background-color: rgba(74, 71, 71, 0.6);
+        top: -44px;
+    }
+
+
+    main > section:nth-child(2) > div {
+        width: 414px;
+        height: 555px;
+        position: relative;
+        top: 114px;
+        left: 77px;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+    }
+
+    #semipic {
+        width: 422px;
+        height: 594px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    #span_about {
+        color: white;
+        font-weight: 650;
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 49px;
+        position: relative;
+        top: -577px;
+        left: 565px;
+    }
+    #span_developer\&designer {
+        color: white;
+        font-weight: 650;
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 22px;
+        position: relative;
+        top: -604px;
+        left: 564px;
+    }
+
+
+    #span001 {
+        color: white;
+        font-weight: 650;
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-size: 34px;
+        position: relative;
+        top: -570px;
+        left: 641px;
+
+    }
+    /*paragraph*/
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) {
+        position: absolute;
+        left: 642px;
+        top: 194px;
+        /* background-color: red; */
+        width: 742px;
+        height: 438px;
+    }
+
+
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(1) {
+        left: 0px;
+        top: 22px;
+        position: absolute;
+    }
+
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(2) {
+        left: 0px;
+        top: 150px;
+        position: absolute;
+    }
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(3) {
+        left: 0px;
+        top: 230px;
+        position: absolute;
+    }
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(4) {
+        left: 0px;
+        top: 320px;
+        position: absolute;
+    }
+
+
+    #DownloadResume {
+        padding: 15px 25px;
+        font-size: 24px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #e736d5;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 4px #999;
+        position: relative;
+        left: 644px;
+        top: -158px;
+    }
+
+
+
+
+
+
+    }
 
 
 
