@@ -284,18 +284,81 @@ body > div:nth-child(3) > a > img {
 }
 
 
-#HireMe_button {
-    position: relative;
-    left: 48px;
-    bottom: 267px;
+/*#HireMe_button {*/
+/*    position: relative;*/
+/*    left: 48px;*/
+/*    bottom: 267px;*/
 
 
-}
+/*}*/
 
 
 .childText01 {
     position: initial;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+/*body{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    display: flex;*/
+/*    height: 100vh;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    background:#fff;*/
+/*}*/
+dfn{
+    position: relative;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0 15px;
+    perspective: 1000px;
+    top: -628px;
+    left: 31px;
+}
+
+dfn a{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family:'Poppins';
+
+}
+dfn a:before,
+dfn a:after{
+    position: absolute;
+    content: "Hire Me";
+    height: 55px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+dfn a:before{
+    color: #fff;
+    background: #000;
+    transform: rotateY(0deg) translateZ(25px);
+}
+dfn a:after{
+    color: #000;
+    transform: rotateX(90deg) translateZ(25px);
+}
+dfn a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+}
+
+
+
+
+
+
+
 
 
 /*about me*/
@@ -1527,60 +1590,7 @@ main > section:nth-child(6) > hr:nth-child(6) {
     transform: translateX(3px);
 }
 
-@media screen and (min-width: 768px) {
-    .timeline .swiper-slide::after {
-        right: -30%;
-        bottom: -8%;
-        width: 240px;
-        height: 50%;
-        box-shadow: -230px 0 150px 50vw rgba(0, 0, 0, .7);
-    }
 
-    .timeline .swiper-slide-content {
-        right: 30%;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 310px;
-        font-size: 11px;
-        text-align: right;
-    }
-
-    .timeline .swiper-slide .timeline-year {
-        margin-bottom: 0;
-        font-size: 32px;
-    }
-
-    .timeline .swiper-slide .timeline-title {
-        font-size: 46px;
-        margin: 0;
-    }
-
-    .timeline .swiper-pagination {
-        display: flex;
-    }
-
-    .timeline .swiper-button-prev {
-        top: 15%;
-        left: auto;
-        right: 15%;
-        transform: rotate(90deg) translate(0, 10px);
-    }
-
-    .timeline .swiper-button-prev:hover {
-        transform: rotate(90deg) translate(-3px, 10px);
-    }
-
-    .timeline .swiper-button-next {
-        top: auto;
-        bottom: 15%;
-        right: 15%;
-        transform: rotate(90deg) translate(0, 10px);
-    }
-
-    .timeline .swiper-button-next:hover {
-        transform: rotate(90deg) translate(3px, 10px);
-    }
-}
 
 
 
@@ -2137,6 +2147,16 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 /*Responsive*/
 
 /*laptop  Responsive*/
+
+
+
+@media all and  (max-width: 1440px){
+
+
+}
+
+
+
 
 @media all and (max-width: 1024px) {
 
@@ -3471,6 +3491,62 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
 /*Tablet Device 720*/
+
+
+@media screen and (min-width: 768px) {
+    .timeline .swiper-slide::after {
+        right: -30%;
+        bottom: -8%;
+        width: 240px;
+        height: 50%;
+        box-shadow: -230px 0 150px 50vw rgba(0, 0, 0, .7);
+    }
+
+    .timeline .swiper-slide-content {
+        right: 30%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 310px;
+        font-size: 11px;
+        text-align: right;
+    }
+
+    .timeline .swiper-slide .timeline-year {
+        margin-bottom: 0;
+        font-size: 32px;
+    }
+
+    .timeline .swiper-slide .timeline-title {
+        font-size: 46px;
+        margin: 0;
+    }
+
+    .timeline .swiper-pagination {
+        display: flex;
+    }
+
+    .timeline .swiper-button-prev {
+        top: 15%;
+        left: auto;
+        right: 15%;
+        transform: rotate(90deg) translate(0, 10px);
+    }
+
+    .timeline .swiper-button-prev:hover {
+        transform: rotate(90deg) translate(-3px, 10px);
+    }
+
+    .timeline .swiper-button-next {
+        top: auto;
+        bottom: 15%;
+        right: 15%;
+        transform: rotate(90deg) translate(0, 10px);
+    }
+
+    .timeline .swiper-button-next:hover {
+        transform: rotate(90deg) translate(3px, 10px);
+    }
+}
 
 
 @media all and  (max-width: 768px){
