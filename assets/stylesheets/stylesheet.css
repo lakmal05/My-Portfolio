@@ -152,6 +152,7 @@ body > div:nth-child(3) > a > img {
     height: 1046px;
     width: 99.8%;
     top: 0px;
+
 }
 
 .mainText01 {
@@ -263,6 +264,7 @@ body > div:nth-child(3) > a > img {
     position: relative;
     /*left: 232px;*/
     top: 0px;
+    background-attachment: fixed;
 
 }
 
@@ -1315,6 +1317,16 @@ main > section:nth-child(6) > hr:nth-child(6) {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
+
+
+
+
+
+
+
+
+
+
 
 
 /*Portfolio*/
@@ -4040,15 +4052,15 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(7) > section:nth-child(4) {
         display: flex;
         height: 300px;
-        width: 961px;
+        width: 726px;
         align-items: center;
         justify-content: center;
         position: absolute;
-        left: -108px;
+        left: 5px;
         top: 502px;
-        border: 1px solid red;
+        border: 1px solid aqua;
         padding: 10px;
-        column-gap: 10px;
+        column-gap: 20px;
     }
 
 
@@ -4906,6 +4918,72 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
       }
 
 
+
+
+
+
+
+/*Testimoalis*/
+
+
+
+    .class_testimonials {
+        height: 510px;
+        width: 100%;
+        background-color: rgba(74, 71, 71, 0.6);
+        position: relative;
+        top: 14px;
+    }
+
+    main > section:nth-child(8) > p {
+        position: absolute;
+        left: 133px;
+        top: 9px;
+        color: #FFFFFF;
+        font-size: 33px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
+
+    main > section:nth-child(8) > section {
+        height: 289px;
+        width: 99.8%;
+        position: absolute;
+        display: flex;
+        border: 1px yellow;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0px;
+        top: 137px;
+        column-gap: 28px;
+        /* background-color: red; */
+        flex-flow: column;
+        row-gap: 10px;
+    }
+
+
+
+    main > section:nth-child(8) > section > div:nth-child(1) {
+        height: 178px;
+        width: 316px;
+        background-color: rgba(74, 71, 71, 0.6);
+        /* position: relative; */
+        /* top: 140px; */
+        /* left: 200px; */
+    }
+
+
+    main > section:nth-child(8) > section > div:nth-child(2) {
+        height: 209px;
+        width: 316px;
+        background-color: rgba(74, 71, 71, 0.6);
+        /* position: relative; */
+        /* top: -129px; */
+        /* left: 740px; */
+    }
 
 
 
