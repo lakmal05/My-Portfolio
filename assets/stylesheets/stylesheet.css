@@ -2166,6 +2166,38 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 @media all and  (max-width: 1440px){
 
 
+    body > div:nth-child(2) {
+        width: 70px;
+        height: 70px;
+        position: fixed;
+        top: 334px;
+        right: 27px;
+        z-index: 9;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        border-radius: 58px;
+        background: linear-gradient(to top, #ffffff 11%, #ff99cc 100%);
+    }
+
+
+
+
+    body > div:nth-child(3) {
+        width: 70px;
+        height: 70px;
+        position: fixed;
+        top: 443px;
+        right: 22px;
+        z-index: 9;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        border-radius: 58px;
+        background: linear-gradient(to top, #ffffff 11%, #ff99cc 100%);
+    }
+
+
+
+
 
 
 
@@ -2983,7 +3015,95 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
 
+    /*get IN Touch*/
+    .getInTouch {
+        position: relative;
+        height: 670px;
+        width: 100%;
+        background-color: #1e2225;
+    }
+    main > section:nth-child(9) > p {
+        position: relative;
+        left: 630px;
+        top: 10px;
+        color: #FFFFFF;
+        font-size: 38px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
 
+    main > section:nth-child(9) > section {
+        display: flex;
+        height: 253px;
+        width: 1000px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 69px;
+        border: 1px solid red;
+        left: 270px;
+        padding: 10px;
+        column-gap: 10px;
+    }
+
+
+
+
+
+    main > section:nth-child(9) > section:nth-child(2) > div {
+        height: 210px;
+        width: 400px;
+        /* position: relative; */
+        background-color: crimson;
+        padding: 10px;
+        display: inline-block;
+    }
+
+
+    main > section:nth-child(9) > section:nth-child(2) > div > img {
+        position: relative;
+        left: 116px;
+        width: 67px;
+        height: 67px;
+    }
+
+
+
+
+
+
+
+
+/*footer*/
+    .footer > aside:nth-child(2) {
+        display: inline-block;
+        position: relative;
+        right: -1162px !important;
+        top: 11px;
+        border-color: crimson;
+        padding: 0;
+        /* width: 50px; */
+        /* height: 50px; */
+        /* column-gap: 18px; */
+        /* grid-column-gap: 16px; */
+    }
+
+
+    .footer>p {
+        position: absolute;
+        left: 14px;
+        top: 19px;
+        color: #FFFFFF;
+        font-size: 15px;
+        font-family: 'Poppins';
+        font-weight: 500;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
 
 
 
