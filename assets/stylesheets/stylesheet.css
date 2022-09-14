@@ -2779,6 +2779,215 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
 
+    /*Portfolio*/
+
+    .portfolio {
+        /* border: 1px crimson; */
+        /* display: grid; */
+        /* height: 720px; */
+        /* width: 300px; */
+        /* grid-gap: 10px; */
+        /* top: 10px; */
+        /* left: 50px; */
+        height: 902px;
+        width: 99.8%;
+        position: relative;
+        top: 10px;
+        background-color: #1e2225;
+    }
+
+    main > section:nth-child(7) > p {
+        position: relative;
+        left: 640px;
+        top: 10px;
+        color: #FFFFFF;
+        font-size: 43px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
+/*semi headline*/
+    main > section:nth-child(7) > div:nth-child(2) {
+        display: flex;
+        height: 75px;
+        width: 665px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 44px;
+        left: 423px;
+        border: 1px solid red;
+        column-gap: 21px;
+        flex-grow: 0;
+
+    }
+
+
+
+
+
+    main > section:nth-child(7) > section:nth-child(3) {
+        display: flex;
+        height: 253px;
+        width: 1000px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 83px;
+        border: 1px solid red;
+        left: 262px;
+        padding: 10px;
+        column-gap: 25px;
+    }
+
+
+/*Img Sizes*/
+    main > section:nth-child(7) > section:nth-child(3) > div:nth-child(1) > img {
+        position: relative;
+        height: 340px;
+        width: 245px;
+        column-gap: 10px;
+        background-color: #FFFFFF;
+        flex-grow: 0;
+    }
+
+    main > section:nth-child(7) > section:nth-child(3) > div:nth-child(2) > img {
+        position: relative;
+        height: 340px;
+        width: 245px;
+        column-gap: 10px;
+        flex-grow: 0;
+    }
+
+
+    main > section:nth-child(7) > section:nth-child(3) > div:nth-child(3) > img {
+        position: relative;
+        height: 340px;
+        width: 245px;
+        column-gap: 10px;
+    }
+
+
+
+
+/*section 2*/
+    main > section:nth-child(7) > section:nth-child(4) {
+        display: flex;
+        height: 300px;
+        width: 1000px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 264px;
+        top: 140px;
+        border: 1px solid red;
+        padding: 10px;
+        column-gap: 28px;
+    }
+
+
+
+
+    main > section:nth-child(7) > section:nth-child(4) > div:nth-child(1) > img {
+        position: relative;
+        height: 340px;
+        width: 245px;
+        column-gap: 10px;
+    }
+
+
+    main > section:nth-child(7) > section:nth-child(4) > div:nth-child(2) > img {
+        position: relative;
+        height: 340px;
+        width: 245px;
+        column-gap: 10px;
+    }
+
+
+    main > section:nth-child(7) > section:nth-child(4) > div:nth-child(3) > img {
+        position: relative;
+        height: 340px;
+        width: 245px;
+        column-gap: 10px;
+        background-color: #FFFFFF;
+    }
+
+
+
+/*Testimonils*/
+
+    .class_testimonials {
+        height: 570px;
+        width: 100%;
+        background-color: rgba(74, 71, 71, 0.6);
+        position: relative;
+        top: 10px;
+    }
+
+/*Headine*/
+    main > section:nth-child(8) > p {
+        position: relative;
+        left: 582px;
+        top: 10px;
+        color: #FFFFFF;
+        font-size: 42px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
+
+    /*Ssectionm*/
+    main > section:nth-child(8) > section {
+        height: 400px;
+        width: 99.8%;
+        position: relative;
+        display: flex;
+        border: 1px yellow;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0px;
+        top: 47px;
+        column-gap: -40px;
+    }
+
+/*Div 1*/
+    main > section:nth-child(8) > section > div:nth-child(1) {
+        height: 260px;
+        width: 445px;
+        background-color: rgba(74, 71, 71, 0.6);
+        /* position: relative; */
+        /* top: 140px; */
+        /* left: 200px; */
+    }
+
+
+/*Div 2*/
+    main > section:nth-child(8) > section > div:nth-child(2) {
+        height: 260px;
+        width: 445px;
+        background-color: rgba(74, 71, 71, 0.6);
+        /* position: relative; */
+        /* top: -129px; */
+        /* left: 740px; */
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
