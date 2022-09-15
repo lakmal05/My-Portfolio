@@ -138,12 +138,6 @@ body > div:nth-child(3) > a > img {
 }
 
 
-
-
-
-
-
-
 /*end question and arrow lofo styles*/
 
 .main {
@@ -307,7 +301,7 @@ body > div:nth-child(3) > a > img {
 /*    justify-content: center;*/
 /*    background:#fff;*/
 /*}*/
-dfn{
+dfn {
     position: relative;
     display: inline-flex;
     width: 180px;
@@ -318,17 +312,18 @@ dfn{
     left: 31px;
 }
 
-dfn a{
+dfn a {
     font-size: 19px;
     letter-spacing: 1px;
     transform-style: preserve-3d;
     transform: translateZ(-25px);
     transition: transform .25s;
-    font-family: 'Poppins' ;
+    font-family: 'Poppins';
 
 }
+
 dfn a:before,
-dfn a:after{
+dfn a:after {
     position: absolute;
     content: "Hire Me";
     height: 55px;
@@ -340,30 +335,25 @@ dfn a:after{
     box-sizing: border-box;
     border-radius: 6px;
 }
-dfn a:before{
-border: none;
+
+dfn a:before {
+    border: none;
     color: #fff;
     background: #e736d5;
     transform: rotateY(0deg) translateZ(25px);
 }
-dfn a:after{
+
+dfn a:after {
     border: 2px solid black;
     color: black;
     transform: rotateX(90deg) translateZ(25px);
 }
-dfn a:hover{
+
+dfn a:hover {
     border: 2px solid black;
     background: black;
     transform: translateZ(-25px) rotateX(-90deg);
 }
-
-
-
-
-
-
-
-
 
 
 /*about me*/
@@ -1399,8 +1389,6 @@ main > section:nth-child(6) > hr:nth-child(6) {
 }
 
 
-
-
 /*Time LINE*/
 /*.container {*/
 /*    display: flex;*/
@@ -1594,17 +1582,6 @@ main > section:nth-child(6) > hr:nth-child(6) {
 .timeline .swiper-button-next:hover {
     transform: translateX(3px);
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*Portfolio*/
@@ -2152,18 +2129,10 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 /*Responsive*/
 
 
-
-
-
-
-
-
-
 /*laptop  Responsive*/
 
 
-
-@media all and  (max-width: 1440px){
+@media all and  (max-width: 1440px) {
 
 
     body > div:nth-child(2) {
@@ -2180,8 +2149,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
     body > div:nth-child(3) {
         width: 70px;
         height: 70px;
@@ -2196,12 +2163,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-
-
-
-
     /*main section*/
     .mainSection {
         position: relative;
@@ -2211,8 +2172,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
- /*main img*/
+    /*main img*/
     #mainImg {
         width: 1429px;
         height: 1009px;
@@ -2221,11 +2181,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         /* left: 232px; */
         top: 0px;
     }
-
-
-
-
-
 
 
     .aboutmeSection {
@@ -2265,6 +2220,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         top: -577px;
         left: 565px;
     }
+
     #span_developer\&designer {
         color: white;
         font-weight: 650;
@@ -2286,6 +2242,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         left: 641px;
 
     }
+
     /*paragraph*/
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) {
         position: absolute;
@@ -2308,11 +2265,13 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         top: 150px;
         position: absolute;
     }
+
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(3) {
         left: 0px;
         top: 230px;
         position: absolute;
     }
+
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(4) {
         left: 0px;
         top: 320px;
@@ -2337,10 +2296,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-
-/*service and solutions*/
+    /*service and solutions*/
     .servicesSection {
         position: relative;
         height: 835px;
@@ -2361,6 +2317,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         text-align: center;
         margin: auto;
     }
+
     main > section:nth-child(3) > p:nth-child(2) {
         position: relative;
         color: #ddd9d9;
@@ -2373,7 +2330,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         margin: 0px;
         /* padding: 0; */
     }
-
 
 
     /*section*/
@@ -2397,8 +2353,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
     main > section:nth-child(3) > section:nth-child(3) > div {
         background-color: #d9d9d9;
         width: 286px;
@@ -2406,8 +2360,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         /* flex-shrink: 3; */
         flex-grow: 0;
     }
-
-
 
 
     main > section:nth-child(3) > section:nth-child(4) {
@@ -2422,7 +2374,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
     main > section:nth-child(3) > section:nth-child(4) > div:nth-child(1) {
         background-color: #d9d9d9;
         /* flex-shrink: 3; */
@@ -2431,7 +2382,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         position: relative;
         left: -33px;
     }
-
 
 
     main > section:nth-child(3) > section:nth-child(4) > div {
@@ -2443,16 +2393,13 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-/*skills*/
-
+    /*skills*/
     .skills {
         position: relative;
         height: 900px;
         width: 99.8%;
         background-color: rgba(74, 71, 71, 0.6);
     }
-
 
 
     main > section:nth-child(4) > p {
@@ -2469,7 +2416,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
     main > section:nth-child(4) > section:nth-child(2) {
         height: 250px;
         display: flex;
@@ -2483,9 +2429,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-/*My Projects*/
-
+    /*My Projects*/
     .myprojects {
         position: relative;
         height: 907px;
@@ -2493,7 +2437,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
         background-color: #1e2225;
     }
-
 
 
     main > section:nth-child(5) > p:nth-child(1) {
@@ -2520,7 +2463,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         top: 42px;
         display: inline-block;
     }
-
 
 
     main > section:nth-child(5) > section:nth-child(3) {
@@ -2552,7 +2494,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-/*!*Projct section 2*!*/
+    /*!*Projct section 2*!*/
     main > section:nth-child(5) > section:nth-child(4) {
         border: 1px solid red;
         height: 250px;
@@ -2566,14 +2508,14 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         column-gap: 139px;
     }
 
-/*Div*/
+    /*Div*/
     main > section:nth-child(5) > section:nth-child(4) > div {
         border: 1px solid orange;
         width: 250px;
         height: 255px;
     }
 
-/*Img */
+    /*Img */
     main > section:nth-child(5) > section:nth-child(4) > div > a > img {
         width: 340px;
         height: 250px;
@@ -2583,10 +2525,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-/*My Journy*/
-
-
+    /*My Journy*/
     /*section*/
     .myJourney {
         height: 795px;
@@ -2609,27 +2548,20 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         display: inline-block;
         text-align: center;
         margin: auto;
-        display: inline-block;
+        /*display: inline-block;*/
         top: 4474px;
         z-index: 999;
+        display: none;
     }
 
 
-
-
-
-
-
     /*Time LINE*/
-
-
-
     .timeline {
         width: 100%;
         background-color: #fff;
         /* box-shadow: 0 5px 25px 5px rgb(0 0 0 / 20%); */
         height: 582px;
-        top: -54px;
+        top: -107px;
         position: relative;
     }
 
@@ -2809,10 +2741,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
     /*Portfolio*/
-
     .portfolio {
         /* border: 1px crimson; */
         /* display: grid; */
@@ -2824,7 +2753,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         height: 902px;
         width: 99.8%;
         position: relative;
-        top: 10px;
+        top: -325px;
         background-color: #1e2225;
     }
 
@@ -2840,7 +2769,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         text-align: center;
         margin: auto;
     }
-/*semi headline*/
+
+    /*semi headline*/
     main > section:nth-child(7) > div:nth-child(2) {
         display: flex;
         height: 75px;
@@ -2855,9 +2785,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         flex-grow: 0;
 
     }
-
-
-
 
 
     main > section:nth-child(7) > section:nth-child(3) {
@@ -2875,7 +2802,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-/*Img Sizes*/
+    /*Img Sizes*/
     main > section:nth-child(7) > section:nth-child(3) > div:nth-child(1) > img {
         position: relative;
         height: 340px;
@@ -2902,9 +2829,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-/*section 2*/
+    /*section 2*/
     main > section:nth-child(7) > section:nth-child(4) {
         display: flex;
         height: 300px;
@@ -2918,8 +2843,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         padding: 10px;
         column-gap: 28px;
     }
-
-
 
 
     main > section:nth-child(7) > section:nth-child(4) > div:nth-child(1) > img {
@@ -2947,9 +2870,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-/*Testimonils*/
-
+    /*Testimonils*/
     .class_testimonials {
         height: 570px;
         width: 100%;
@@ -2958,7 +2879,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         top: 10px;
     }
 
-/*Headine*/
+    /*Headine*/
     main > section:nth-child(8) > p {
         position: relative;
         left: 582px;
@@ -2986,7 +2907,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         column-gap: -40px;
     }
 
-/*Div 1*/
+    /*Div 1*/
     main > section:nth-child(8) > section > div:nth-child(1) {
         height: 260px;
         width: 445px;
@@ -2997,7 +2918,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-/*Div 2*/
+    /*Div 2*/
     main > section:nth-child(8) > section > div:nth-child(2) {
         height: 260px;
         width: 445px;
@@ -3008,13 +2929,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-
-
-
-
-
     /*get IN Touch*/
     .getInTouch {
         position: relative;
@@ -3022,6 +2936,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         width: 100%;
         background-color: #1e2225;
     }
+
     main > section:nth-child(9) > p {
         position: relative;
         left: 630px;
@@ -3050,9 +2965,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-
     main > section:nth-child(9) > section:nth-child(2) > div {
         height: 210px;
         width: 400px;
@@ -3071,13 +2983,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-
-
-
-
-/*footer*/
+    /*footer*/
     .footer > aside:nth-child(2) {
         display: inline-block;
         position: relative;
@@ -3092,7 +2998,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-    .footer>p {
+    .footer > p {
         position: absolute;
         left: 14px;
         top: 19px;
@@ -3106,20 +3012,12 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-
-
-
 }
-
-
 
 
 @media all and (max-width: 1024px) {
 
     /*scrolling arow*/
-
     body > div:nth-child(2) {
         width: 70px;
         height: 70px;
@@ -3327,7 +3225,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         margin: 0;
     }
 
-/*HEAD liNE*/
+    /*HEAD liNE*/
     #span_about {
         color: white;
         font-weight: 650;
@@ -3379,7 +3277,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
     /*Paragph*/
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p {
         font-size: 16px;
@@ -3398,6 +3295,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         top: 19px;
         position: absolute;
     }
+
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(2) {
         left: -9px;
         top: 150px;
@@ -3409,12 +3307,12 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         top: 230px;
         position: absolute;
     }
+
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(4) {
         left: -8px;
         top: 320px;
         position: absolute;
     }
-
 
 
     #DownloadResume {
@@ -3696,7 +3594,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
     /*main HEad line skills*/
-   main > section:nth-child(4) > p {
+    main > section:nth-child(4) > p {
         position: relative;
         left: 340px;
         top: 10px;
@@ -4035,7 +3933,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         background-color: white;
     }
 
-  /*HEad Line*/
+    /*HEad Line*/
     main > section:nth-child(6) > p {
         color: black;
         left: 388px;
@@ -4046,10 +3944,10 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         display: inline-block;
         text-align: center;
         margin: auto;
-        display: inline-block;
+        display: none;
     }
 
-/*scools semi line*/
+    /*scools semi line*/
     main > section:nth-child(6) > section:nth-child(2) > pre:nth-child(3) {
         position: relative;
         left: 440px;
@@ -4084,13 +3982,12 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
     /*portfoliio*/
     .portfolio {
         height: 915px;
         width: 100%;
         position: relative;
-        top: 14px;
+        top: -340px;
         background-color: red;
     }
 
@@ -4124,6 +4021,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         flex-grow: 0;
 
     }
+
     /*FRAIM section*/
     main > section:nth-child(7) > section:nth-child(3) {
         display: flex;
@@ -4177,7 +4075,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-/*sclectin*/
+    /*sclectin*/
     main > section:nth-child(7) > div:nth-child(2) > p {
         font-family: 'Poppins', "Segoe UI Semibold";
         font-size: 16px;
@@ -4201,8 +4099,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
     main > section:nth-child(7) > section:nth-child(4) {
         display: flex;
         height: 300px;
@@ -4218,20 +4114,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     /*Div */
-
     main > section:nth-child(7) > section:nth-child(3) {
         display: flex;
         height: 253px;
@@ -4245,10 +4128,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         padding: 10px;
         column-gap: 10px;
     }
-
-
-
-
 
 
     /*Testimonials*/
@@ -4375,6 +4254,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         opacity: 20%;
         display: inline-block;
     }
+
     /*form input 2*/
     main > section:nth-child(9) > form:nth-child(3) > div:nth-child(2) > input {
         height: 30px;
@@ -4407,9 +4287,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-/*Button*/
+    /*Button*/
     #connect {
         background: #27E1C0;
         border: 2px solid #27E1C0;
@@ -4427,11 +4305,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-
-
-
     /*footer*/
     .footer {
         position: relative;
@@ -4443,9 +4316,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
 }
-
-
-
 
 
 /*Tablet Device 720*/
@@ -4507,12 +4377,10 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 }
 
 
-@media all and  (max-width: 768px){
-
+@media all and  (max-width: 768px) {
 
 
     /*scrolling arrows*/
-
     body > div:nth-child(2) {
         width: 50px;
         height: 50px;
@@ -4540,7 +4408,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-/*question mark */
+    /*question mark */
     body > div:nth-child(3) {
         width: 50px;
         height: 50px;
@@ -4568,28 +4436,14 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-
-
-
-
-        /*main section*/
-
-
+    /*main section*/
     .main {
         background-color: #1e2225;
     }
 
 
-
-
-
-
-
-
-/* main section*/
-    main>section:nth-child(1) {
+    /* main section*/
+    main > section:nth-child(1) {
         position: relative;
         height: 645px;
         width: 758px;
@@ -4606,15 +4460,15 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         top: 0;
     }
 
-        /*semi head line tag*/
-        .mainAside {
-                position: absolute;
-                top: 169px;
+    /*semi head line tag*/
+    .mainAside {
+        position: absolute;
+        top: 169px;
 
-                left: 24px;
-            }
+        left: 24px;
+    }
 
-/*aside main*/
+    /*aside main*/
     .mainText {
         position: absolute;
         width: 657px;
@@ -4640,6 +4494,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         left: 60px;
         bottom: 245px;
     }
+
     .mainText02 {
         font-family: 'Poppins';
         font-weight: bold;
@@ -4660,9 +4515,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
     /*semi topics*/
-
     .mainAside {
         position: absolute;
         top: 92px;
@@ -4682,6 +4535,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         bottom: -31px;
         display: inline-block;
     }
+
     #m03 {
         position: relative;
         left: -7px;
@@ -4702,6 +4556,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         bottom: 10px;
         display: inline-block;
     }
+
     #m06 {
         position: relative;
         left: -63px;
@@ -4710,11 +4565,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
     /*about me section*/
-
-
     .aboutmeSection {
         position: relative;
         height: 735px;
@@ -4746,7 +4597,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         left: 314px;
     }
 
-/*semi picher div*/
+    /*semi picher div*/
     main > section:nth-child(2) > div {
         width: 379px;
         height: 517px;
@@ -4781,7 +4632,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-/*paragraf section*/
+    /*paragraf section*/
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) {
         display: inline-block;
         width: 377px;
@@ -4812,7 +4663,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
- /*Download button*/
+    /*Download button*/
     #DownloadResume {
         padding: 15px 25px;
         font-size: 24px;
@@ -4830,8 +4681,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
     /*Service and solutions*/
     .servicesSection {
         position: relative;
@@ -4842,7 +4691,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         top: -52px;
     }
 
-  /* main head line*/
+    /* main head line*/
     main > section:nth-child(3) > p:nth-child(1) {
         position: relative;
         left: 183px;
@@ -4895,9 +4744,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-
     /*section 1 div*/
     main > section:nth-child(3) > section:nth-child(3) > div {
         background-color: #d9d9d9;
@@ -4906,7 +4752,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         /* flex-shrink: 3; */
         flex-grow: 0;
     }
-/*section 2 div*/
+
+    /*section 2 div*/
     main > section:nth-child(3) > section:nth-child(4) > div {
         background-color: #d9d9d9;
         width: 202px;
@@ -4916,9 +4763,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-/*skills*/
-
-/*section*/
+    /*skills*/
+    /*section*/
     .skills {
         position: relative;
         height: 872px;
@@ -4960,10 +4806,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-
-/*Lamguage section*/
+    /*Lamguage section*/
     main > section:nth-child(4) > section:nth-child(2) {
         height: 231px;
         display: flex;
@@ -4995,8 +4838,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         bottom: 0;
         margin: auto;
     }
-
-
 
 
     /*Tools section*/
@@ -5033,9 +4874,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-/*Fraim Works section*/
-
+    /*Fraim Works section*/
     main > section:nth-child(4) > section:nth-child(4) {
         height: 210px;
         display: flex;
@@ -5069,10 +4908,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
     /*projects*/
-
     /*section*/
     .myprojects {
         position: relative;
@@ -5083,7 +4919,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-/*head line*/
+    /*head line*/
     main > section:nth-child(5) > p:nth-child(1) {
         position: absolute;
         left: 283px;
@@ -5111,8 +4947,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-/*section 1 */
+    /*section 1 */
     main > section:nth-child(5) > section:nth-child(3) {
         border: 1px solid red;
         display: flex;
@@ -5126,7 +4961,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         column-gap: 71px;
     }
 
-/*section 1 div*/
+    /*section 1 div*/
     main > section:nth-child(5) > section:nth-child(3) > div {
         border: 1px solid orange;
         width: 169px;
@@ -5134,7 +4969,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
- /*section img*/
+    /*section img*/
     main > section:nth-child(5) > section:nth-child(3) > div > a > img {
         width: 220px;
         height: 284px;
@@ -5142,7 +4977,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         position: relative;
         /* left: -30px; */
     }
-
 
 
     /*sction 2*/
@@ -5160,7 +4994,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-/*section 2*/
+    /*section 2*/
     main > section:nth-child(5) > section:nth-child(4) {
         border: 1px solid red;
         height: 250px;
@@ -5192,13 +5026,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-
-
     /*Journy*/
-
-
     /*sectio0n*/
     .myJourney {
         position: relative;
@@ -5208,9 +5036,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         background-color: white;
 
 
-
     }
-
 
 
     /*head line*/
@@ -5223,9 +5049,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-/*semi semi head line */
+    /*semi semi head line */
     main > section:nth-child(6) > section:nth-child(2) > pre:nth-child(3) {
         position: relative;
         left: 248px;
@@ -5247,6 +5071,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         font-family: 'Nunito', sans-serif;
         display: inline-block;
     }
+
     main > section:nth-child(6) > section:nth-child(4) > pre:nth-child(3) {
         position: relative;
         left: 260px;
@@ -5257,6 +5082,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         font-family: 'Nunito', sans-serif;
         display: inline-block;
     }
+
     main > section:nth-child(6) > section:nth-child(5) > pre:nth-child(3) {
         position: relative;
         left: 484px;
@@ -5269,8 +5095,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-/*Portfolio*/
-
+    /*Portfolio*/
     .portfolio {
         height: 915px;
         width: 100%;
@@ -5278,7 +5103,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         top: 14px;
         background-color: red;
     }
-
 
 
     /*main head line*/
@@ -5296,7 +5120,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
- /*selection s*/
+    /*selection s*/
     main > section:nth-child(7) > div:nth-child(2) {
         display: flex;
         height: 43px;
@@ -5312,8 +5136,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-   /*selection fonts*/
+    /*selection fonts*/
     main > section:nth-child(7) > div:nth-child(2) > p {
         font-family: 'Poppins', "Segoe UI Semibold";
         font-size: 14px;
@@ -5322,8 +5145,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-         /*first pic 1*/
-
+    /*first pic 1*/
     main > section:nth-child(7) > section:nth-child(3) {
         display: flex;
         height: 253px;
@@ -5348,7 +5170,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-/*second pic 3*/
+    /*second pic 3*/
     main > section:nth-child(7) > section:nth-child(4) {
         display: flex;
         height: 300px;
@@ -5364,7 +5186,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
     main > section:nth-child(7) > section:nth-child(4) > div > img {
         position: relative !important;
         height: 325px !important;
@@ -5375,9 +5196,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-/*testimonials*/
+    /*testimonials*/
     .class_testimonials {
         height: 510px;
         width: 100%;
@@ -5387,8 +5206,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-/* head line*/
-
+    /* head line*/
     main > section:nth-child(8) > p {
         position: absolute;
         left: 284px;
@@ -5403,10 +5221,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
     /*Section*/
-
-
     main > section:nth-child(8) > section {
         height: 289px;
         width: 99.8%;
@@ -5422,7 +5237,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-/*1 div*/
+    /*1 div*/
     main > section:nth-child(8) > section > div:nth-child(1) {
         height: 209px;
         width: 316px;
@@ -5432,7 +5247,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         /* left: 200px; */
     }
 
-/*2nd div*/
+    /*2nd div*/
     main > section:nth-child(8) > section > div:nth-child(2) {
         height: 209px;
         width: 316px;
@@ -5443,9 +5258,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
     /*ger in touch*/
-
     .getInTouch {
         position: relative;
         height: 670px;
@@ -5470,7 +5283,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
- /*section*/
+    /*section*/
     main > section:nth-child(9) > section {
         display: flex;
         height: 208px;
@@ -5485,7 +5298,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         column-gap: 20px;
     }
 
-     /*Div*/
+    /*Div*/
     main > section:nth-child(9) > section:nth-child(2) > div {
         height: 210px;
         width: 239px;
@@ -5495,7 +5308,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         display: inline-block;
     }
 
-        /*form*/
+    /*form*/
     main > section:nth-child(9) > form:nth-child(3) {
         position: relative;
         left: 74px;
@@ -5505,8 +5318,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
     /*footer*/
-
-
     .footer {
         position: relative;
         height: 61px;
@@ -5517,9 +5328,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
     /*quic links*/
-
     .footer > aside:nth-child(2) {
         display: inline-block;
         position: relative;
@@ -5535,14 +5344,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     /*footer head lime*/
 
 
-
-
-
-
-
-
-
-    }
+}
 
 
 /*moblie  320 px*/
@@ -5603,32 +5405,20 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-
-
-
-
-
     .main {
         background-color: #1e2225;
         width: 100%;
     }
 
     /*srolling arrow */
-
-
-
-
-
     /*main section*/
-
-    main>section:nth-child(1) {
+    main > section:nth-child(1) {
         position: relative;
         height: 592px;
         width: 416px;
         top: 0;
     }
+
     #mainImg {
         position: relative;
         left: 0;
@@ -5637,6 +5427,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         opacity: 32%;
         top: 0;
     }
+
     .mainText {
         position: absolute;
         width: 657px;
@@ -5644,14 +5435,12 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         top: 276px;
         left: -24px;
     }
+
     #moving01 {
         position: relative;
         left: -18px;
         bottom: 10px;
     }
-
-
-
 
 
     .mainText02 {
@@ -5663,6 +5452,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         bottom: 267px;
         position: relative;
     }
+
     .mainText03 {
         font-family: 'Poppins', "Segoe UI Semibold";
         font-size: 15px;
@@ -5678,15 +5468,13 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         left: 48px;
         bottom: 289px;
     }
+
     button, input, optgroup, select, textarea {
         font-family: inherit;
         font-size: 89%;
         line-height: 1.15;
         margin: 0;
     }
-
-
-
 
 
     /*semi head line*/
@@ -5706,6 +5494,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         bottom: 10px;
         display: inline-block;
     }
+
     #m02 {
         position: relative;
         left: -74px;
@@ -5719,12 +5508,14 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         bottom: 12px;
         display: inline-block;
     }
+
     #m04 {
         position: relative;
         left: -77px;
         bottom: -31px;
         display: inline-block;
     }
+
     #m05 {
         position: relative;
         left: -10px;
@@ -5739,7 +5530,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         display: inline-block;
     }
 
-/*headines font size*/
+    /*headines font size*/
     .mainText04 {
         font-family: 'Poppins', "Segoe UI Semibold";
         font-size: 14px;
@@ -5757,7 +5548,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
     /*about me*/
-/*section*/
+    /*section*/
     .aboutmeSection {
         position: relative;
         height: 423px;
@@ -5778,7 +5569,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         left: 149px;
     }
 
-/*semi headline*/
+    /*semi headline*/
     #span_developer\&designer {
         color: white;
         font-weight: 650;
@@ -5790,8 +5581,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
- /*image DiV*/
+    /*image DiV*/
     main > section:nth-child(2) > div {
         width: 175px;
         height: 314px;
@@ -5815,7 +5605,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-/*paragraf headine*/
+    /*paragraf headine*/
     #span001 {
         color: white;
         font-weight: 650;
@@ -5826,7 +5616,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         left: 212px;
     }
 
-     /*paragraf section*/
+    /*paragraf section*/
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) {
         display: inline-block;
         width: 186px;
@@ -5838,12 +5628,13 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-   /*prargraf 1*/
+    /*prargraf 1*/
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(1) {
         left: 0;
         top: 1px;
         position: absolute;
     }
+
     /*prargraf 1*/
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(2) {
         left: 0px;
@@ -5857,6 +5648,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         top: 107px;
         position: absolute;
     }
+
     /*prargraf 1*/
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(4) {
         left: 0px;
@@ -5865,7 +5657,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
     /*paragraf font sizes*/
-
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p {
         /* font-size: 16px; */
         font-size: 10px;
@@ -5877,7 +5668,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-/*Download Button*/
+    /*Download Button*/
     #DownloadResume {
         padding: 6px 5px;
         font-size: 8px;
@@ -5894,8 +5685,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         top: -88px;
     }
 
-/*solution and servicesw*/
-
+    /*solution and servicesw*/
     .servicesSection {
         position: relative;
         height: 794px;
@@ -5904,6 +5694,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         /* background-color: red; */
         top: -275px;
     }
+
     main > section:nth-child(3) > p:nth-child(1) {
         position: relative;
         left: 43px;
@@ -5930,8 +5721,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
     /*section*/
     main > section:nth-child(3) > section:nth-child(3) {
         border: 1px solid red;
@@ -5944,7 +5733,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         top: 34px;
         left: 9px;
     }
-
 
 
     /*section 1- div*/
@@ -5995,8 +5783,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
     /*secftion 2*/
-
-
     main > section:nth-child(3) > section:nth-child(4) {
         border: 1px solid red;
         height: 221px;
@@ -6008,7 +5794,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         top: 219px;
         /* bottom: -1px; */
     }
-
 
 
     /*div 1*/
@@ -6023,7 +5808,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         left: 12px;
         top: -10px;
     }
-  /*div 2*/
+
+    /*div 2*/
     main > section:nth-child(3) > section:nth-child(4) > div:nth-child(2) {
         background-color: #d9d9d9;
         /* flex-shrink: 3; */
@@ -6057,8 +5843,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-/*skils*/
+    /*skils*/
     .skills {
         position: relative;
         height: 872px;
@@ -6083,7 +5868,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-/*languages headline*/
+    /*languages headline*/
     #skill_headlines1 {
         position: absolute;
         color: #FFFFFF;
@@ -6099,8 +5884,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
     main > section:nth-child(4) > section:nth-child(2) > div:nth-child(1) {
         height: 187px;
         width: 145px;
@@ -6113,21 +5896,20 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         position: relative;
         display: none;
     }
+
     main > section:nth-child(4) > section:nth-child(2) > div:nth-child(3) {
         height: 187px;
         width: 145px;
         position: relative;
         display: none;
     }
+
     main > section:nth-child(4) > section:nth-child(2) > div:nth-child(4) {
         height: 187px;
         width: 145px;
         position: relative;
         display: none;
     }
-
-
-
 
 
     /*/Tools*!*/
@@ -6143,36 +5925,40 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         position: relative;
         display: none;
     }
-    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(3) {
-          height: 199px;
-          width: 88px;
-          position: relative;
-        display: none;
-      }
-    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(4) {
-            height: 199px;
-            width: 88px;
-            position: relative;
-        display: none;
-        }
-    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(5) {
-              height: 199px;
-              width: 88px;
-              position: relative;
-          }
-    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(6) {
-                height: 199px;
-                width: 88px;
-                position: relative;
-        display: none;
-            }
-    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(7) {
-                  height: 199px;
-                  width: 88px;
-                  position: relative;
-        display: none;
-              }
 
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(3) {
+        height: 199px;
+        width: 88px;
+        position: relative;
+        display: none;
+    }
+
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(4) {
+        height: 199px;
+        width: 88px;
+        position: relative;
+        display: none;
+    }
+
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(5) {
+        height: 199px;
+        width: 88px;
+        position: relative;
+    }
+
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(6) {
+        height: 199px;
+        width: 88px;
+        position: relative;
+        display: none;
+    }
+
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(7) {
+        height: 199px;
+        width: 88px;
+        position: relative;
+        display: none;
+    }
 
 
     main > section:nth-child(4) > section:nth-child(3) > div:nth-child(8) {
@@ -6181,17 +5967,14 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         position: relative;
         display: none;
     }
+
     /*main > section:nth-child(4) > section:nth-child(3) > div:nth-child(9) {*/
     /*    height: 199px;*/
     /*    width: 88px;*/
     /*    position: relative;*/
     /*    display: none;*/
     /*}*/
-
-
-
-/*fraim works*/
-
+    /*fraim works*/
     main > section:nth-child(4) > section:nth-child(4) > div:nth-child(1) {
         height: 185px;
         width: 147px;
@@ -6205,28 +5988,111 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         position: relative;
         display: none;
     }
+
     main > section:nth-child(4) > section:nth-child(4) > div:nth-child(3) {
         height: 185px;
         width: 147px;
         position: relative;
         display: none;
-    } main > section:nth-child(4) > section:nth-child(4) > div:nth-child(4) {
-          height: 185px;
-          width: 147px;
-          position: relative;
-          display: none;
+    }
+
+    main > section:nth-child(4) > section:nth-child(4) > div:nth-child(4) {
+        height: 185px;
+        width: 147px;
+        position: relative;
+        display: none;
+    }
+
+
+    /*My Journy*/
+    main > section:nth-child(6) > p {
+        color: black;
+        left: 388px;
+        position: absolute;
+        font-size: 37px;
+        font-family: 'Poppins', "Segoe UI Semibold";
+        font-weight: 600;
+
+        text-align: center;
+        margin: auto;
+        display: none;
+    }
+
+
+    /*pORTFOLIO*/
+    .portfolio {
+        height: 915px;
+        width: 100%;
+        position: relative;
+        top: -95px;
+        background-color: red;
+    }
+
+    main > section:nth-child(7) > section:nth-child(3) {
+         /*display: !important;*/
+        height: 253px;
+        width: 453px;
+        /* align-items: center; */
+        /* justify-content: center; */
+        position: absolute;
+        top: 169px;
+        /* border: 1px solid red; */
+        left: -34px;
+        padding: 10px;
+        /* column-gap: 19px; */
+    }
+
+
+
+    main > section:nth-child(7) > section:nth-child(3) > div {
+        height: 250px;
+        width: 250px;
+        background-color: yellow;
+        overflow-x: hidden;
+    }
+
+    main > section:nth-child(7) > section:nth-child(3) > div > section:nth-child(1) {
+        display: block !important;
+        height: 94%;
+        width: 200%;
+        border: 5px solid red;
+        animation-name: slide-show;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: linear ;
+
+    }
+
+
+
+
+
+
+    @keyframes slide-show {
+        0%,30% {
+            transform: translateX(0%);
+        }
+      70%,100%{
+          transform: translateX(-50%);
       }
 
+    }
+
+    main > section:nth-child(7) > section:nth-child(3) > div > section:nth-child(1) > div {
+        height: 100%;
+        width: 100%;
+        border: 5px solid black;
+    }
+
+    main > section:nth-child(7) > section:nth-child(3) > div > section:nth-child(1) > div > img {
+        height: 100%;
+        width: 100%;
+        /*border: 5px solid black;*/
+    }
 
 
-
-
-
-
-/*Testimoalis*/
-
-
-
+    /*Testimoalis*/
     .class_testimonials {
         height: 510px;
         width: 100%;
@@ -6265,7 +6131,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
     main > section:nth-child(8) > section > div:nth-child(1) {
         height: 178px;
         width: 316px;
@@ -6286,19 +6151,10 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-
-
-
-
-
 }
 
 
-
-
-@media all and (max-width: 375px){
+@media all and (max-width: 375px) {
 
 
     body > div:nth-child(2) {
@@ -6356,15 +6212,14 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
     /*main*/
-
-    main>section:nth-child(1) {
+    main > section:nth-child(1) {
         position: relative;
         height: 279px;
         width: 375px;
         top: 0;
     }
+
     #mainImg {
         position: relative;
         left: 0;
@@ -6384,14 +6239,12 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
     #moving01 {
         position: relative;
         left: -18px;
         bottom: 10px;
         height: 115px;
     }
-
 
 
     .mainText01 {
@@ -6463,12 +6316,14 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         bottom: 12px;
         display: inline-block;
     }
+
     #m04 {
         position: relative;
         left: -49px;
         bottom: -16px;
         display: inline-block;
     }
+
     #m05 {
         position: relative;
         left: -10px;
@@ -6482,7 +6337,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         bottom: -6px;
         display: inline-block;
     }
-/*semi headline font zis*/
+
+    /*semi headline font zis*/
     .mainText04 {
         font-family: 'Poppins', "Segoe UI Semibold";
         font-size: 9px;
@@ -6491,7 +6347,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         /* left: 60px; */
         /* bottom: 10px; */
     }
-/*semi semi font size*/
+
+    /*semi semi font size*/
     .childText01 {
         font-family: 'Poppins', "Segoe UI Semibold";
         font-size: 6px;
@@ -6499,9 +6356,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
     /*service adn solutions*/
-  /*section 1*/
+    /*section 1*/
     main > section:nth-child(3) > section:nth-child(3) {
         border: 1px solid red;
         height: 640px;
@@ -6536,6 +6392,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         top: 241px;
         display: inline-block;
     }
+
     main > section:nth-child(3) > section:nth-child(3) > div:nth-child(3) {
         background-color: #d9d9d9;
         /* flex-shrink: 3; */
@@ -6549,11 +6406,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
     /*about me section*/
-
-
-/*section*/
+    /*section*/
     .aboutmeSection {
         position: relative;
         height: 385px;
@@ -6563,7 +6417,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-/*Img Div*/
+    /*Img Div*/
     main > section:nth-child(2) > div {
         width: 182px;
         height: 279px;
@@ -6575,7 +6429,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         display: inline-block;
     }
 
-/*Img*/
+    /*Img*/
     #semipic {
         width: 179px;
         height: 260px;
@@ -6598,7 +6452,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         left: 134px;
     }
 
-/*semi headline*/
+    /*semi headline*/
     #span_developer\&designer {
         color: white;
         font-weight: 650;
@@ -6609,7 +6463,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         left: 133px;
     }
 
-/*paragraf headine*/
+    /*paragraf headine*/
     #span001 {
         color: white;
         font-weight: 650;
@@ -6621,10 +6475,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-
-/*paragraf secton*/
+    /*paragraf secton*/
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) {
         display: inline-block;
         width: 155px;
@@ -6656,14 +6507,15 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         top: 53px;
         position: absolute;
     }
-/*paragraf 4*/
+
+    /*paragraf 4*/
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(4) {
         left: 0px;
         top: 112px;
         position: absolute;
     }
 
-/*paragraf fontsize*/
+    /*paragraf fontsize*/
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p {
         /* font-size: 16px; */
         font-size: 9px;
@@ -6692,9 +6544,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-/*skils*/
-
+    /*skils*/
     .servicesSection {
         position: relative;
         height: 1783px;
@@ -6785,11 +6635,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
     /*section 2*/
-
-
     main > section:nth-child(3) > section:nth-child(4) {
         border: 1px solid red;
         height: 716px;
@@ -6816,6 +6662,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         left: -3px;
         top: -121px;
     }
+
     main > section:nth-child(3) > section:nth-child(4) > div:nth-child(2) {
         background-color: #d9d9d9;
         /* flex-shrink: 3; */
@@ -6849,10 +6696,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-/*Skills*/
-
+    /*Skills*/
     /*section*/
-
     .skills {
         position: relative;
         height: 888px;
@@ -6863,7 +6708,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
     /*main headline*/
-
     main > section:nth-child(4) > p {
         position: relative;
         left: 55px;
@@ -6878,7 +6722,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-/*languages*/
+    /*languages*/
     main > section:nth-child(4) > section:nth-child(2) {
         height: 231px;
         display: flex;
@@ -6892,6 +6736,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         margin: auto;
 
     }
+
     /*languages headline*/
     #skill_headlines1 {
         position: absolute;
@@ -6908,24 +6753,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     /*Prject and reserch*/
-
-
     .myprojects {
         position: relative;
         height: 1000px;
@@ -6960,8 +6788,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
     main > section:nth-child(5) > section:nth-child(3) {
         border: 1px solid red;
         display: flex;
@@ -6986,6 +6812,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         position: relative;
         left: -25px;
     }
+
     main > section:nth-child(5) > section:nth-child(3) > div > a > img {
         width: 284px;
         height: 217px;
@@ -6994,6 +6821,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         left: 0;
         top: 0;
     }
+
     main > section:nth-child(5) > section > div > p {
         font-family: 'Poppins', Regular;
         font-size: 20px;
@@ -7002,7 +6830,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-/*section 3 disply none*/
+    /*section 3 disply none*/
     main > section:nth-child(5) > section:nth-child(4) {
         border: 1px solid red;
         height: 250px;
@@ -7019,8 +6847,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
     /*My Journey*/
-
-
     .myJourney {
         position: relative;
         top: 14px;
@@ -7036,12 +6862,11 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         font-size: 30px;
         font-family: 'Poppins', "Segoe UI Semibold";
         font-weight: 600;
-        display: inline-block;
+        /*display: inline-block;*/
         text-align: center;
         margin: auto;
-        display: inline-block;
+        display: none;
     }
-
 
 
     /*section 1*/
@@ -7058,7 +6883,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         margin: auto;
         display: inline-block;
     }
-/*section 1 semi headline*/
+
+    /*section 1 semi headline*/
     main > section:nth-child(6) > section:nth-child(2) > pre:nth-child(3) {
         position: relative;
         left: 147px;
@@ -7099,8 +6925,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-/*sectin 3*/
+    /*sectin 3*/
     main > section:nth-child(6) > section:nth-child(4) > p:nth-child(2) {
         /*text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);*/
         font-size: 20px;
@@ -7114,6 +6939,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         margin: auto;
         display: inline-block;
     }
+
     /*sectin 3 semi headine*/
     main > section:nth-child(6) > section:nth-child(4) > pre:nth-child(3) {
         position: relative;
@@ -7125,7 +6951,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         font-family: 'Nunito', sans-serif;
         display: inline-block;
     }
-
 
 
     /*sectipon 4*/
@@ -7143,10 +6968,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-        /*section 4 semi headine*/
-
+    /*section 4 semi headine*/
     main > section:nth-child(6) > section:nth-child(5) > pre:nth-child(3) {
         position: relative;
         left: 54px;
@@ -7159,16 +6981,12 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
     /*portfolio*/
-
-
     .portfolio {
         height: 861px;
         width: 100%;
         position: relative;
-        top: 14px;
+        top: -341px;
         background-color: red;
     }
 
@@ -7187,61 +7005,72 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-    main > section:nth-child(7) > div:nth-child(2) {
-        display: flex;
-        height: 43px;
-        width: 665px;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        top: 80px;
-        left: 69px;
-        border: 1px solid red;
-        column-gap: 20px;
-        flex-grow: 0;
-        display: none;
-    }
-
-/*section 1*/
     main > section:nth-child(7) > section:nth-child(3) {
-        display: flex;
+        /*display: !important;*/
         height: 253px;
-        width: 672px;
-        align-items: center;
-        justify-content: center;
+        width: 453px;
+        /* align-items: center; */
+        /* justify-content: center; */
         position: absolute;
         top: 169px;
-        border: 1px solid red;
-        left: 36px;
+        /* border: 1px solid red; */
+        left: -34px;
         padding: 10px;
-        column-gap: 19px;
-    }
-
-/*section 2*/
-    main > section:nth-child(7) > section:nth-child(4) {
-        display: flex;
-        height: 300px;
-        width: 961px;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        left: -108px;
-        top: 502px;
-        border: 1px solid red;
-        padding: 10px;
-        column-gap: 10px;
+        /* column-gap: 19px; */
     }
 
 
 
+    main > section:nth-child(7) > section:nth-child(3) > div {
+        height: 250px;
+        width: 250px;
+        background-color: yellow;
+        overflow-x: hidden;
+    }
+
+    main > section:nth-child(7) > section:nth-child(3) > div > section:nth-child(1) {
+        display: block !important;
+        height: 94%;
+        width: 200%;
+        border: 5px solid red;
+        animation-name: slide-show;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: linear ;
+
+    }
 
 
 
+
+
+
+    @keyframes slide-show {
+        0%,30% {
+            transform: translateX(0%);
+        }
+        70%,100%{
+            transform: translateX(-50%);
+        }
+
+    }
+
+    main > section:nth-child(7) > section:nth-child(3) > div > section:nth-child(1) > div {
+        height: 100%;
+        width: 100%;
+        border: 5px solid black;
+    }
+
+    main > section:nth-child(7) > section:nth-child(3) > div > section:nth-child(1) > div > img {
+        height: 100%;
+        width: 100%;
+        /*border: 5px solid black;*/
+    }
 
 
 
     /*Testimonials*/
-
     .class_testimonials {
         height: 510px;
         width: 100%;
@@ -7249,7 +7078,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         position: relative;
         top: 14px;
     }
-/*headline*/
+
+    /*headline*/
     main > section:nth-child(8) > p {
         position: absolute;
         left: 102px;
@@ -7264,7 +7094,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-/*section */
+    /*section */
     main > section:nth-child(8) > section {
         height: 289px;
         width: 99.8%;
@@ -7280,6 +7110,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         /* background-color: red; */
         grid-gap: 19px;
     }
+
     /*Div 1*/
     main > section:nth-child(8) > section > div:nth-child(1) {
         height: 209px;
@@ -7302,12 +7133,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
     /*get in touch*/
-
-
-/*section*/
+    /*section*/
     .getInTouch {
         position: relative;
         height: 670px;
@@ -7329,7 +7156,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         text-align: center;
         margin: auto;
     }
-
 
 
     main > section:nth-child(9) > section {
@@ -7387,7 +7213,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         top: 325px;
         display: inline-block;
     }
-
 
 
     main > section:nth-child(9) > form:nth-child(3) > div:nth-child(1) > input {
@@ -7455,11 +7280,10 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 }
 
 
+@media all and (max-width: 320px) {
 
-@media all and (max-width: 320px){
 
-
-/*scrolling arrow*/
+    /*scrolling arrow*/
     body > div:nth-child(2) {
         width: 50px;
         height: 50px;
@@ -7487,12 +7311,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-
-
     /*main section*/
-    main>section:nth-child(1) {
+    main > section:nth-child(1) {
 
         position: relative;
         height: 246px;
@@ -7501,7 +7321,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-/*main img*/
+    /*main img*/
     #mainImg {
         position: relative;
         left: 0;
@@ -7512,7 +7332,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-/*text main aside*/
+    /*text main aside*/
     .mainText {
         position: absolute;
         width: 325px;
@@ -7521,8 +7341,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         left: -24px;
         display: inline-block;
     }
-
-
 
 
     #moving01 {
@@ -7563,7 +7381,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
     .mainAside {
         position: absolute;
         top: -81px;
@@ -7579,6 +7396,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         bottom: 10px;
         display: inline-block;
     }
+
     #m02 {
         position: relative;
         left: -44px;
@@ -7600,12 +7418,14 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         bottom: -16px;
         display: inline-block;
     }
+
     #m05 {
         position: relative;
         left: -10px;
         bottom: 10px;
         display: inline-block;
     }
+
     #m06 {
         position: relative;
         left: -43px;
@@ -7614,17 +7434,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-
-
-
-
-
-
-
     /*aboutme */
-
     .aboutmeSection {
         position: relative;
         height: 350px;
@@ -7689,9 +7499,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-/*paragraf section*/
+    /*paragraf section*/
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) {
         display: inline-block;
         width: 107px;
@@ -7715,6 +7523,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         top: 19px;
         position: absolute;
     }
+
     /*paragraf 3*/
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(3) {
         left: 0px;
@@ -7722,7 +7531,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         position: absolute;
     }
 
-/*paragraf 4*/
+    /*paragraf 4*/
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(4) {
         left: 0px;
         top: 112px;
@@ -7759,11 +7568,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-
-
-
     /*solution and services*/
     .servicesSection {
         position: relative;
@@ -7798,7 +7602,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         display: inline-block;
     }
 
-/*service section 1*/
+    /*service section 1*/
     main > section:nth-child(3) > section:nth-child(3) {
         border: 1px solid red;
         height: 707px;
@@ -7811,6 +7615,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         left: 19px;
         flex-flow: column;
     }
+
     /*section 1 div 1*/
     main > section:nth-child(3) > section:nth-child(3) > div:nth-child(1) {
         background-color: #d9d9d9;
@@ -7821,6 +7626,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         display: inline-block;
         bottom: 428px;
     }
+
     /*secton 1 div 2*/
     main > section:nth-child(3) > section:nth-child(3) > div:nth-child(2) {
         background-color: #d9d9d9;
@@ -7832,7 +7638,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         top: 287px;
         display: inline-block;
     }
-/*section 1 div 3*/
+
+    /*section 1 div 3*/
     main > section:nth-child(3) > section:nth-child(3) > div:nth-child(3) {
         background-color: #d9d9d9;
         /* flex-shrink: 3; */
@@ -7846,10 +7653,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-
-/*section 2 */
+    /*section 2 */
     main > section:nth-child(3) > section:nth-child(4) {
         border: 1px solid red;
         height: 716px;
@@ -7902,8 +7706,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
     /*skills*/
     .skills {
         position: relative;
@@ -7914,7 +7716,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         top: 1px;
     }
 
-/*head line*/
+    /*head line*/
     main > section:nth-child(4) > p {
         position: relative;
         left: 42px;
@@ -7929,12 +7731,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-
-
-/*My Projects*/
-
+    /*My Projects*/
     .myprojects {
         position: relative;
         height: 1077px;
@@ -7942,6 +7739,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         background-color: rgba(74, 71, 71, 0.6);
         top: 3px;
     }
+
     main > section:nth-child(5) > p:nth-child(1) {
         position: absolute;
         left: 67px;
@@ -7967,8 +7765,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-/*section my projects*/
+    /*section my projects*/
     main > section:nth-child(5) > section:nth-child(3) {
         border: 1px solid red;
         display: flex;
@@ -7985,7 +7782,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         grid-gap: 75px;
     }
 
-/*section 1 div*/
+    /*section 1 div*/
     main > section:nth-child(5) > section:nth-child(3) > div {
         border: 1px solid orange;
         width: 274px;
@@ -7994,6 +7791,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         position: relative;
         left: -1px;
     }
+
     main > section:nth-child(5) > section:nth-child(3) > div > a > img {
         width: 274px;
         height: 189px;
@@ -8004,13 +7802,12 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-/*my protfolio*/
-
+    /*my protfolio*/
     .portfolio {
         height: 861px;
         width: 100%;
         position: relative;
-        top: 6px;
+        top: -339px;
         background-color: red;
     }
 
@@ -8029,9 +7826,74 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
+    main > section:nth-child(7) > section:nth-child(3) {
+        /*display: !important;*/
+        height: 253px;
+        width: 453px;
+        /* align-items: center; */
+        /* justify-content: center; */
+        position: absolute;
+        top: 169px;
+        /* border: 1px solid red; */
+        left: -34px;
+        padding: 10px;
+        /* column-gap: 19px; */
+    }
 
 
-/*testimonails*/
+
+    main > section:nth-child(7) > section:nth-child(3) > div {
+        height: 250px;
+        width: 250px;
+        background-color: yellow;
+        overflow-x: hidden;
+    }
+
+    main > section:nth-child(7) > section:nth-child(3) > div > section:nth-child(1) {
+        display: block !important;
+        height: 94%;
+        width: 200%;
+        border: 5px solid red;
+        animation-name: slide-show;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: linear ;
+
+    }
+
+
+
+
+
+
+    @keyframes slide-show {
+        0%,30% {
+            transform: translateX(0%);
+        }
+        70%,100%{
+            transform: translateX(-50%);
+        }
+
+    }
+
+    main > section:nth-child(7) > section:nth-child(3) > div > section:nth-child(1) > div {
+        height: 100%;
+        width: 100%;
+        border: 5px solid black;
+    }
+
+    main > section:nth-child(7) > section:nth-child(3) > div > section:nth-child(1) > div > img {
+        height: 100%;
+        width: 100%;
+        /*border: 5px solid black;*/
+    }
+
+
+
+
+
+    /*testimonails*/
     main > section:nth-child(8) > p {
         position: absolute;
         left: 88px;
@@ -8060,7 +7922,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
     main > section:nth-child(8) > section {
         height: 289px;
         width: 99.8%;
@@ -8076,7 +7937,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         /* background-color: red; */
         grid-gap: 53px;
     }
-
 
 
     main > section:nth-child(8) > section > div:nth-child(1) {
@@ -8099,11 +7959,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
-
-
     /*get in touch*/
-
     .getInTouch {
         position: relative;
         height: 670px;
@@ -8126,7 +7982,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
     main > section:nth-child(9) > section {
         display: flex;
         height: 147px;
@@ -8140,10 +7995,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         padding: 10px;
         column-gap: 20px;
     }
-
-
-
-
 
 
 }
