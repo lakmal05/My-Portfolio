@@ -7439,7 +7439,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         font-size: 19px;
         font-family: 'Poppins', "Segoe UI Semibold";
         font-weight: 55;
-        left: 543px;
+        left: 218px;
         bottom: 250px;
         margin: auto;
         padding: 0;
@@ -7678,10 +7678,10 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*portfolio*/
     .portfolio {
-        height: 861px;
+        height: 737px;
         width: 100%;
         position: relative;
-        top: -341px;
+        top: -95px;
         background-color: red;
     }
 
@@ -7701,9 +7701,9 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
     main > section:nth-child(7) > section:nth-child(3) {
-        /*display: !important;*/
+        display: flex!important;
         height: 253px;
-        width: 453px;
+        width: 332px;
         /* align-items: center; */
         /* justify-content: center; */
         position: absolute;
@@ -7715,7 +7715,6 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
-
     main > section:nth-child(7) > section:nth-child(3) > div {
         height: 250px;
         width: 250px;
@@ -7724,8 +7723,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
     main > section:nth-child(7) > section:nth-child(3) > div > section:nth-child(1) {
-        display: block !important;
-        height: 94%;
+        display: flex !important;
+        height: 95%;
         width: 200%;
         border: 5px solid red;
         animation-name: slide-show;
@@ -7736,7 +7735,15 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     }
 
-
+    main > section:nth-child(7) > section:nth-child(3) > div:nth-child(1) {
+        height: 291px;
+        width: 175px;
+        background-color: yellow;
+        overflow-x: hidden;
+        position: absolute;
+        top: -111px;
+        left: 40px;
+    }
 
 
 
@@ -7764,6 +7771,32 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
+    main > section:nth-child(7) > section:nth-child(3) > div:nth-child(2) {
+        height: 291px;
+        width: 175px;
+        background-color: yellow;
+        overflow-x: hidden;
+        position: absolute;
+        top: 25px;
+        left: 217px;
+    }
+
+
+
+    main > section:nth-child(7) > section:nth-child(3) > div:nth-child(3) {
+        height: 291px;
+        width: 175px;
+        background-color: yellow;
+        overflow-x: hidden;
+        position: absolute;
+        top: 224px;
+        left: 40px;
+
+
+    }
+
+
+
 
     /*Testimonials*/
     .class_testimonials {
@@ -7771,7 +7804,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         width: 100%;
         background-color: rgba(74, 71, 71, 0.6);
         position: relative;
-        top: 14px;
+        top: -95px;
     }
 
     /*headline*/
@@ -7835,7 +7868,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         height: 670px;
         width: 100%;
         background-color: #1e2225;
-        top: 15px;
+        top: -95px;
     }
 
 
