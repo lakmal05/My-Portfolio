@@ -549,7 +549,7 @@ main > section:nth-child(3) > p:nth-child(2) {
 /*grid*/
 main > section:nth-child(3) > section:nth-child(3) {
 
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     height: 300px;
     /*width: 1000px;*/
     display: flex;
@@ -563,7 +563,7 @@ main > section:nth-child(3) > section:nth-child(3) {
 /*grid*/
 main > section:nth-child(3) > section:nth-child(4) {
 
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     height: 300px;
     /*width: 1000px;*/
     display: flex;
@@ -691,7 +691,7 @@ main > section:nth-child(3) > section:nth-child(3) > div:nth-child(1) > p {
     font-family: 'Poppins', "Regular";
     font-size: 15px;
     text-align: center;
-    color: red;
+    /*color: red;*/
     display: inline-block;
 
     top: 10px;
@@ -702,7 +702,7 @@ main > section:nth-child(3) > section:nth-child(3) > div:nth-child(2) > p {
     font-family: 'Poppins', "Regular";
     font-size: 15px;
     text-align: center;
-    color: red;
+    /*color: red;*/
     display: inline-block;
 
     top: 10px;
@@ -1039,7 +1039,7 @@ main > section:nth-child(5) > p:nth-child(2) {
 
 main > section:nth-child(5) > section:nth-child(3) {
 
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     display: flex;
 
     position: relative;
@@ -1060,7 +1060,7 @@ main > section:nth-child(5) > section:nth-child(3) {
 /*Sections*/
 main > section:nth-child(5) > section:nth-child(4) {
 
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 
     height: 250px;
     width: 300px;
@@ -1082,7 +1082,7 @@ main > section:nth-child(5) > section:nth-child(4) {
 
 /*sefcton 1 div*/
 main > section:nth-child(5) > section:nth-child(3) > div {
-    border: 1px solid orange;
+    /*border: 1px solid orange;*/
     width: 250px;
     height: 250px;
 
@@ -1092,7 +1092,7 @@ main > section:nth-child(5) > section:nth-child(3) > div {
 /*section 2 div*/
 
 main > section:nth-child(5) > section:nth-child(4) > div {
-    border: 1px solid orange;
+    /*border: 1px solid orange;*/
     width: 250px;
     height: 250px;
 
@@ -1641,7 +1641,7 @@ main > section:nth-child(7) > div:nth-child(2) {
     top: 10px;
     left: 470px;
 
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     column-gap: 21px;
 
 
@@ -1671,7 +1671,7 @@ main > section:nth-child(7) > section:nth-child(3) {
     justify-content: center;
     position: relative;
     top: 69px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     left: 270px;
 
     padding: 10px;
@@ -1699,7 +1699,7 @@ main > section:nth-child(7) > section:nth-child(4) {
     top: 100px;
 
 
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 
     padding: 10px;
     column-gap: 10px;
@@ -1813,7 +1813,7 @@ main > section:nth-child(8) > section {
     position: relative;
     display: flex;
 
-    border: 1px yellow;
+    /*border: 1px yellow;*/
 
     align-items: center;
     justify-content: space-evenly;
@@ -1888,7 +1888,7 @@ main > section:nth-child(9) > section {
     justify-content: center;
     position: relative;
     top: 69px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     left: 270px;
 
     padding: 10px;
@@ -1902,7 +1902,7 @@ main > section:nth-child(9) > section:nth-child(2) > div {
     width: 400px;
 
     /*position: relative;*/
-    background-color: crimson;
+    /*background-color: crimson;*/
 
 
     padding: 10px;
@@ -1981,7 +1981,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(2) > input {
 
     height: 30px;
     background: #ddd9d9;
-    border: 1px solid #ddd9d9;
+    /*border: 1px solid #ddd9d9;*/
 
     font-family: 'Poppins', "Regular";
     color: black;
@@ -2001,7 +2001,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(2) > input {
 
 main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     background: #ddd9d9;
-    border: 1px solid #ddd9d9;
+    /*border: 1px solid #ddd9d9;*/
     font-family: 'Poppins', "Regular";
     height: 144px;
 
@@ -2080,7 +2080,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     left: 10px;
     top: 10px;
 
-    border-color: crimson;
+    /*border-color: crimson;*/
 
     padding: 0;
 
@@ -2337,7 +2337,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*section*/
     main > section:nth-child(3) > section:nth-child(3) {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         height: 314px;
         /* width: 1000px; */
         display: flex;
@@ -2366,7 +2366,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
     main > section:nth-child(3) > section:nth-child(4) {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         height: 311px;
         /* width: 1000px; */
         display: flex;
@@ -2469,7 +2469,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
     main > section:nth-child(5) > section:nth-child(3) {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         display: flex;
         position: relative;
         top: 90px;
@@ -2482,7 +2482,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
     main > section:nth-child(5) > section:nth-child(3) > div {
-        border: 1px solid orange;
+        /*border: 1px solid orange;*/
         width: 356px;
         height: 260px;
     }
@@ -2499,7 +2499,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*!*Projct section 2*!*/
     main > section:nth-child(5) > section:nth-child(4) {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         height: 250px;
         /* width: 300px; */
         display: flex;
@@ -2513,7 +2513,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*Div*/
     main > section:nth-child(5) > section:nth-child(4) > div {
-        border: 1px solid orange;
+        /*border: 1px solid orange;*/
         width: 250px;
         height: 255px;
     }
@@ -2783,7 +2783,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         position: relative;
         top: 44px;
         left: 423px;
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         column-gap: 21px;
         flex-grow: 0;
 
@@ -2798,7 +2798,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         justify-content: center;
         position: relative;
         top: 83px;
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         left: 262px;
         padding: 10px;
         column-gap: 25px;
@@ -2886,7 +2886,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         position: relative;
         left: 264px;
         top: 140px;
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         padding: 10px;
         column-gap: 28px;
     }
@@ -2946,7 +2946,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         width: 99.8%;
         position: relative;
         display: flex;
-        border: 1px yellow;
+        /*border: 1px yellow;*/
         align-items: center;
         justify-content: space-evenly;
         padding: 0px;
@@ -3006,7 +3006,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         justify-content: center;
         position: relative;
         top: 69px;
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         left: 270px;
         padding: 10px;
         column-gap: 10px;
@@ -3017,7 +3017,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         height: 210px;
         width: 400px;
         /* position: relative; */
-        background-color: crimson;
+        /*background-color: crimson;*/
         padding: 10px;
         display: inline-block;
     }
@@ -3048,7 +3048,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         position: relative;
         right: -1162px !important;
         top: 11px;
-        border-color: crimson;
+        /*border-color: crimson;*/
         padding: 0;
         /* width: 50px; */
         /* height: 50px; */
@@ -3451,7 +3451,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*grid*/
     main > section:nth-child(3) > section:nth-child(3) {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         height: 285px;
         /* width: 1000px; */
         display: flex;
@@ -3463,7 +3463,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*grid*/
     main > section:nth-child(3) > section:nth-child(4) {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         height: 285px;
         /* width: 1000px; */
         display: flex;
@@ -3899,7 +3899,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*Sections*/
     main > section:nth-child(5) > section:nth-child(3) {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         display: flex;
         position: absolute;
         top: 185px;
@@ -3914,7 +3914,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     /*Sections*/
     main > section:nth-child(5) > section:nth-child(4) {
 
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         height: 250px;
         width: 375px;
         display: flex;
@@ -3931,7 +3931,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*sefcton 1 div*/
     main > section:nth-child(5) > section:nth-child(3) > div {
-        border: 1px solid orange;
+        /*border: 1px solid orange;*/
         width: 250px;
         height: 250px;
 
@@ -3940,7 +3940,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*section 2 div*/
     main > section:nth-child(5) > section:nth-child(4) > div {
-        border: 1px solid orange;
+        /*border: 1px solid orange;*/
         width: 250px;
         height: 250px;
 
@@ -4047,7 +4047,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         width: 100%;
         position: relative;
         top: -340px;
-        background-color: red;
+        /*background-color: red;*/
     }
 
 
@@ -4075,7 +4075,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         position: absolute;
         top: 80px;
         left: 220px;
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         column-gap: 20px;
         flex-grow: 0;
 
@@ -4090,7 +4090,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         justify-content: center;
         position: absolute;
         top: 208px;
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         left: 160px;
         padding: 10px;
         column-gap: 45px;
@@ -4215,7 +4215,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         justify-content: center;
         position: absolute;
         top: 169px;
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         left: 20px;
         padding: 10px;
         column-gap: 10px;
@@ -4246,7 +4246,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         justify-content: center;
         position: absolute;
         top: 169px;
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         left: 20px;
         padding: 10px;
         column-gap: 10px;
@@ -4283,7 +4283,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         width: 99.8%;
         position: absolute;
         display: flex;
-        border: 1px yellow;
+        /*border: 1px yellow;*/
         align-items: center;
         justify-content: space-evenly;
         padding: 0px;
@@ -4845,7 +4845,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*section 1*/
     main > section:nth-child(3) > section:nth-child(3) {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         height: 285px;
         width: 744px;
         display: flex;
@@ -4857,7 +4857,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*section 2*/
     main > section:nth-child(3) > section:nth-child(4) {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         height: 285px;
         width: 744px;
         display: flex;
@@ -5073,7 +5073,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*section 1 */
     main > section:nth-child(5) > section:nth-child(3) {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         display: flex;
         position: absolute;
         top: 122px;
@@ -5087,7 +5087,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*section 1 div*/
     main > section:nth-child(5) > section:nth-child(3) > div {
-        border: 1px solid orange;
+        /*border: 1px solid orange;*/
         width: 169px;
         height: 272px;
     }
@@ -5105,7 +5105,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*sction 2*/
     main > section:nth-child(5) > section:nth-child(4) {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         height: 250px;
         width: 375px;
         display: flex;
@@ -5120,7 +5120,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*section 2*/
     main > section:nth-child(5) > section:nth-child(4) {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         height: 250px;
         width: 375px;
         display: flex;
@@ -5135,7 +5135,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*scetion 2 dib*/
     main > section:nth-child(5) > section:nth-child(4) > div {
-        border: 1px solid orange;
+        /*border: 1px solid orange;*/
         width: 263px;
         height: 252px;
     }
@@ -5225,7 +5225,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         width: 100%;
         position: relative;
         top: 14px;
-        background-color: red;
+        /*background-color: red;*/
     }
 
 
@@ -5254,7 +5254,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         position: absolute;
         top: 80px;
         left: 69px;
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         column-gap: 20px;
         flex-grow: 0;
     }
@@ -5357,7 +5357,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         justify-content: center;
         position: absolute;
         top: 169px;
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         left: 36px;
         padding: 10px;
         column-gap: 19px;
@@ -5390,7 +5390,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         position: absolute;
         left: 5px;
         top: 502px;
-        border: 1px solid aqua;
+        /*border: 1px solid aqua;*/
         padding: 10px;
         column-gap: 20px;
     }
@@ -5437,7 +5437,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         width: 99.8%;
         position: absolute;
         display: flex;
-        border: 1px yellow;
+        /*border: 1px yellow;*/
         align-items: center;
         justify-content: space-evenly;
         padding: 0px;
@@ -5513,7 +5513,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         height: 210px;
         width: 239px;
         /* position: relative; */
-        background-color: crimson;
+        /*background-color: crimson;*/
         padding: 10px;
         display: inline-block;
     }
@@ -5544,7 +5544,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         position: relative;
         left: 10px;
         top: -17px;
-        border-color: crimson;
+        /*border-color: crimson;*/
         padding: 0;
         /* width: 50px; */
         /* height: 50px; */
@@ -5933,7 +5933,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*section*/
     main > section:nth-child(3) > section:nth-child(3) {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         height: 285px;
         width: 398px;
         display: block;
@@ -5994,7 +5994,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*secftion 2*/
     main > section:nth-child(3) > section:nth-child(4) {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         height: 221px;
         width: 406px;
         display: block;
@@ -6256,7 +6256,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*PORJECT1*/
     main > section:nth-child(5) > section:nth-child(3) {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         display: flex;
         position: absolute;
         top: 408px;
@@ -6269,7 +6269,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         flex-flow: column;
     }
     main > section:nth-child(5) > section:nth-child(3) > div {
-        border: 1px solid orange;
+        /*border: 1px solid orange;*/
         width: 260px;
         height: 220px;
     }
@@ -6284,7 +6284,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 /*Prject section2*/
     main > section:nth-child(5) > section:nth-child(4) {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         height: 250px;
         width: 375px;
         display: none;
@@ -6333,7 +6333,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         width: 100%;
         position: relative;
         top: -74px;
-        background-color: red;
+        /*background-color: red;*/
     }
 
 
@@ -6361,7 +6361,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         position: absolute;
         top: 80px;
         left: 69px;
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         column-gap: 20px;
         flex-grow: 0;
     }
@@ -6388,7 +6388,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(7) > section:nth-child(3) > div {
         height: 250px;
         width: 250px;
-        background-color: yellow;
+        /*background-color: yellow;*/
         overflow-x: hidden;
     }
 
@@ -6399,7 +6399,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         display: flex !important;
         height: 95%;
         width: 200%;
-        border: 5px solid red;
+        /*border: 5px solid red;*/
         animation-name: slide-show;
         animation-duration: 5s;
         animation-iteration-count: infinite;
@@ -6413,7 +6413,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(7) > section:nth-child(3) > div:nth-child(1) {
         height: 291px;
         width: 193px;
-        background-color: yellow;
+        /*background-color: yellow;*/
         overflow-x: hidden;
         position: absolute;
         top: -120px;
@@ -6478,7 +6478,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(7) > section:nth-child(3) > div {
         height: 250px;
         width: 250px;
-        background-color: yellow;
+        /*background-color: yellow;*/
         overflow-x: hidden;
     }
 
@@ -6489,7 +6489,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         display: flex !important;
         height: 95%;
         width: 200%;
-        border: 5px solid red;
+        /*border: 5px solid red;*/
         animation-name: slide-show1;
         animation-duration: 5s;
         animation-iteration-count: infinite;
@@ -6503,7 +6503,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(7) > section:nth-child(3) > div:nth-child(2) {
         height: 291px;
         width: 193px;
-        background-color: yellow;
+        /*background-color: yellow;*/
         overflow-x: hidden;
         position: absolute;
         top: 25px;
@@ -6559,7 +6559,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(7) > section:nth-child(3) > div {
         height: 250px;
         width: 250px;
-        background-color: yellow;
+        /*background-color: yellow;*/
         overflow-x: hidden;
     }
 
@@ -6570,7 +6570,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         display: flex !important;
         height: 95%;
         width: 200%;
-        border: 5px solid red;
+        /*border: 5px solid red;*/
         animation-name: slide-show2;
         animation-duration: 5s;
         animation-iteration-count: infinite;
@@ -6584,7 +6584,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(7) > section:nth-child(3) > div:nth-child(3) {
         height: 291px;
         width: 193px;
-        background-color: yellow;
+        /*background-color: yellow;*/
         overflow-x: hidden;
         position: absolute;
         top: 224px;
@@ -6663,7 +6663,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         width: 99.8%;
         position: absolute;
         display: flex;
-        border: 1px yellow;
+        /*border: 1px yellow;*/
         align-items: center;
         justify-content: space-evenly;
         padding: 0px;
@@ -6740,7 +6740,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         height: 210px;
         width: 118px;
         /* position: relative; */
-        background-color: crimson;
+        /*background-color: crimson;*/
         padding: 10px;
         display: inline-block;
     }
@@ -6781,7 +6781,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(9) > form:nth-child(3) > div:nth-child(1) > input {
         height: 25px;
         background: #ddd9d9;
-        border: 1px solid #ddd9d9;
+        /*border: 1px solid #ddd9d9;*/
         font-family: 'Poppins', "Regular";
         color: black;
         position: absolute;
@@ -6797,7 +6797,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(9) > form:nth-child(3) > div:nth-child(2) > input {
         height: 25px;
         background: #ddd9d9;
-        border: 1px solid #ddd9d9;
+        /*border: 1px solid #ddd9d9;*/
         font-family: 'Poppins', "Regular";
         color: black;
         position: absolute;
@@ -7054,7 +7054,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     /*service adn solutions*/
     /*section 1*/
     main > section:nth-child(3) > section:nth-child(3) {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         height: 640px;
         width: 307px;
         display: flex;
@@ -7275,7 +7275,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
     main > section:nth-child(3) > section:nth-child(3) {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         height: 707px;
         width: 311px;
         display: flex;
@@ -7332,7 +7332,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*section 2*/
     main > section:nth-child(3) > section:nth-child(4) {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         height: 716px;
         width: 348px;
         display: flex;
@@ -7384,8 +7384,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     /*Div width*/
     main > section:nth-child(3) > section:nth-child(4) > div {
         background-color: #d9d9d9;
-        width: 188px;
-        height: 232px;
+        width: 224px;
+        height: 268px;
         /* flex-shrink: 3; */
         flex-grow: 0;
     }
@@ -7484,7 +7484,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
     main > section:nth-child(5) > section:nth-child(3) {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         display: flex;
         position: absolute;
         top: 89px;
@@ -7500,7 +7500,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
     main > section:nth-child(5) > section:nth-child(3) > div {
-        border: 1px solid orange;
+        /*border: 1px solid orange;*/
         width: 260px;
         height: 211px;
         top: -59px;
@@ -7527,7 +7527,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*section 3 disply none*/
     main > section:nth-child(5) > section:nth-child(4) {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         height: 250px;
         width: 375px;
         display: flex;
@@ -7682,7 +7682,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         width: 100%;
         position: relative;
         top: -95px;
-        background-color: red;
+        /*background-color: red;*/
     }
 
 
@@ -7718,7 +7718,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(7) > section:nth-child(3) > div {
         height: 250px;
         width: 250px;
-        background-color: yellow;
+        /*background-color: yellow;*/
         overflow-x: hidden;
     }
 
@@ -7726,7 +7726,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         display: flex !important;
         height: 95%;
         width: 200%;
-        border: 5px solid red;
+        /*border: 5px solid red;*/
         animation-name: slide-show;
         animation-duration: 5s;
         animation-iteration-count: infinite;
@@ -7738,7 +7738,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(7) > section:nth-child(3) > div:nth-child(1) {
         height: 291px;
         width: 175px;
-        background-color: yellow;
+        /*background-color: yellow;*/
         overflow-x: hidden;
         position: absolute;
         top: -111px;
@@ -7761,7 +7761,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(7) > section:nth-child(3) > div > section:nth-child(1) > div {
         height: 100%;
         width: 100%;
-        border: 5px solid black;
+        /*border: 5px solid black;*/
     }
 
     main > section:nth-child(7) > section:nth-child(3) > div > section:nth-child(1) > div > img {
@@ -7774,7 +7774,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(7) > section:nth-child(3) > div:nth-child(2) {
         height: 291px;
         width: 175px;
-        background-color: yellow;
+        /*background-color: yellow;*/
         overflow-x: hidden;
         position: absolute;
         top: 25px;
@@ -7786,7 +7786,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(7) > section:nth-child(3) > div:nth-child(3) {
         height: 291px;
         width: 175px;
-        background-color: yellow;
+        /*background-color: yellow;*/
         overflow-x: hidden;
         position: absolute;
         top: 224px;
@@ -7828,7 +7828,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         width: 99.8%;
         position: absolute;
         display: flex;
-        border: 1px yellow;
+        /*border: 1px yellow;*/
         align-items: center;
         justify-content: space-evenly;
         padding: 0px;
@@ -7904,7 +7904,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         height: 114px;
         width: 69px;
         /* position: relative; */
-        background-color: crimson;
+        /*background-color: crimson;*/
         padding: 10px;
         display: inline-block;
     }
@@ -7946,7 +7946,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(9) > form:nth-child(3) > div:nth-child(1) > input {
         height: 15px;
         background: #ddd9d9;
-        border: 1px solid #ddd9d9;
+        /*border: 1px solid #ddd9d9;*/
         font-family: 'Poppins', "Regular";
         color: black;
         position: absolute;
@@ -7962,7 +7962,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(9) > form:nth-child(3) > div:nth-child(2) > input {
         height: 13px;
         background: #ddd9d9;
-        border: 1px solid #ddd9d9;
+        /*border: 1px solid #ddd9d9;*/
         font-family: 'Poppins', "Regular";
         color: black;
         position: absolute;
@@ -7976,7 +7976,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         background: #ddd9d9;
-        border: 1px solid #ddd9d9;
+        /*border: 1px solid #ddd9d9;*/
         font-family: 'Poppins', "Regular";
         height: 127px;
         position: absolute;
@@ -7990,7 +7990,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     #connect {
         background: #27E1C0;
-        border: 2px solid #27E1C0;
+        /*border: 2px solid #27E1C0;*/
         border-radius: 48px;
         width: 92px;
         height: 31px;
@@ -8332,7 +8332,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*service section 1*/
     main > section:nth-child(3) > section:nth-child(3) {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         height: 707px;
         width: 278px;
         display: flex;
@@ -8350,9 +8350,9 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         /* flex-shrink: 3; */
         /* row-gap: 10px; */
         position: absolute;
-        left: 31px;
+        left: 34px;
         display: inline-block;
-        bottom: 428px;
+        bottom: 437px;
     }
 
     /*secton 1 div 2*/
@@ -8362,7 +8362,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         /* flex-grow: 0; */
         /* row-gap: 5px; */
         position: absolute;
-        left: 43px;
+        left: 34px;
         top: 287px;
         display: inline-block;
     }
@@ -8374,7 +8374,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         /* flex-grow: 0; */
         /* row-gap: 5px; */
         position: relative;
-        left: 13px;
+        left: 9px;
         display: inline-block;
         /* flex-direction: column; */
         top: 352px;
@@ -8383,7 +8383,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*section 2 */
     main > section:nth-child(3) > section:nth-child(4) {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         height: 716px;
         width: 287px;
         display: flex;
@@ -8405,8 +8405,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         row-gap: 5px;
         position: relative;
         display: inline-block;
-        left: -3px;
-        top: -121px;
+        left: 12px;
+        top: -109px;
     }
 
     /*section 2 div 2*/
@@ -8416,9 +8416,9 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         flex-grow: 0;
         row-gap: 5px;
         position: absolute;
-        left: 91px;
+        left: 42px;
         display: inline-block;
-        top: 244px;
+        top: 259px;
     }
 
     /*section 2 div 3*/
@@ -8428,9 +8428,9 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         flex-grow: 0;
         row-gap: 5px;
         position: relative;
-        left: 21px;
+        left: 10px;
         display: inline-block;
-        top: 125px;
+        top: 190px;
     }
 
 
@@ -8472,6 +8472,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
     /*My Projects*/
+
     .myprojects {
         position: relative;
         height: 1077px;
@@ -8507,7 +8508,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*section my projects*/
     main > section:nth-child(5) > section:nth-child(3) {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         display: flex;
         position: absolute;
         top: 89px;
@@ -8524,7 +8525,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*section 1 div*/
     main > section:nth-child(5) > section:nth-child(3) > div {
-        border: 1px solid orange;
+        /*border: 1px solid orange;*/
         width: 274px;
         height: 241px;
         top: -41px;
@@ -8542,13 +8543,19 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
+    .timeline .swiper-container {
+        height: 125vh;
+        width: 100%;
+        position: relative;
+    }
+
     /*my protfolio*/
     .portfolio {
         height: 757px;
         width: 99.5%;
         position: relative;
-        top: -95px;
-        background-color: red;
+        top: -154px;
+        /*background-color: red;*/
     }
 
 
@@ -8584,7 +8591,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(7) > section:nth-child(3) > div {
         height: 250px;
         width: 250px;
-        background-color: yellow;
+        /*background-color: yellow;*/
         overflow-x: hidden;
     }
 
@@ -8592,7 +8599,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         display: flex !important;
         height: 95%;
         width: 200%;
-        border: 5px solid red;
+        /*border: 5px solid red;*/
         animation-name: slide-show;
         animation-duration: 5s;
         animation-iteration-count: infinite;
@@ -8604,7 +8611,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(7) > section:nth-child(3) > div:nth-child(1) {
         height: 315px;
         width: 240px;
-        background-color: yellow;
+        /*background-color: yellow;*/
         overflow-x: hidden;
         position: absolute;
         top: -111px;
@@ -8627,7 +8634,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(7) > section:nth-child(3) > div > section:nth-child(1) > div {
         height: 100%;
         width: 100%;
-        border: 5px solid black;
+        /*border: 5px solid black;*/
     }
 
     main > section:nth-child(7) > section:nth-child(3) > div > section:nth-child(1) > div > img {
@@ -8640,7 +8647,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(7) > section:nth-child(3) > div:nth-child(2) {
         height: 315px;
         width: 240px;
-        background-color: yellow;
+        /*background-color: yellow;*/
         overflow-x: hidden;
         position: absolute;
         top: 216px;
@@ -8652,7 +8659,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(7) > section:nth-child(3) > div:nth-child(3) {
         height: 291px;
         width: 175px;
-        background-color: yellow;
+        /*background-color: yellow;*/
         overflow-x: hidden;
         position: absolute;
         top: 224px;
@@ -8710,7 +8717,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         width: 99.8%;
         position: absolute;
         display: flex;
-        border: 1px yellow;
+        /*border: 1px yellow;*/
         align-items: center;
         justify-content: space-evenly;
         padding: 0px;
@@ -8781,7 +8788,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(9) > form:nth-child(3) > div:nth-child(1) > input {
         height: 15px;
         background: #ddd9d9;
-        border: 1px solid #ddd9d9;
+        /*border: 1px solid #ddd9d9;*/
         font-family: 'Poppins', "Regular";
         color: black;
         position: absolute;
@@ -8796,7 +8803,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(9) > form:nth-child(3) > div:nth-child(2) > input {
         height: 13px;
         background: #ddd9d9;
-        border: 1px solid #ddd9d9;
+        /*border: 1px solid #ddd9d9;*/
         font-family: 'Poppins', "Regular";
         color: black;
         position: absolute;
@@ -8810,7 +8817,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         background: #ddd9d9;
-        border: 1px solid #ddd9d9;
+        /*border: 1px solid #ddd9d9;*/
         font-family: 'Poppins', "Regular";
         height: 127px;
         position: absolute;
