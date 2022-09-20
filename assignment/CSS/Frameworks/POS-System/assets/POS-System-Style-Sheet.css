@@ -12,3 +12,25 @@
 /*    !*background-color: #68BFFF;*!*/
 /*    !*height: 400px;*!*/
 /*}*/
+
+
+
+
+/*main>section>section:nth-child(2){*/
+/*    border: 1px solid red;*/
+/*    height: 300px;*/
+/*    grid-gap: 10px;*/
+/*    column-gap: 10px;*/
+
+
+/*}*/
+
+
+/*main>section>section:nth-child(2)>div:nth-child(1){*/
+/*    !*border: 1px solid red;*!*/
+/*    !*height: 50px;*!*/
+/*    !*column-gap: 10px;*!*/
+/*    background-color: #e736d5;*/
+/*    */
+
+/*}*/
