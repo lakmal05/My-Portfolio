@@ -1,3 +1,17 @@
+
+
+#Home>section:nth-child(1)>section:nth-child(2)>div {
+    /* border: 1px solid red; */
+    background-color: #68BFFF;
+    height: 250px;
+    margin-left: 81px;
+    margin-top: 114px;
+    padding: 14px;
+    width: 240px;
+}
+
+
+
 /*header{*/
 /*    !*background-color: red;*!*/
 /*    height: 75px;*/
