@@ -1,5 +1,18 @@
 
+#Home>section:nth-child(1)>section:nth-child(1)>div>p{
 
+
+margin-left: 140px;
+
+}
+
+#Home>section:nth-child(1)>section:nth-child(1)>div{
+
+     margin-top: 50px;
+     border: 1px solid red;
+
+
+}
 #Home>section:nth-child(1)>section:nth-child(2)>div {
     /* border: 1px solid red; */
     background-color: #68BFFF;
