@@ -12,18 +12,24 @@
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+<nav class="navbar navbar-expand-lg bg-light ">
+    <div class="container-fluid  bg-success p-2 text-white bg-opacity-75">
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Pricing</a>
-                <a class="nav-link disabled">Disabled</a>
+
+
+            <div class="navbar-nav ">
+                <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+                <a class="nav-link" href="ManageCustomers.html">Customers</a>
+                <a class="nav-link" href="ManageItems.html">Item</a>
+                <a class="nav-link "  href="PlaceOrder.html" >Place Order</a>
+
+
+
             </div>
         </div>
     </div>
@@ -32,17 +38,76 @@
 
 <main class="container-fluid">
 
-<section class="row">
+<section id="Customers" class="row">
 
+<!--    Headline-->
     <section class="col-8">  <p class="h3">Manage Customers</p></section>
 
+<!--      button add new cutsomer-->
    <section class="col-6"><button type="button" class="btn btn-primary btn-lg">ADD New CUSTOMER +</button> </section>
 
-   <section class="col-4"> <form class="d-flex" role="search">
+<!--    search bar and button-->
+   <section class="col-4"> <form class="d-flex" role="search" style="">
        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
        <button class="btn btn-outline-success" type="submit">Search</button>
-   </form> </section>
+   </form>
+   </section>
 
+<!--table cutomers-->
+    <section>
+    <table class="table table-bordered table-hover">
+        <thead class="bg-info text-white">
+        <tr class="table-danger">
+            <td>Item Code</td>
+            <td>Name</td>
+            <td>QtyOnHand</td>
+            <td>Price</td>
+            <td>Action</td>
+        </tr>
+
+        <tbody>
+        <td>I-001</td>
+        <td>chocolate biscuit</td>
+        <td>140</td>
+        <td>90.00</td>
+        <td>
+            <button class="btn btn-outline-info" data-bs-target="#staticBackdropforUpdateItem"
+                    data-bs-toggle="modal"
+                    type="button">Delete
+            </button>
+            <button class="btn btn-outline-info" data-bs-target="#staticBackdropforUpdateItem"
+                    data-bs-toggle="modal"
+                    type="button">Edit
+            </button>
+
+
+        </td>
+        </tbody>
+
+        <tbody>
+        <td>I-002</td>
+        <td>Maggi Noodles</td>
+        <td>50</td>
+        <td>100.00</td>
+        <td>
+            <button class="btn btn-outline-info" data-bs-target="#staticBackdropforUpdateItem"
+                    data-bs-toggle="modal"
+                    type="button">Edit
+            </button>
+            <button class="btn btn-outline-info" data-bs-target="#staticBackdropforUpdateItem"
+                    data-bs-toggle="modal"
+                    type="button">Delete
+            </button>
+
+
+
+        </td>
+        </tbody>
+
+        </thead>
+    </table>
+
+    </section>
 
 
 </section>

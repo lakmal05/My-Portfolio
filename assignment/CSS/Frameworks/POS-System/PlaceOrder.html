@@ -3,91 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <title>Place Order</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-  <meta name="viewport" content="width=device-width , initial-scale=1">
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
-  <!--     style sheet-->
-  <link rel="stylesheet" href="assets/POS-System-Style-Sheet.css">
+    <!--     style sheet-->
+    <link rel="stylesheet" href="assets/POS-System-Style-Sheet.css">
 
 
 </head>
 
 
-
-
-
-
 <body>
+
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+                <a class="nav-link" href="ManageCustomers.html">Customers</a>
+                <a class="nav-link" href="ManageItems.html">Item</a>
+                <a class="nav-link " href="PlaceOrder.html">Place Order</a>
+
+
+            </div>
+        </div>
+    </div>
+</nav>
+
 
 <main class="container-fluid">
 
 
-   <section class="row">
+    <section class="row">
 
-<!--     headline-->
-       <div class="col-9">  <p class="h3">Manage Items</p></div>
-
-
-       <section class="container text-center">
-           <div class="row align-items-start  g-5">
+        <!--     headline-->
+        <div class="col-9"><p class="h3">Place Order</p></div>
 
 
-               <div class="col bg-black " >
-                   One of three columns
-               </div>
+        <!--       Invoice Details-->
+        <section class="col-4">
+
+            <!--          div 1-->
+            <div class="row">
+                <div class="col"><p class="h4">Inovoice detils</p></div>
+            </div>
+
+            <!--          div-2-->
+            <div class="row">
+
+                <div class="col"><p class="h6">Order ID</p></div>
+                <div class="col"><p class="h6">Order Date</p></div>
+
+            </div>
+
+            <div class="row">
+                <!-- Example single danger button -->
+                <div class=" col-3 btn-group">
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                        Action
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6" style="margin-left: 40px">
+                    <input class="form-control" type="text" placeholder="Default input"
+                           aria-label="default input example">
 
 
-
-               <section class="col bg-danger">
-                   One of three columns
-               </section>
+                </div>
+            </div>
 
 
-
-               <section class="col bg-dark">
-                   One of three columns
-               </section>
-           </div>
+            <div class="row">
 
 
-</section>
-<!--&lt;!&ndash;       Invoice Details&ndash;&gt;-->
-<!--      <section class="col-4">-->
-<!--          <div class="row"></div>-->
-<!--          <div class="row"></div>-->
-<!--          <div class="row"></div>-->
-<!--          <div class="row"></div>-->
-<!--          <div class="row"></div>-->
-<!--          <div class="row"></div>-->
+            </div>
+            <div class="row"></div>
+            <div class="row"></div>
 
 
-<!--      </section>-->
+        </section>
 
-<!--&lt;!&ndash;  Selected Iten&ndash;&gt;-->
-<!--      <section class="col-4">-->
-<!--          <div class="row"></div>-->
-<!--          <div class="row"></div>-->
-<!--          <div class="row"></div>-->
-<!--          <div class="row"></div>-->
-<!--          <div class="row"></div>-->
+        <!--  Selected Iten-->
+        <section class="col-4">
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
 
-
-<!--      </section>-->
-
-
-<!--      <section class="col-4"></section>-->
+        </section>
 
 
+        <section class="col-3">
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+
+        </section>
 
 
+        <section>
+            <table class="table table-bordered table-hover">
+                <thead class="bg-info text-white">
+                <tr class="table-danger">
+                    <td>Item Code</td>
+                    <td>Name</td>
+                    <td>QtyOnHand</td>
+                    <td>Price</td>
+                    <td>Action</td>
+                </tr>
+
+                <tbody>
+                <td>I-001</td>
+                <td>chocolate biscuit</td>
+                <td>140</td>
+                <td>90.00</td>
+                <td>
+                    <button class="btn btn-outline-info" data-bs-target="#staticBackdropforUpdateItem"
+                            data-bs-toggle="modal"
+                            type="button">Delete
+                    </button>
 
 
-   </section>
+                </td>
+                </tbody>
+
+                <tbody>
+                <td>I-002</td>
+                <td>Maggi Noodles</td>
+                <td>50</td>
+                <td>100.00</td>
+                <td>
+                    <button class="btn btn-outline-info" data-bs-target="#staticBackdropforUpdateItem"
+                            data-bs-toggle="modal"
+                            type="button">Delete
+                    </button>
+                </td>
+                </tbody>
+
+                </thead>
+            </table>
 
 
+        </section>
 
 
+    </section>
 
 
 </main>

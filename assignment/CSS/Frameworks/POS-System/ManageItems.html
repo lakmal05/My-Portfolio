@@ -30,16 +30,37 @@
 <!--        </div>-->
 <!--    </div>-->
 <!--</nav>-->
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+                <a class="nav-link" href="ManageCustomers.html">Customers</a>
+                <a class="nav-link" href="ManageItems.html">Item</a>
+                <a class="nav-link "  href="PlaceOrder.html" >Place Order</a>
+
+
+
+            </div>
+        </div>
+    </div>
+</nav>
 
 <main class="container-fluid">
 
-    <section class="row">
+    <section id="Item" class="row">
 
-        <div class="col-8">  <p class="h3">Manage Items</p></div>
+        <div class="col-7">  <p class="h3">Manage Items</p></div>
 
 
-        <div class="col-6"><button type="button" class="btn btn-primary btn-lg">ADD New Item+ </button> </div>
+        <div class="col-7 "><button type="button" class="btn btn-primary btn-lg">ADD New Item+ </button> </div>
 
 
         <div class="col-4"> <form class="d-flex" role="search">
@@ -49,9 +70,93 @@
 
 
 
+        <table class="table table-bordered table-hover">
+            <thead class="bg-info text-white">
+            <tr class="table-danger">
+                <td>Item Code</td>
+                <td>Name</td>
+                <td>QtyOnHand</td>
+                <td>Price</td>
+                <td>Action</td>
+            </tr>
+
+            <tbody>
+            <td>I-001</td>
+            <td>chocolate biscuit</td>
+            <td>140</td>
+            <td>90.00</td>
+            <td>
+                <button class="btn btn-outline-info" data-bs-target="#staticBackdropforUpdateItem"
+                        data-bs-toggle="modal"
+                        type="button">Delete
+                </button>
+
+
+
+            </td>
+            </tbody>
+
+            <tbody>
+            <td>I-002</td>
+            <td>Maggi Noodles</td>
+            <td>50</td>
+            <td>100.00</td>
+            <td>
+                <button class="btn btn-outline-info" data-bs-target="#staticBackdropforUpdateItem"
+                        data-bs-toggle="modal"
+                        type="button">Edit
+                </button>
+            </td>
+            </tbody>
+
+            </thead>
+        </table>
+
+
+
     </section>
 
+<!--    <table class="table table-bordered table-hover">-->
+<!--        <thead class="bg-info text-white">-->
+<!--        <tr class="table-danger">-->
+<!--            <td>Item Code</td>-->
+<!--            <td>Name</td>-->
+<!--            <td>QtyOnHand</td>-->
+<!--            <td>Price</td>-->
+<!--            <td>Action</td>-->
+<!--        </tr>-->
 
+<!--        <tbody>-->
+<!--        <td>I-001</td>-->
+<!--        <td>chocolate biscuit</td>-->
+<!--        <td>140</td>-->
+<!--        <td>90.00</td>-->
+<!--        <td>-->
+<!--            <button class="btn btn-outline-info" data-bs-target="#staticBackdropforUpdateItem"-->
+<!--                    data-bs-toggle="modal"-->
+<!--                    type="button">Delete-->
+<!--            </button>-->
+
+
+
+<!--        </td>-->
+<!--        </tbody>-->
+
+<!--        <tbody>-->
+<!--        <td>I-002</td>-->
+<!--        <td>Maggi Noodles</td>-->
+<!--        <td>50</td>-->
+<!--        <td>100.00</td>-->
+<!--        <td>-->
+<!--            <button class="btn btn-outline-info" data-bs-target="#staticBackdropforUpdateItem"-->
+<!--                    data-bs-toggle="modal"-->
+<!--                    type="button">Edit-->
+<!--            </button>-->
+<!--        </td>-->
+<!--        </tbody>-->
+
+<!--        </thead>-->
+<!--    </table>-->
 
 
 </main>

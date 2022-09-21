@@ -20,17 +20,85 @@
 /*    border: 1px solid red;*/
 /*    height: 300px;*/
 /*    grid-gap: 10px;*/
-/*    column-gap: 10px;*/
+
+
+
+/*}*/
+/*main>section>section:nth-child(3){*/
+/*    border: 1px solid red;*/
+/*    height: 300px;*/
+/*    grid-gap: 10px;*/
+/*  !*margin-left: 40px;*!*/
+
+
+/*}*/
+/*main>section>section:nth-child(4){*/
+/*    border: 1px solid red;*/
+/*    height: 300px;*/
+/*    grid-gap: 10px;*/
+/*    margin-left: 40px;*/
 
 
 /*}*/
 
+/*main>section>section:nth-child(2)>div{*/
+/*    border: 1px solid red;*/
+/*    height: 50px;*/
 
-/*main>section>section:nth-child(2)>div:nth-child(1){*/
-/*    !*border: 1px solid red;*!*/
-/*    !*height: 50px;*!*/
-/*    !*column-gap: 10px;*!*/
 /*    background-color: #e736d5;*/
-/*    */
+
 
 /*}*/
+
+/*main>section>section:nth-child(3)>div{*/
+/*    border: 1px solid red;*/
+/*    height: 50px;*/
+
+/*    background-color: #e736d5;*/
+
+
+/*}main>section>section:nth-child(4)>div{*/
+/*     border: 1px solid red;*/
+/*     height: 50px;*/
+
+/*     background-color: #e736d5;*/
+
+
+/* }*/
+
+ #Item>div:nth-child(1){
+     border: 1px solid red;
+
+ }
+#Item>div:nth-child(2){
+      border: 1px solid red;
+       height:200px ;
+
+  }
+
+#Item>table{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+#Customers>section:nth-child(2){
+    margin-left: 100px;
+    height: 100px;
+}
+
+#Customers>section:nth-child(3){
+
+    height: 100px;
+}
+
+
+#Customers>section:nth-child(4){
+    margin-top: 100px;
+
+}
