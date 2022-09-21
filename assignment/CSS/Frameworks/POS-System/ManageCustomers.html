@@ -42,7 +42,57 @@
     <section class="col-8">  <p class="h3">Manage Customers</p></section>
 
 <!--      button add new cutsomer-->
-   <section class="col-6"><button type="button" class="btn btn-primary btn-lg">ADD New CUSTOMER +</button> </section>
+<!--   <section class="col-6"><button type="button" class="btn btn-primary btn-lg">ADD New CUSTOMER +</button> </section>-->
+
+    <!-- Button trigger modal -->
+    <section class="col-7">
+    <button class="btn btn-primary " data-bs-target="#exampleModal" data-bs-toggle="modal" type="button">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade " id="exampleModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Customer Save</h5>
+                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+                </div>
+                <div class="modal-body">
+                    <section>
+                        <div class="mb-3">
+                            <label class="form-label" for="formFile">Customer ID</label>
+                            <input class="form-control" id="formFile" type="text">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="formFileMultiple">Customer Name</label>
+                            <input class="form-control" id="formFileMultiple" multiple type="text">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="formFileDisabled">Customer Address</label>
+                            <input class="form-control" id="formFileDisabled" type="text">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="formFileSm">Customer Salary</label>
+                            <input class="form-control form-control-sm" id="formFileSm" type="number">
+                        </div>
+
+                        <div aria-label="Basic mixed styles example" class="btn-group" role="group">
+                            <button class="btn btn-danger" type="button">Customer Delete</button>
+                            <button class="btn btn-warning" type="button">Update</button>
+                            <button class="btn btn-success" type="button">Save</button>
+                        </div>
+                    </section>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>
+                    <button class="btn btn-primary" type="button">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </section>
 
 <!--    search bar and button-->
    <section class="col-4"> <form class="d-flex" role="search" style="">
@@ -52,7 +102,7 @@
    </section>
 
 <!--table cutomers-->
-    <section>
+    <section >
     <table class="table table-bordered table-hover">
         <thead class="bg-info text-white">
         <tr class="table-danger">
