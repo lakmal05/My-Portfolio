@@ -109,14 +109,29 @@ margin-left: 140px;
 
 
 
+#AddItem{
 
+
+    height: 200px;
+    border: 1px solid red;
+
+}
+
+
+
+#searchItem{
+    height: 200px;
+    border: 1px solid red;
+
+}
 
 
 
 
 #Customers>section:nth-child(2){
-    margin-left: 100px;
-    height: 100px;
+    margin-left: 33px;
+    /*height: 100px;*/
+    height: 185px;
 }
 
 #Customers>section:nth-child(3){
@@ -129,3 +144,46 @@ margin-left: 140px;
     margin-top: 100px;
 
 }
+
+
+
+#btnAddCustomer{
+    height: 40px;
+    border: 1px solid red;
+}
+
+#searchCustomer{
+    height: 185px;
+    border: 1px solid red;
+}
+
+
+
+
+
+#PlaceOrder > section:nth-child(2)>div{
+    height: 40px;
+    border: 1px solid red;
+}
+
+
+#PlaceOrder > section:nth-child(3)>div{
+    height: 40px;
+    border: 1px solid red;
+}
+#PlaceOrder > section:nth-child(4)>div{
+    height: 40px;
+    border: 1px solid red;
+}
+
+
+
+#PlaceOrder > section:nth-child(5){
+    margin-top: 70px;
+}
+
+
+
+
+
+
