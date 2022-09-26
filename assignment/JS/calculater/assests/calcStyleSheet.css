@@ -1,0 +1,28 @@
+body>section{
+    width:500px;
+    height: 500px;
+    background-color: #c7ecee;
+
+}
+
+body>section>div:nth-child(2){
+    width:100px;
+    height: 100px;
+    background-color: white;
+
+
+}body>section>section{
+    display: flex;
+    width: 100px;
+  column-gap: 10px;
+
+ }
+
+
+
+body>section>section>button{
+
+    width :40px;
+    height: 20px;
+
+}
