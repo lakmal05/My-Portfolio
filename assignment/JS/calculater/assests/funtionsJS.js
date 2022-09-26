@@ -44,6 +44,13 @@ function fn1(){
 }
 
 
+// let point = document.getElementById("btnpoint")
+function fnpoint(){
+    let previous =document.getElementById("display").innerHTML;
+    document.getElementById("display").valueOf(previous);
+
+}
+
 
 // ereser
 

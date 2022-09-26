@@ -6,56 +6,66 @@
     <meta content="width=device-width initial-scale=1" name="viewport">
 
     <title>calculater</title>
-   <script src="assests/funtionsJS.js"></script>
-   <link  rel="stylesheet"   href="assests/calcStyleSheet.css" >
-
-
-
+    <script src="assests/funtionsJS.js"></script>
+    <link rel="stylesheet" href="assests/calcStyleSheet.css">
+    <link rel="stylesheet" href="../../CSS/Frameworks/POS-System/assets/css/bootstrap.min.css">
 
 </head>
 <body>
 
 
-<section>
+<section class="row">
 
-<h1>calculetr</h1>
-    <div>
-<h3 id="display"> 0</h3>
+    <h1>calculetr</h1>
+    <div class="align-content-end">
+        <h3 id="display"> 0</h3>
     </div>
 
-        <hr>
-
-    <section>
-<button id="btn0" onclick="fn0()">0 </button>
-<button id="btn1" onclick="fn1()">1 </button>
-<button id="btn2" onclick="fn2() ">2 </button>
-<button id="btn3" onclick="fn3() ">3 </button>
-<button id="btn4" onclick="fn4()" >4 </button>
-<button id="btn5" onclick="fn5()" >5 </button>
-<button id="btn6" onclick="fn6()" >6 </button>
-<button id="btn7" onclick="fn7()" >7 </button>
-<button id="btn8" onclick="fn8()" >8 </button>
-<button id="btn9" onclick="fn9()" >9</button>
-
-<button id="btnAC" onclick="AC()">Clear</button>
+    <hr>
 
 
-<button id="btnplus" onclick="fnplus()" >+ </button>
-<button id="btnminers" onclick="fnminers()" >- </button>
-<button id="btndevied" onclick="fndevied()" >/ </button>
-<button id="btnmulti" onclick="fnmulti()" >* </button>
+    <section class="row">
+        <button class="col-3 " id="btn7" onclick="fn7()">7</button>
+        <button class="col-3 " id="btn8" onclick="fn8()">8</button>
+        <button class="col-3 " id="btn9" onclick="fn9()">9</button>
 
-
-<button id="btnequal" onclick="fnequal()" >= </button>
+        <button class="col-3 " id="btnmulti" onclick="fnmulti()">*</button>
 
     </section>
 
 
-<button id="btnAC1" onclick="fnallclear()" >AC</button>
+    <section class="row">
+        <button class="col-3 " id="btn4" onclick="fn4()">4</button>
+        <button class="col-3" id="btn5" onclick="fn5()">5</button>
+        <button class="col-3 " id="btn6" onclick="fn6()">6</button>
+
+        <button class="col-3" id="btnminers" onclick="fnminers()">-</button>
+
+    </section>
 
 
+    <section class="row">
+        <button class="col-3" id="btn1" onclick="fn1()">1</button>
+        <button class="col-3" id="btn2" onclick="fn2() ">2</button>
+        <button class="col-3" id="btn3" onclick="fn3() ">3</button>
+
+        <button class="col-3" id="btndevied" onclick="fndevied()">/</button>
+
+    </section>
 
 
+    <section class="row">
+
+        <button class="col-3" id="btnAC1" onclick="fnallclear()">AC</button>
+        <button class="col-3" id="btn0" onclick="fn0()">0</button>
+
+        <button class="col-3" id="btnplus" onclick="fnplus()">+</button>
+        <button class="col-3" id="btnequal" onclick="fnequal()">=</button>
+    </section>
+
+<section class="row">
+    <button class="col-3" id="btnpoint" onclick="fnpoint()">.</button>
+</section>
 
 </section>
 
