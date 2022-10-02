@@ -2146,7 +2146,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         right: 27px;
         z-index: 9;
         background: #FFFFFF;
-        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        /*box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);*/
         border-radius: 58px;
         background: linear-gradient(to top, #ffffff 11%, #ff99cc 100%);
     }
@@ -2160,7 +2160,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         right: 22px;
         z-index: 9;
         background: #FFFFFF;
-        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        /*box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);*/
         border-radius: 58px;
         background: linear-gradient(to top, #ffffff 11%, #ff99cc 100%);
     }

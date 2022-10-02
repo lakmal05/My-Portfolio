@@ -9,7 +9,7 @@ margin-left: 140px;
 #Home>section:nth-child(1)>section:nth-child(1)>div{
 
      margin-top: 50px;
-     border: 1px solid red;
+     /*border: 1px solid red;*/
 
 
 }
@@ -94,11 +94,11 @@ margin-left: 140px;
 /* }*/
 
  #Item>div:nth-child(1){
-     border: 1px solid red;
+     /*border: 1px solid red;*/
 
  }
 #Item>div:nth-child(2){
-      border: 1px solid red;
+      /*border: 1px solid red;*/
        height:200px ;
 
   }
@@ -113,7 +113,7 @@ margin-left: 140px;
 
 
     height: 200px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 
 }
 
@@ -121,7 +121,7 @@ margin-left: 140px;
 
 #searchItem{
     height: 200px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 
 }
 
@@ -149,12 +149,12 @@ margin-left: 140px;
 
 #btnAddCustomer{
     height: 40px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 #searchCustomer{
     height: 185px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 
@@ -163,17 +163,17 @@ margin-left: 140px;
 
 #PlaceOrder > section:nth-child(2)>div{
     height: 40px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 
 #PlaceOrder > section:nth-child(3)>div{
     height: 40px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 #PlaceOrder > section:nth-child(4)>div{
     height: 40px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 
