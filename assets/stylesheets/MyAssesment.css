@@ -1,0 +1,156 @@
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #1e2225;
+}
+
+
+
+
+header {
+    width: 99.5%;
+    height: 68px;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+.CSSBasic{
+    width: 99.5%;
+    height: 834px;
+    background-color: yellow;
+
+}
+
+
+
+.CSSTransitions{
+    width: 99.5%;
+    height: 530px;
+    background-color: #e736d5;
+}
+
+
+.CSSAnimations{
+    width: 99.5%;
+    height: 510px;
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+
+/*CSS BASIC*/
+
+.CSSBasic>section:nth-child(2) {
+    position: absolute;
+    display: flex;
+    column-gap: 161px;
+    left: 241px;
+    top: 157px;
+}
+.CSSBasic>section:nth-child(3) {
+    position: absolute;
+    display: flex;
+    column-gap: 161px;
+    left: 241px;
+    bottom: -69px;
+}
+
+.CSSBasic>section:nth-child(2)>div{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+
+}
+.CSSBasic>section:nth-child(3)>div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+
+}
+
+
+
+/*CSS TRANSITIONS*/
+.CSSTransitions>section:nth-child(2) {
+    position: relative;
+    display: flex;
+    column-gap: 169px;
+    left: 372px;
+    top: 137px;
+    width: fit-content;
+}
+
+
+.CSSTransitions>section:nth-child(2)>div{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+
+}
+
+
+
+/*CSS Animations*/
+
+.CSSAnimations>section:nth-child(2) {
+    position: relative;
+    display: flex;
+    column-gap: 100px;
+    left: 122px;
+    top: 109px;
+    width: fit-content;
+}
+
+
+.CSSAnimations>section:nth-child(2)>div{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+
+}
+
+
+
+
+
+
+
+
+/*footer*/
+
+
+footer {
+    height: 70px;
+    width: 98.5%;
+    background-color: black;
+    position: absolute;
+}
+
+
+
+
+
+
+/*Head Line*/
+
+
+a{
+    font-size: 30px;
+    position: relative;
+    font-family: Consolas;
+    left: 572px;
+    top: 48px;
+
+
+}
