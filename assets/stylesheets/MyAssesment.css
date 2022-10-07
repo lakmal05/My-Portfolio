@@ -70,14 +70,28 @@ header {
     height: 200px;
     width: 200px;
     background-color: black;
+    border-radius: 44px;
 
 }
-.CSSBasic>section:nth-child(3)>div{
+.CSSBasic>section:nth-child(3)>div {
     height: 200px;
     width: 200px;
     background-color: red;
+    border-radius: 44px;
+
 
 }
+
+
+
+/*.CSSBasic>section>div>p{*/
+/*   color: #ffeff6;*/
+/*}*/
+
+
+
+
+
 
 
 
@@ -96,7 +110,7 @@ header {
     height: 200px;
     width: 200px;
     background-color: black;
-
+    border-radius: 44px;
 }
 
 
@@ -117,7 +131,7 @@ header {
     height: 200px;
     width: 200px;
     background-color: black;
-
+    border-radius: 44px;
 }
 
 
@@ -152,5 +166,27 @@ a{
     left: 572px;
     top: 48px;
 
+
+}
+
+
+p{
+    color: #FFFFFF;
+    font-size: 24px;
+    position: relative;
+    left: 40px;
+    top: 40px;
+
+
+
+}
+
+
+
+
+
+
+
+@media all and (max-width: 1024px)
 
 }
