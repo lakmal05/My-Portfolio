@@ -303,7 +303,6 @@ body > div:nth-child(3) > a > img {
 /*}*/
 
 
-
 dfn {
     position: relative;
     display: inline-flex;
@@ -311,9 +310,10 @@ dfn {
     height: 55px;
     margin: 0 15px;
     perspective: 1000px;
-    top: -628px;
-    left: 31px;
+    top: -657px;
+    left: 27px;
 }
+
 
 dfn a {
     font-size: 19px;
@@ -799,17 +799,14 @@ main > section:nth-child(4) > p {
 #skill_headlines1 {
     position: relative;
     color: #FFFFFF;
-    font-size: 19px;
+    font-size: 23px;
     font-family: 'Poppins', "Segoe UI Semibold";
     font-weight: 55;
-    left: 994px;
-    bottom: -100px;
-
-    margin: auto;
+    left: 963px;
+    bottom: 166px;
+    /* margin: auto; */
     padding: 0;
     border: 0;
-
-
     display: inline-block;
 }
 
@@ -817,26 +814,22 @@ main > section:nth-child(4) > p {
 #skill_headlines2 {
     position: relative;
     color: #FFFFFF;
-    font-size: 19px;
+    font-size: 25px;
     font-family: 'Poppins', "Segoe UI Semibold";
     font-weight: 55;
-    left: 1115px;
-    bottom: 215px;
-
+    left: 952px;
+    bottom: 164px;
     display: inline-block;
 }
-
 /*fraimworks head line*/
 #skill_headlines3 {
     position: relative;
     color: #FFFFFF;
-    font-size: 19px;
+    font-size: 22px;
     font-family: 'Poppins', "Segoe UI Semibold";
     font-weight: 55;
-    left: 1110px;
-    bottom: 963px;
-
-
+    left: 961px;
+    bottom: 133px;
     display: inline-block;
 }
 
@@ -2058,7 +2051,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     left: 500px;
     cursor: pointer;
 
-    top: -66px;
+    top: 29px;
 
     display: inline-block;
 }
@@ -2186,6 +2179,17 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
+    dfn {
+        position: relative;
+        display: inline-flex;
+        width: 180px;
+        height: 55px;
+        margin: 0 15px;
+        perspective: 1000px;
+        top: -657px;
+        left: 27px;
+    }
+
     .aboutmeSection {
         position: relative;
         height: 786px;
@@ -2265,19 +2269,19 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(2) {
         left: 0px;
-        top: 150px;
+        top: 130px;
         position: absolute;
     }
 
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(3) {
         left: 0px;
-        top: 230px;
+        top: 179px;
         position: absolute;
     }
 
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(4) {
         left: 0px;
-        top: 320px;
+        top: 308px;
         position: absolute;
     }
 
@@ -2294,8 +2298,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         border-radius: 15px;
         box-shadow: 0 4px #999;
         position: relative;
-        left: 644px;
-        top: -158px;
+        left: 645px;
+        top: -115px;
     }
 
 
@@ -2327,7 +2331,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         font-size: 19px;
         font-family: 'inter';
         font-weight: 55;
-        left: -215px;
+        left: 240px;
         top: 15px;
         display: inline-block;
         margin: 0px;
@@ -2426,16 +2430,16 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         align-items: center;
         width: 80%;
         position: relative;
-        top: 137px;
-        right: 14px;
-        left: -107px;
+        top: 127px;
+        /* right: 12px; */
+        left: -19px;
     }
 
 
     /*My Projects*/
     .myprojects {
         position: relative;
-        height: 907px;
+        height: 942px;
         width: 99.8%;
 
         background-color: #1e2225;
@@ -2444,7 +2448,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     main > section:nth-child(5) > p:nth-child(1) {
         position: relative;
-        left: 615px;
+        left: 546px;
         top: 10px;
         color: #FFFFFF;
         font-size: 42px;
@@ -2462,7 +2466,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         font-size: 19px;
         font-family: 'inter';
         font-weight: 55;
-        left: 30px;
+        left: 156px;
         top: 42px;
         display: inline-block;
     }
@@ -2472,8 +2476,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         /*border: 1px solid red;*/
         display: flex;
         position: relative;
-        top: 90px;
-        left: 196px;
+        top: 70px;
+        left: 137px;
         /* height: 250px; */
         width: 1142px;
         align-items: center;
@@ -2506,11 +2510,15 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         align-items: center;
         justify-content: center;
         position: relative;
-        top: 190px;
-        left: 539px;
+        top: 169px;
+        left: 471px;
         column-gap: 139px;
     }
-
+    main > section:nth-child(5) > button:nth-child(5) {
+        position: relative;
+        left: 585px;
+        top: 278px;
+    }
     /*Div*/
     main > section:nth-child(5) > section:nth-child(4) > div {
         /*border: 1px solid orange;*/
@@ -2923,7 +2931,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         width: 100%;
         background-color: rgba(74, 71, 71, 0.6);
         position: relative;
-        top: -325px;
+        top: -256px;
     }
 
     /*Headine*/
@@ -3000,16 +3008,16 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     main > section:nth-child(9) > section {
         display: flex;
-        height: 253px;
-        width: 1000px;
+        height: 246px;
+        width: 1015px;
         align-items: center;
         justify-content: center;
         position: relative;
         top: 69px;
-        /*border: 1px solid red;*/
-        left: 270px;
+        /* border: 1px solid red; */
+        left: 215px;
         padding: 10px;
-        column-gap: 10px;
+        column-gap: 22px;
     }
 
 
@@ -3022,14 +3030,13 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         display: inline-block;
     }
 
-
     main > section:nth-child(9) > section:nth-child(2) > div > img {
         position: relative;
-        left: 116px;
+        left: 114px;
         width: 67px;
         height: 67px;
+        top: -33px;
     }
-
 
     /*footer*/
     .footer {
@@ -3059,10 +3066,10 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     .footer > p {
         position: absolute;
-        left: 14px;
-        top: 19px;
+        left: 437px;
+        top: 23px;
         color: #FFFFFF;
-        font-size: 15px;
+        font-size: 25px;
         font-family: 'Poppins';
         font-weight: 500;
         display: inline-block;
@@ -3375,7 +3382,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
     #DownloadResume {
-        padding: 15px 25px;
+        padding: 12px 16px;
         font-size: 24px;
         text-align: center;
         cursor: pointer;
@@ -3383,11 +3390,11 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         color: #fff;
         background-color: #e736d5;
         border: none;
-        border-radius: 15px;
+        border-radius: 14px;
         box-shadow: 0 4px #999;
         position: relative;
-        left: 544px;
-        top: -61px;
+        left: 480px;
+        top: -132px;
     }
 
 
@@ -3434,7 +3441,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         font-size: 17px;
         font-family: 'inter';
         font-weight: 55;
-        left: 175px;
+        left: 108px;
         top: -3px;
         display: inline-block;
     }
@@ -4437,7 +4444,18 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         background-color: rgba(74, 71, 71, 0.6);
         top: -221px;
     }
-
+    .footer > p {
+        position: absolute;
+        left: 247px;
+        top: 19px;
+        color: #FFFFFF;
+        font-size: 26px;
+        font-family: 'Poppins';
+        font-weight: 500;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
 
 }
 
@@ -4689,6 +4707,19 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
+    dfn {
+        position: relative;
+        display: inline-flex;
+        width: 180px;
+        height: 55px;
+        margin: 0 15px;
+        perspective: 1000px;
+        top: -344px;
+        left: 27px;
+    }
+
+
+
     /*about me section*/
     .aboutmeSection {
         position: relative;
@@ -4705,7 +4736,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         font-family: 'Poppins', "Segoe UI Semibold";
         font-size: 36px;
         position: relative;
-        top: -560px;
+        top: -544px;
         left: 323px;
     }
 
@@ -4717,8 +4748,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         font-family: 'Poppins', "Segoe UI Semibold";
         font-size: 18px;
         position: relative;
-        top: -580px;
-        left: 314px;
+        top: -567px;
+        left: 317px;
     }
 
     /*semi picher div*/
@@ -4727,7 +4758,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         height: 517px;
         position: relative;
         top: 127px;
-        left: 32px;
+        left: 23px;
         padding: 0;
         margin: 0;
         display: inline-block;
@@ -4735,8 +4766,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     /*semi pic*/
     #semipic {
-        width: 335px;
-        height: 488px;
+        width: 322px;
+        height: 482px;
         position: absolute;
         top: 0;
         left: 0;
@@ -4786,11 +4817,38 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         position: absolute;
     }
 
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(2) {
+        left: 0px;
+        top: 104px;
+        position: absolute;
+    }
+
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(3) {
+        left: 2px;
+        top: 162px;
+        position: absolute;
+    }
+    main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(4) {
+        left: 0px;
+        top: 267px;
+        position: absolute;
+    }
+
+
+
+
+
+
+
+
+
+
+
 
     /*Download button*/
     #DownloadResume {
-        padding: 15px 25px;
-        font-size: 24px;
+        padding: 12px 8px;
+        font-size: 19px;
         text-align: center;
         cursor: pointer;
         outline: none;
@@ -4800,8 +4858,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         border-radius: 15px;
         box-shadow: 0 4px #999;
         position: relative;
-        left: 392px;
-        top: -83px;
+        left: 373px;
+        top: -132px;
     }
 
 
@@ -4837,8 +4895,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         font-size: 14px;
         font-family: 'inter';
         font-weight: 55;
-        left: 76px;
-        top: -3px;
+        left: 23px;
+        top: 9px;
         display: inline-block;
     }
 
@@ -5552,7 +5610,18 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
     /*footer head lime*/
-
+    .footer > p {
+        position: absolute;
+        left: 106px;
+        top: 16px;
+        color: #FFFFFF;
+        font-size: 24px;
+        font-family: 'Poppins';
+        font-weight: 500;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
 
 }
 
@@ -5560,7 +5629,16 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 /*moblie  320 px*/
 
 @media all and (max-width: 425px) {
-
+    dfn {
+        position: relative;
+        display: none;
+        width: 180px;
+        height: 55px;
+        margin: 0 15px;
+        perspective: 1000px;
+        top: -344px;
+        left: 27px;
+    }
 
     body > div:nth-child(2) {
         width: 50px;
@@ -5922,10 +6000,10 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(3) > p:nth-child(2) {
         position: relative;
         color: #ddd9d9;
-        font-size: 9px;
+        font-size: 8px;
         font-family: 'inter';
         font-weight: 55;
-        left: 11px;
+        left: 6px;
         top: -3px;
         display: inline-block;
     }
@@ -6085,13 +6163,62 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         font-size: 19px;
         font-family: 'Poppins', "Segoe UI Semibold";
         font-weight: 55;
-        left: 0;
+        left: 100px;
         bottom: 250px;
         margin: auto;
         padding: 0;
         border: 0;
         display: inline-block;
     }
+
+
+
+
+    main > section:nth-child(4) > section:nth-child(2) {
+        height: 231px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 3%;
+        position: relative;
+        top: 88px;
+        /* right: 0; */
+        left: -36px;
+        margin: auto;
+    }
+
+    main > section:nth-child(4) > section:nth-child(3) {
+        height: 190px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 31%;
+        position: relative;
+        top: 138px;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+
+
+
+
+    main > section:nth-child(4) > section:nth-child(4) {
+        height: 210px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 43%;
+        position: relative;
+        top: 161px;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+
+
 
 
     main > section:nth-child(4) > section:nth-child(2) > div:nth-child(1) {
@@ -6853,14 +6980,29 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         display: inline-block;
     }
 
-
-
+    dfn{
+        display:none;
+    }
+    .footer > p {
+        position: absolute;
+        left: 29px;
+        top: 9px;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-family: 'Poppins';
+        font-weight: 500;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
 
 }
 
 
 @media all and (max-width: 375px) {
-
+    dfn{
+        display:none;
+    }
 
     body > div:nth-child(2) {
         width: 50px;
@@ -7115,7 +7257,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     /*section*/
     .aboutmeSection {
         position: relative;
-        height: 385px;
+        height: 373px;
         width: 100%;
         background-color: rgba(74, 71, 71, 0.6);
         top: 1px;
@@ -7153,8 +7295,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         font-family: 'Poppins', "Segoe UI Semibold";
         font-size: 25px;
         position: relative;
-        top: -307px;
-        left: 134px;
+        top: -302px;
+        left: 128px;
     }
 
     /*semi headline*/
@@ -7164,8 +7306,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         font-family: 'Poppins', "Segoe UI Semibold";
         font-size: 12px;
         position: relative;
-        top: -329px;
-        left: 133px;
+        top: -326px;
+        left: 126px;
     }
 
     /*paragraf headine*/
@@ -7209,7 +7351,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     /*paragraf 3*/
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(3) {
         left: 0px;
-        top: 53px;
+        top: 45px;
         position: absolute;
     }
 
@@ -7244,8 +7386,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         border-radius: 15px;
         box-shadow: 0 4px #999;
         position: relative;
-        left: 220px;
-        top: -123px;
+        left: 217px;
+        top: -110px;
     }
 
 
@@ -7276,10 +7418,10 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(3) > p:nth-child(2) {
         position: relative;
         color: #ddd9d9;
-        font-size: 8px;
+        font-size: 7px;
         font-family: 'inter';
         font-weight: 55;
-        left: 11px;
+        left: 5px;
         top: -3px;
         display: inline-block;
     }
@@ -7427,6 +7569,19 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
     /*languages*/
     main > section:nth-child(4) > section:nth-child(2) {
         height: 231px;
@@ -7449,13 +7604,61 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         font-size: 19px;
         font-family: 'Poppins', "Segoe UI Semibold";
         font-weight: 55;
-        left: 218px;
+        left: 100px;
         bottom: 250px;
         margin: auto;
         padding: 0;
         border: 0;
         display: inline-block;
     }
+
+
+
+
+    main > section:nth-child(4) > section:nth-child(2) {
+        height: 231px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 3%;
+        position: relative;
+        top: 88px;
+        /* right: 0; */
+        left: -36px;
+        margin: auto;
+    }
+
+    main > section:nth-child(4) > section:nth-child(3) {
+        height: 190px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 31%;
+        position: relative;
+        top: 138px;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+
+
+
+
+    main > section:nth-child(4) > section:nth-child(4) {
+        height: 210px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 43%;
+        position: relative;
+        top: 161px;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+
 
 
     /*Prject and reserch*/
@@ -8023,7 +8226,18 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         top: 561px;
         display: inline-block;
     }
-
+    .footer > p {
+        position: absolute;
+        left: 27px;
+        top: 23px;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-family: 'Poppins';
+        font-weight: 500;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
 
 }
 
@@ -8275,7 +8489,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     /*paragraf 3*/
     main > section:nth-child(2) > section:nth-child(2) > section:nth-child(4) > p:nth-child(3) {
         left: 0px;
-        top: 53px;
+        top: 45px;
         position: absolute;
     }
 
@@ -8300,7 +8514,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
 
     #DownloadResume {
-        padding: 6px 5px;
+        padding: 4px 3px;
         font-size: 8px;
         text-align: center;
         cursor: pointer;
@@ -8311,8 +8525,8 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         border-radius: 15px;
         box-shadow: 0 4px #999;
         position: relative;
-        left: 189px;
-        top: -97px;
+        left: 175px;
+        top: -76px;
     }
 
 
@@ -8342,10 +8556,10 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     main > section:nth-child(3) > p:nth-child(2) {
         position: relative;
         color: #ddd9d9;
-        font-size: 7px;
+        font-size: 6px;
         font-family: 'inter';
         font-weight: 55;
-        left: 14px;
+        left: 2px;
         top: -3px;
         display: inline-block;
     }
@@ -8483,13 +8697,73 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         font-size: 19px;
         font-family: 'Poppins', "Segoe UI Semibold";
         font-weight: 55;
-        left: 0;
-        bottom: 250px;
+        left: 58px;
+        bottom: 235px;
         margin: auto;
         padding: 0;
         border: 0;
         display: inline-block;
     }
+
+
+
+    main > section:nth-child(4) > section:nth-child(2) {
+        height: 231px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 3%;
+        position: relative;
+        top: 88px;
+        /* right: 0; */
+        left: -36px;
+        margin: auto;
+    }
+
+
+    main > section:nth-child(4) > section:nth-child(2) {
+        height: 231px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 3%;
+        position: relative;
+        top: 88px;
+        /* right: 0; */
+        left: -36px;
+        margin: auto;
+    }
+
+    main > section:nth-child(4) > section:nth-child(3) {
+        height: 190px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 31%;
+        position: relative;
+        top: 138px;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+
+
+
+
+    main > section:nth-child(4) > section:nth-child(4) {
+        height: 210px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 43%;
+        position: relative;
+        top: 161px;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
 
     /*My Projects*/
 
@@ -8850,8 +9124,22 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     }
 
 
+dfn{
+    display:none;
+}
 
-
+    .footer > p {
+        position: absolute;
+        left: 27px;
+        top: 23px;
+        color: #FFFFFF;
+        font-size: 12px;
+        font-family: 'Poppins';
+        font-weight: 500;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
 
 
 }
