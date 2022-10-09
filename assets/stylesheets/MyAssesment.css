@@ -24,7 +24,7 @@ header {
 .CSSBasic{
     width: 99.5%;
     height: 834px;
-    background-color: yellow;
+    background: linear-gradient(to right, #003366 0%, #009999 100%);
 
 }
 
@@ -33,14 +33,14 @@ header {
 .CSSTransitions{
     width: 99.5%;
     height: 530px;
-    background-color: #e736d5;
+    background-color: white;
 }
 
 
 .CSSAnimations{
     width: 99.5%;
     height: 510px;
-    background-color: yellow;
+    background-color: #1e2225;
 }
 
 .CSSFraimeWorks{
@@ -75,14 +75,14 @@ header {
 .CSSBasic>section:nth-child(2)>div{
     height: 200px;
     width: 200px;
-    background-color: black;
+    background: linear-gradient(to right, #3366ff 0%, #ffffff 100%);
     border-radius: 44px;
 
 }
 .CSSBasic>section:nth-child(3)>div {
     height: 200px;
     width: 200px;
-    background-color: red;
+    background: linear-gradient(to right, #3366ff 0%, #ffffff 100%);
     border-radius: 44px;
 
 
@@ -115,7 +115,7 @@ header {
 .CSSTransitions>section:nth-child(2)>div{
     height: 200px;
     width: 200px;
-    background-color: black;
+    background: linear-gradient(to right, #ff5050 0%, #ccffff 100%);
     border-radius: 44px;
 }
 
@@ -136,7 +136,7 @@ header {
 .CSSAnimations>section:nth-child(2)>div{
     height: 200px;
     width: 200px;
-    background-color: black;
+    background: linear-gradient(to right, #ff33cc 0%, #ffffff 100%);
     border-radius: 44px;
 }
 
@@ -159,7 +159,7 @@ header {
 .CSSFraimeWorks>section:nth-child(2)>div{
     height: 200px;
     width: 200px;
-    background-color: black;
+    background: linear-gradient(to right, #00ff99 0%, #ffffff 100%);
     border-radius: 44px;
 }
 
