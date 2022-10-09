@@ -219,6 +219,9 @@ section>div>img{
 
 
 
+/*footer>a{*/
+/*    position: absolute;    left: 603px;top: -18px;*/
+/*}*/
 
 
 
@@ -226,6 +229,328 @@ section>div>img{
 
 
 
-@media all and (max-width: 1024px){
+@media all and (max-width: 1024px) {
 
+
+    header > h1 {
+
+        color: white !important;
+        position: absolute !important;
+        left: 419px !important;
+        bottom: 0 !important;
+
+    }
+
+
+    /*CSS BASIC*/
+    .CSSBasic {
+        width: 99.5%;
+        height: 604px;
+        background: linear-gradient(to right, #003366 0%, #009999 100%);
+    }
+
+
+    p {
+        font-size: 30px;
+        position: relative;
+        font-family: Consolas;
+        left: 437px;
+        top: 48px;
+        display: inline-block;
+    }
+
+
+    .CSSBasic > section:nth-child(2) {
+        position: absolute;
+        display: flex;
+        column-gap: 161px;
+        left: 134px;
+        top: 163px;
+    }
+
+    .CSSBasic > section:nth-child(2) > div {
+        height: 150px;
+        width: 150px;
+        background: linear-gradient(to right, #3366ff 0%, #ffffff 100%);
+        border-radius: 33px;
+    }
+
+
+    /*SECTION 2*/
+    .CSSBasic > section:nth-child(3) {
+        position: absolute;
+        display: flex;
+        column-gap: 161px;
+        left: 140px;
+        bottom: -69px;
+    }
+
+    .CSSBasic > section:nth-child(3) > div {
+        height: 150px;
+        width: 150px;
+        background: linear-gradient(to right, #3366ff 0%, #ffffff 100%);
+        border-radius: 33px;
+    }
+
+
+    a {
+        color: #FFFFFF;
+        font-size: 26px;
+        position: relative;
+        left: 38px;
+        top: 59px;
+        text-decoration: none;
+    }
+
+
+
+
+
+
+
+
+/*CSS TRANSITIONS*/
+
+    .CSSTransitions {
+        width: 99.5%;
+        height: 425px;
+        background-color: white;
+    }
+
+
+    p {
+        font-size: 30px;
+        position: relative;
+        font-family: Consolas;
+        left: 392px;
+        top: 17px;
+        display: inline-block;
+    }
+
+
+
+    .CSSTransitions>section:nth-child(2) {
+        position: relative;
+        display: flex;
+        column-gap: 169px;
+        left: 267px;
+        top: 62px;
+        width: fit-content;
+    }
+
+
+
+    .CSSTransitions>section:nth-child(2)>div {
+        height: 150px;
+        width: 150px;
+        background: linear-gradient(to right, #ff5050 0%, #ccffff 100%);
+        border-radius: 44px;
+    }
+
+
+
+
+
+/*FRAIM WORKS*/
+
+    .CSSFraimeWorks {
+        width: 99.5%;
+        height: 461px;
+        background-color: #FFFFFF;
+    }
+
+    .CSSFraimeWorks>section:nth-child(2) {
+        position: relative;
+        display: flex;
+        column-gap: 100px;
+        left: 155px;
+        top: 79px;
+        width: fit-content;
+    }
+
+    .CSSFraimeWorks>section:nth-child(2)>div {
+        height: 150px;
+        width: 150px;
+        background: linear-gradient(to right, #00ff99 0%, #ffffff 100%);
+        border-radius: 44px;
+    }
+
+
+
+
+
+    /* CSS ANIMATIONS*/
+    .CSSAnimations>section:nth-child(2) {
+        position: relative;
+        display: flex;
+        column-gap: 100px;
+        left: 68px;
+        top: 109px;
+        width: fit-content;
+    }
+
+
+    .CSSAnimations>section:nth-child(2)>div {
+        height: 150px;
+        width: 150px;
+        background: linear-gradient(to right, #ff33cc 0%, #ffffff 100%);
+        border-radius: 44px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 768px) {
+    header > h1 {
+        color: white !important;
+        position: absolute !important;
+        left: 278px !important;
+        bottom: 0 !important;
+    }
+
+
+    .CSSBasic {
+        width: 99.5%;
+        height: 498px;
+        background: linear-gradient(to right, #003366 0%, #009999 100%);
+    }
+
+
+
+
+
+    p {
+        font-size: 30px;
+        position: relative;
+        font-family: Consolas;
+        left: 305px;
+        top: 30px;
+        display: inline-block;
+    }
+
+
+
+
+
+    .CSSBasic > section:nth-child(2) {
+        position: absolute;
+        display: flex;
+        column-gap: 161px;
+        left: 80px;
+        top: 163px;
+    }
+
+    .CSSBasic > section:nth-child(2) > div {
+        height: 100px;
+        width: 100px;
+        background: linear-gradient(to right, #3366ff 0%, #ffffff 100%);
+        border-radius: 16px;
+    }
+
+
+
+    a {
+        color: #FFFFFF;
+        font-size: 25px;
+        position: relative;
+        left: 23px;
+        top: 34px;
+        text-decoration: none;
+    }
+
+    .CSSBasic > section:nth-child(3) {
+        position: absolute;
+        display: flex;
+        column-gap: 161px;
+        left: 87px;
+        bottom: 23px;
+    }
+    .CSSBasic > section:nth-child(3) > div {
+        height: 100px;
+        width: 100px;
+        background: linear-gradient(to right, #3366ff 0%, #ffffff 100%);
+        border-radius: 16px;
+    }
+
+
+
+
+
+/*css tranisitn*/
+    .CSSTransitions>section:nth-child(2) {
+        position: relative;
+        display: flex;
+        column-gap: 169px;
+        left: 232px;
+        top: 77px;
+        width: fit-content;
+    }
+
+
+    .CSSTransitions>section:nth-child(2)>div {
+        height: 100px;
+        width: 100px;
+        background: linear-gradient(to right, #ff5050 0%, #ccffff 100%);
+        border-radius: 17px;
+    }
+
+
+
+
+/*aniamtoins*/
+
+
+    .CSSAnimations {
+        width: 99.5%;
+        height: 419px;
+        background-color: #1e2225;
+    }
+
+
+    .CSSAnimations>section:nth-child(2) {
+        position: relative;
+        display: flex;
+        column-gap: 90px;
+        left: 36px;
+        top: 100px;
+        width: fit-content;
+    }
+    .CSSAnimations>section:nth-child(2)>div {
+        height: 100px;
+        width: 100px;
+        background: linear-gradient(to right, #ff33cc 0%, #ffffff 100%);
+        border-radius: 16px;
+    }
+
+
+
+
+
+    /*fraimworks*/
+    .CSSFraimeWorks>section:nth-child(2) {
+        position: relative;
+        display: flex;
+        column-gap: 100px;
+        left: 141px;
+        top: 96px;
+        width: fit-content;
+    }
+    .CSSFraimeWorks>section:nth-child(2)>div {
+        height: 100px;
+        width: 100px;
+        background: linear-gradient(to right, #00ff99 0%, #ffffff 100%);
+        border-radius: 15px;
+    }
 }
