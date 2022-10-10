@@ -4467,6 +4467,11 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         margin: auto;
     }
 
+    main > section:nth-child(5) > button:nth-child(5) {
+        position: relative;
+        left: 451px!important;
+        top: 891px!important;
+    }
 }
 
 
@@ -5633,6 +5638,13 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         margin: auto;
     }
 
+
+    main > section:nth-child(5) > button:nth-child(5) {
+        position: relative;
+        left: 310px !important;
+        top: 950px !important;
+    }
+
 }
 
 
@@ -6356,7 +6368,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     .myprojects {
         position: relative;
-        height: 1000px;
+        height: 1015px;
         width: 100%;
         background-color: rgba(74, 71, 71, 0.6);
         top: 12px;
@@ -6396,7 +6408,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         /*border: 1px solid red;*/
         display: flex;
         position: absolute;
-        top: 408px;
+        top: 350px;
         left: 79px;
         height: 267px;
         width: 317px;
@@ -6433,8 +6445,12 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         column-gap: 16px;
     }
 
-
-
+/**view more button*/
+    main > section:nth-child(5) > button:nth-child(5) {
+        position: relative;
+        left: 164px;
+        top: 982px;
+    }
 
 
     /*My Journy*/
@@ -7476,7 +7492,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         /* flex-grow: 0; */
         /* row-gap: 5px; */
         position: relative;
-        left: 13px;
+        left: -1px;
         display: inline-block;
         /* flex-direction: column; */
         top: 352px;
@@ -7501,7 +7517,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         align-items: center;
         justify-content: center;
         position: relative;
-        top: 193px;
+        top: 210px;
         /* bottom: -1px; */
         flex-flow: column;
         left: 10px;
@@ -7526,7 +7542,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         flex-grow: 0;
         row-gap: 5px;
         position: absolute;
-        left: 91px;
+        left: 60px;
         display: inline-block;
         top: 244px;
     }
@@ -7538,9 +7554,9 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         flex-grow: 0;
         row-gap: 5px;
         position: relative;
-        left: 21px;
+        left: -2px;
         display: inline-block;
-        top: 125px;
+        top: 159px;
     }
 
     /*Div width*/
@@ -7710,7 +7726,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         /*border: 1px solid red;*/
         display: flex;
         position: absolute;
-        top: 89px;
+        top: 32px;
         left: 24px;
         height: 972px;
         width: 321px;
@@ -7762,6 +7778,17 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         column-gap: 16px;
         display: none;
     }
+
+
+
+/*view more button*/
+    main > section:nth-child(5) > button:nth-child(5) {
+        position: relative;
+        left: 116px !important;
+        top: 957px !important;
+    }
+
+
 
 
     /*My Journey*/
@@ -8684,7 +8711,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         height: 840px;
         width: 99.8%;
         background-color: rgba(74, 71, 71, 0.6);
-        background-color: aqua;
+        /*background-color: aqua;*/
         top: 1px;
     }
 
@@ -9151,7 +9178,12 @@ dfn{
         margin: auto;
     }
 
-
+    /*view more*/
+    main > section:nth-child(5) > button:nth-child(5) {
+        position: relative;
+        left: 102px !important;
+        top: 1025px !important;
+    }
 }
 
 
