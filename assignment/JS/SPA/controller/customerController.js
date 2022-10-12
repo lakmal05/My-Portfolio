@@ -1,4 +1,6 @@
 
+
+
 $('#txtCustomerID').focus();
 
 
@@ -345,6 +347,7 @@ function setCustomerTextError(txtField, error) {
     }
 
 }
+
 
 function textCustomerSuccess(txtField, error) {
     if (txtField.val().length <= 0) {
