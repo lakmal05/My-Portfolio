@@ -5,8 +5,9 @@ $('#txtCustomerID').focus();
 
 
 //Save Customer
-$('#btnSaveCustomer').click(function () {
+$('#btnSaveCustomer').click('click', function () {
     saveCustomer();
+  
 
 });
 
@@ -51,7 +52,8 @@ function loadAllCustomers() {
         $('#tblCustomer').append(row);
     }
 
-    saveCustomerAlert();
+    // saveCustomerAlert();
+    alert("Customer Saved");
 }
 
 //Btn Delete Customer
@@ -100,55 +102,55 @@ $('#btnClearCustomer').click(function () {
 });
 
 //Save Alert
-function saveCustomerAlert() {
-    Swal.fire({
-        position: 'top-end',
-        icon: 'success',
-        title: 'Customer saved',
-        showConfirmButton: false,
-        timer: 1500
-    })
-}
+// function saveCustomerAlert() {
+//     Swal.fire({
+//         position: 'top-end',
+//         icon: 'success',
+//         title: 'Customer saved',
+//         showConfirmButton: false,
+//         timer: 1500
+//     })
+// }
 
 //update Alert
-function updateCustomerAlert() {
-    Swal.fire({
-        position: 'top-end',
-        icon: 'success',
-        title: 'Customer Updated',
-        showConfirmButton: false,
-        timer: 1500
-    })
-}
+// function updateCustomerAlert() {
+//     Swal.fire({
+//         position: 'top-end',
+//         icon: 'success',
+//         title: 'Customer Updated',
+//         showConfirmButton: false,
+//         timer: 1500
+//     })
+// }
 
 //update error Alert
-function updateErrorCustomerAlert() {
-    Swal.fire({
-        icon: 'error',
-        title: 'Oops...',
-        text: 'Something went wrong!',
-    })
-}
+// function updateErrorCustomerAlert() {
+//     Swal.fire({
+//         icon: 'error',
+//         title: 'Oops...',
+//         text: 'Something went wrong!',
+//     })
+// }
 
 //delete alert
-function deleteCustomerAlert() {
-    Swal.fire({
-        position: 'top-end',
-        icon: 'success',
-        title: 'Customer Deleted',
-        showConfirmButton: false,
-        timer: 1500
-    })
-}
+// function deleteCustomerAlert() {
+//     Swal.fire({
+//         position: 'top-end',
+//         icon: 'success',
+//         title: 'Customer Deleted',
+//         showConfirmButton: false,
+//         timer: 1500
+//     })
+// }
 
 //delete error Alert
-function deleteErrorCustomerAlert() {
-    Swal.fire({
-        icon: 'error',
-        title: 'Oops...',
-        text: 'Something went wrong!',
-    })
-}
+// function deleteErrorCustomerAlert() {
+//     Swal.fire({
+//         icon: 'error',
+//         title: 'Oops...',
+//         text: 'Something went wrong!',
+//     })
+// }
 
 
 //when click table row data auto fill into text fields
