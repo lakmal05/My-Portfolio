@@ -1,10 +1,14 @@
-
-$('#txtItemCode').focus();
-
+$('#item').click(function (){
+    $('#txtItemCode').focus();
+});
 
 
 //Save Item
 $('#btnSaveItem').click(function () {
+    saveItem();
+});
+
+function saveItem(){
     let itemCode = $('#txtItemCode').val();
     let itemName = $('#txtItemName').val();
     let itemQtyOnHand = $('#txtItemQTYOnHand').val();
@@ -26,7 +30,8 @@ $('#btnSaveItem').click(function () {
     loadAllItemsForOption();
 
     $('#txtItemCode').focus();
-});
+}
+
 
 //function for add data to table
 function loadAllItems() {
@@ -39,7 +44,8 @@ function loadAllItems() {
         $('#tblItem').append(row);
     }
 
-    saveItemAlert();
+    // saveItemAlert();
+
 }
 
 //Btn Delete Item
@@ -82,8 +88,9 @@ $('#itemmyInput').on('keyup', function () {
 
 
 //btn Clear Text Field Data
-$('#btnClearItem').on(function () {
+$('#btnClearItem').click(function () {
     clearItemTextField();
+    $('#txtItemCode').focus();
 });
 
 
@@ -113,7 +120,7 @@ function updateItemAlert() {
 function updateErrorItemAlert(){
     Swal.fire({
         icon: 'error',
-        title: 'ERRER',
+        title: 'Oops...',
         text: 'Something went wrong!',
     })
 }
@@ -163,7 +170,7 @@ $("#txtItemCode").on('keydown', function (event) {
         if (item != null) {
             setItemTextFieldValues(item.code, item.name, item.qtyonhand, item.price);
         } else {
-            alert("Not Available " + itemId);
+            alert("There is no item available For That " + itemId);
             $('#txtItemName').val('');
             $('#txtItemQTYOnHand').val('');
             $('#txtItemPrice').val('');
@@ -312,8 +319,6 @@ $("#txtItemPrice").on('keydown', function (event) {
 });
 
 
-/*Valdatin part*/
-
 function checkItemValidity() {
     let errorCount = 0;
     for (let validation of itemValidations) {
@@ -338,6 +343,7 @@ function setItemTextError(txtField, error) {
     } else {
         txtField.css('border', '2px solid red');
         txtField.parent().children('span').text(error);
+        txtField.parent().children('span').css('color', 'red');
     }
 }
 

@@ -332,7 +332,7 @@
 
 
 <!-- Order section-->
-    <section id="orderSection">
+    <section id="orderSection" style="background-color:#f1f2f6">
         <!--Order Headline-->
         <div class="mb-5">
             <h1 class="container-fluid">Place Order</h1>
@@ -355,14 +355,17 @@
                             <div class="row g-3 mb-4">
                                 <!--Start Order ID -->
                                 <div class="col">
-                                    <input aria-label="Order ID" class="form-control" placeholder="Order ID"
+                                    Order ID:
+                                    <input aria-label="Order ID" class="form-control" id="txtOrderID" placeholder=""
                                            type="text">
                                 </div>
                                 <!--End Order ID -->
 
                                 <!--Start Date -->
                                 <div class="col">
-                                    <input aria-label="Date" class="form-control" placeholder="Date" type="date">
+                                    Date:
+                                    <input aria-label="Date" class="form-control" id="txtDate" placeholder=""
+                                           type="date">
                                 </div>
                                 <!--End Date -->
                             </div>
@@ -373,15 +376,17 @@
                             <div class="row g-3 mb-4">
                                 <!--Start choose customer id here -->
                                 <div class="col">
+                                    Customer ID:
                                     <select class="form-select" id="inputCustomerID">
-                                        <option>Customer ID</option>
                                     </select>
                                 </div>
                                 <!--End choose customer id here -->
 
                                 <!--Start Customer name -->
                                 <div class="col">
-                                    <input id="txtCusName" aria-label="Customer Name" class="form-control" placeholder="Customer Name"
+                                    Customer Name:
+                                    <input aria-label="Customer Name" class="form-control" id="txtCusName"
+                                           placeholder=""
                                            type="text">
                                 </div>
                                 <!--End Customer name -->
@@ -392,16 +397,18 @@
                             <div class="row g-3">
                                 <!--Start Customer Address -->
                                 <div class="col">
-                                    <input id="txtCusAddress" aria-label="Customer Address" class="form-control"
-                                           placeholder="Customer Address"
+                                    Customer Address:
+                                    <input aria-label="Customer Address" class="form-control" id="txtCusAddress"
+                                           placeholder=""
                                            type="text">
                                 </div>
                                 <!--End Customer Address -->
 
                                 <!--Start Customer Contact -->
                                 <div class="col">
-                                    <input id="txtCusSalary" aria-label="Customer Salary" class="form-control"
-                                           placeholder="Customer Salary"
+                                    Customer Salary:
+                                    <input aria-label="Customer Salary" class="form-control" id="txtCusSalary"
+                                           placeholder=""
                                            type="number">
                                 </div>
                                 <!--ENd Customer Contact -->
@@ -431,15 +438,16 @@
                             <div class="row g-3 mb-4">
                                 <!-- Start Item Code-->
                                 <div class="col">
+                                    Item ID:
                                     <select class="form-select" id="inputItemID">
-                                        <option>Item ID</option>
                                     </select>
                                 </div>
                                 <!-- End Item Code-->
 
                                 <!-- Start Item Name-->
                                 <div class="col">
-                                    <input aria-label="Item Name" class="form-control" placeholder="Item Name"
+                                    Item Name:
+                                    <input aria-label="Item Name" class="form-control" id="itemName" placeholder=""
                                            type="text">
                                 </div>
                                 <!-- End Item Name-->
@@ -450,28 +458,35 @@
                             <div class="row g-3 mb-4">
                                 <!-- Start Item QTYOnHand-->
                                 <div class="col">
-                                    <input aria-label="QTYOnHand" class="form-control" placeholder="QTYOnHand"
+                                    onHand:
+                                    <input aria-label="QTYOnHand" class="form-control" id="itemonHand" placeholder=""
                                            type="number">
                                 </div>
                                 <!-- End Item QTYOnHand-->
 
                                 <!-- Start Item Price-->
                                 <div class="col">
-                                    <input aria-label="Price" class="form-control" placeholder="Price" type="number">
+                                    Price:
+                                    <input aria-label="Price" class="form-control" id="itemPrice" placeholder=""
+                                           type="number">
                                 </div>
                                 <!-- End Item Price-->
 
                                 <!-- Start Order QTY-->
                                 <div class="col">
-                                    <input aria-label="Order QTY" class="form-control" placeholder="OrderQTY"
+                                    OrderQTY:
+                                    <input aria-label="Order QTY" class="form-control" id="itemorderQty" placeholder=""
                                            type="number">
                                 </div>
                             </div>
                             <!-- End 2nd Row-->
 
-                            <!--Start Add to Cart Button-->
+                            <!--Start Add to Cart Button and Clear button-->
                             <div>
-                                <button id="btnAddToCart" class="btn btn-outline-primary" type="button">Add to Cart</button>
+                                <button class="btn btn-outline-primary" id="btnAddToCart" type="button">Add to Cart
+                                </button>
+
+                                <button class="btn btn-outline-warning" id="btnClear" type="button">Clear</button>
                             </div>
                             <!--End Add to Cart Button-->
                         </form>
@@ -508,25 +523,25 @@
                 <div class="row g-3 mb-4">
                     <!-- Start Item Code-->
                     <div class="col">
-                        <input aria-label="Cash" class="form-control" placeholder="Cash" type="text">
+                        <input aria-label="Cash" class="form-control" id="txtCash" placeholder="Cash" type="text">
                     </div>
                     <!-- End Item Code-->
 
                     <!-- Start Item Name-->
                     <div class="col">
-                        <input aria-label="Discount" class="form-control" placeholder="Discount" type="number">
+                        <input aria-label="Discount" class="form-control" id="txtDiscount" placeholder="Discount"
+                               type="number">
                     </div>
                     <!-- End Item Name-->
                 </div>
                 <!-- End cash and discount Row-->
 
-                <nav class="navbar bg-light mb-4">
-                    <div class="container-fluid">
-                        <span class="navbar-brand mb-0 h1 ">Balance:</span>
-                    </div>
-                </nav>
+                <div class="col">
+                    <input aria-label="Balance" class="form-control mb-3" id="txtBalance" placeholder="Balance"
+                           type="number">
+                </div>
 
-                <button id="btnPlaceOrderButton" class="btn btn-outline-success" type="button">Place Order</button>
+                <button class="btn btn-outline-success" id="btnPlaceOrderButton" type="button">Place Order</button>
 
             </section>
             <!-- End Total calculate Form-->
@@ -540,14 +555,15 @@
             <table class="table table-striped">
                 <thead class="bg-info text-white">
                 <tr class="table-info">
-                    <td class="col-3">Item Code</td>
-                    <td class="col-3">Item Name</td>
-                    <td class="col-3">Price</td>
-                    <td class="col-3">Qty</td>
-                    <td class="col-3">Action</td>
+                    <td>Order ID</td>
+                    <td>Item Code</td>
+                    <td>Item Name</td>
+                    <td>Price</td>
+                    <td>Qty</td>
+                    <td>Total</td>
                 </tr>
 
-                <tbody>
+                <tbody id="tblCart">
 
 
                 </tbody>
@@ -565,6 +581,7 @@
 <script src="controller/pageManagementController.js"></script>
 <script src="controller/customerController.js"></script>
 <script src="controller/itemController.js"></script>
+<script src="controller/orderController.js"></script>
 
 
 <script src="db/db.js"></script>
@@ -573,6 +590,8 @@
 
 <script src="model/customer.js"></script>
 <script src="model/item.js"></script>
+<script src="model/order.js"></script>
+<script src="model/ordercart.js"></script>
 
 
 
