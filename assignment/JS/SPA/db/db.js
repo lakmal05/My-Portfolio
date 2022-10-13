@@ -1,3 +1,3 @@
 let customers =[];
 
-let item =[];
+let items =[];

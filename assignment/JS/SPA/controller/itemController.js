@@ -113,7 +113,7 @@ function updateItemAlert() {
 function updateErrorItemAlert(){
     Swal.fire({
         icon: 'error',
-        title: 'Oops...',
+        title: 'ERRER',
         text: 'Something went wrong!',
     })
 }
@@ -163,7 +163,7 @@ $("#txtItemCode").on('keydown', function (event) {
         if (item != null) {
             setItemTextFieldValues(item.code, item.name, item.qtyonhand, item.price);
         } else {
-            alert("There is no item available For That " + itemId);
+            alert("Not Available " + itemId);
             $('#txtItemName').val('');
             $('#txtItemQTYOnHand').val('');
             $('#txtItemPrice').val('');
