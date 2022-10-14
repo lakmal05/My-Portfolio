@@ -42,3 +42,16 @@ $('#order').click(function () {
     $('#orderSection').show();
 
 });
+
+
+
+$('#orderDetails').click(function (){
+
+    $('#dashboard').css('display','none')
+    $('#customerSection').css('display', 'none');
+    $('#itemSection').css('display', 'none');
+    $('#orderSection').css('display', 'none');
+  $('#orderDetail').show();
+
+});
+

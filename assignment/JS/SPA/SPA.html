@@ -41,8 +41,9 @@
                             <div class="navbar-nav">
                                 <a aria-current="page" class="nav-link active" href="#" id="home">Home</a>
                                 <a class="nav-link" href="#" id="customer">Customer</a>
-                                <a class="nav-link" href="#" id="item">Item</a>
-                                <a class="nav-link" href="#" id="order">Order</a>
+                                <a class="nav-link" href="#" id="item">Items</a>
+                                <a class="nav-link" href="#" id="order"> Place Order</a>
+                                <a class="nav-link" href="#" id="orderDetails"> Order Detail</a>
                             </div>
                         </div>
 
@@ -571,6 +572,64 @@
         </section>
         <!-- End Card Table -->
     </section>
+
+
+
+
+
+
+
+    <section id="orderDetail">
+
+        <div class="mb-5">
+            <h1 class="container-fluid">Order Details</h1>
+        </div>
+
+        <!-- Start Item Here-->
+        <section class="container-fluid mt-3 mb-5" id="OrderDetailContent">
+
+
+
+            <!-- Search Bar -->
+            <section class="row mb-3">
+                <form class="d-flex col-5" role="search">
+                    <input aria-label="Search" class="form-control me-2 "placeholder="ItemCode/Name"
+                           type="search">
+                    <!--                <button class="btn btn-outline-success" type="submit">Search</button>-->
+                </form>
+
+            </section>
+
+
+            <!--  Item Table -->
+            <section class="row ">
+                <div class="container-fluid col-12">
+                    <table class="table table-bordered table-hover">
+                        <thead class="bg-info text-white">
+                        <tr class="table-success">
+                            <td class="col-3">Item Code</td>
+                            <td class="col-3">Name</td>
+                            <td class="col-3">Qty On Hand</td>
+                            <td class="col-3">Price</td>
+                        </tr>
+                        </thead>
+
+                        <tbody id="tblorderDetail">
+
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+        </section>
+        <!-- End Item Here-->
+    </section>
+
+
+    </section>
+
+
+
 
 
 </main>
