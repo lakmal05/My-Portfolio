@@ -359,6 +359,31 @@ dfn a:hover {
 }
 
 
+/*social liks*/
+main>section:nth-child(1)>section:nth-child(4) {
+    display: flex;
+    bottom: 98px;
+    position: absolute;
+    column-gap: 33px;
+    left: 473px;
+}
+main>section:nth-child(1)>section:nth-child(4)>div{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    /*position: absolute;*/
+}
+main>section:nth-child(1)>section:nth-child(4)>div>a>img{
+    height: 50px;
+    width: 50px;
+    /*display: inline-block;*/
+    /*position: absolute;*/
+}
+
+
+
+
+
 /*about me*/
 
 
@@ -537,13 +562,16 @@ main > section:nth-child(3) > p:nth-child(2) {
 }
 
 .serviceTitle {
-
-    position: relative;
-    top: 19px;
-    left: -6px;
-    font-size: 18px;
+    position: absolute;
+    top: 53px;
+    left: 59px;
+    font-size: 19px;
     font-family: 'Poppins', "Segoe UI Semibold";
     color: #FFFFFF;
+    /* width: auto; */
+    /* display: inline-block; */
+    /* width: 167px; */
+    /* display: contents; */
 }
 
 /*grid*/
@@ -583,6 +611,7 @@ main > section:nth-child(3) > section:nth-child(3) > div {
     /*flex-shrink: 3;*/
     flex-grow: 0;
 
+    opacity: 90%;
 
 }
 
@@ -594,6 +623,7 @@ main > section:nth-child(3) > section:nth-child(4) > div {
     /*flex-shrink: 3;*/
     flex-grow: 0;
 
+    opacity: 90%;
 
 }
 
@@ -607,6 +637,7 @@ main > section:nth-child(3) > section:nth-child(3) > div:nth-child(1) {
 
     position: relative;
     left: -31px;
+    opacity: 90%;
 
 }
 
@@ -620,6 +651,7 @@ main > section:nth-child(3) > section:nth-child(3) > div:nth-child(2) {
     position: relative;
     left: 10px;
 
+    opacity: 90%;
 }
 
 main > section:nth-child(3) > section:nth-child(3) > div:nth-child(3) {
@@ -630,6 +662,7 @@ main > section:nth-child(3) > section:nth-child(3) > div:nth-child(3) {
 
     position: relative;
     left: 50px;
+    opacity: 90%;
 
 }
 
@@ -644,6 +677,7 @@ main > section:nth-child(3) > section:nth-child(4) > div:nth-child(1) {
 
     position: relative;
     left: -33px;
+    opacity: 90%;
 
 }
 
@@ -671,87 +705,76 @@ main > section:nth-child(3) > section:nth-child(4) > div:nth-child(3) {
 
 /*icons*/
 main > section:nth-child(3) > section > div > i {
-
     position: relative;
-    left: 32px;
-    top: 19px;
-    /*width: 169px;*/
-    /*height: 119px;*/
-    font-size: 33px;
+    left: 117px;
+    top: 12px;
+    /* width: 169px; */
+    /* height: 119px; */
+    font-size: 38px;
     color: #2eac95;
-
     display: inline-block;
-
-
 }
 
 /*paragpsh*/
 main > section:nth-child(3) > section:nth-child(3) > div:nth-child(1) > p {
     position: relative;
     font-family: 'Poppins', "Regular";
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
-    /*color: red;*/
+    /* color: red; */
     display: inline-block;
-
-    top: 10px;
+    top: 104px;
+    /* font-weight: 600; */
 }
 
 main > section:nth-child(3) > section:nth-child(3) > div:nth-child(2) > p {
     position: relative;
     font-family: 'Poppins', "Regular";
-    font-size: 15px;
+    font-size: 19px;
     text-align: center;
-    /*color: red;*/
+    /* color: red; */
     display: inline-block;
-
-    top: 10px;
+    top: 97px;
 }
 
 main > section:nth-child(3) > section:nth-child(3) > div:nth-child(3) > p {
     position: relative;
     font-family: 'Poppins', "Regular";
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
-    color: red;
+    /* color: red; */
     display: inline-block;
-
-    top: 10px;
+    top: 100px;
 }
 
 main > section:nth-child(3) > section:nth-child(4) > div:nth-child(1) > p {
     position: relative;
     font-family: 'Poppins', "Regular";
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
-    color: red;
+    /* color: red; */
     display: inline-block;
-
-    top: 10px;
+    top: 100px;
 }
 
 main > section:nth-child(3) > section:nth-child(4) > div:nth-child(2) > p {
     position: relative;
     font-family: 'Poppins', "Regular";
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
-    color: red;
+    /* color: red; */
     display: inline-block;
-
-    top: 10px;
+    top: 96px;
 }
-
 main > section:nth-child(3) > section:nth-child(4) > div:nth-child(3) > p {
     position: relative;
     font-family: 'Poppins', "Regular";
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
-    color: red;
+    /* color: red; */
     display: inline-block;
-
-    top: 10px;
+    top: 97px;
 }
-
 
 /*main>section:nth-child(3)>div>p{*/
 /*   position: relative;*/
@@ -3186,7 +3209,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         position: relative;
         top: -56px;
         bottom: 10px;
-        display: inline-block;
+        display: inline-block;left: 80px;
     }
 
     #m01 {
@@ -3268,6 +3291,29 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     .childText01 {
         position: initial;
+    }
+
+
+    main>section:nth-child(1)>section:nth-child(4) {
+        display: flex;
+        bottom: 83px;
+        position: absolute;
+        column-gap: 33px;
+        left: 315px;
+    }
+
+    main>section:nth-child(1)>section:nth-child(4)>div {
+        height: 50px;
+        width: 50px;
+        display: inline-block;
+        /* position: absolute; */
+    }
+
+    main>section:nth-child(1)>section:nth-child(4)>div>a>img {
+        height: 45px;
+        width: 45px;
+        /* display: inline-block; */
+        /* position: absolute; */
     }
 
 
@@ -4675,7 +4721,7 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
     /*semi topics*/
     .mainAside {
         position: absolute;
-        top: 92px;
+        top: 54px;
         left: 55px;
     }
 
@@ -4731,6 +4777,28 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         perspective: 1000px;
         top: -344px;
         left: 27px;
+    }
+
+    main>section:nth-child(1)>section:nth-child(4) {
+        display: flex;
+        bottom: 64px;
+        position: absolute;
+        column-gap: 14px;
+        left: 206px;
+    }
+
+    main>section:nth-child(1)>section:nth-child(4)>div {
+        height: 50px;
+        width: 50px;
+        display: inline-block;
+        /* position: absolute; */
+    }
+
+    main>section:nth-child(1)>section:nth-child(4)>div>a>img {
+        height: 40px;
+        width: 40px;
+        /* display: inline-block; */
+        /* position: absolute; */
     }
 
 
@@ -8382,10 +8450,10 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
 
     .mainAside {
         position: absolute;
-        top: -81px;
-        left: 64px;
+        top: -102px;
+        left: 56px;
         /* display: inline-block; */
-        width: 231px;
+        width: 225px;
         height: 43px;
     }
 
@@ -8432,6 +8500,27 @@ main > section:nth-child(9) > form:nth-child(3) > div:nth-child(3) > textarea {
         display: inline-block;
     }
 
+
+    main>section:nth-child(1)>section:nth-child(4) {
+        display: flex;
+        bottom: 10px;
+        position: absolute;
+        column-gap: 3px;
+        left: 71px;
+    }
+
+    main>section:nth-child(1)>section:nth-child(4)>div {
+        height: 17px;
+        width: 22px;
+        display: inline-block;
+        /* position: absolute; */
+    }
+    main>section:nth-child(1)>section:nth-child(4)>div>a>img {
+        height: 20px;
+        width: 20px;
+        /* display: inline-block; */
+        /* position: absolute; */
+    }
 
     /*aboutme */
     .aboutmeSection {

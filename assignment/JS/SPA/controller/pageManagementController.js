@@ -9,7 +9,7 @@ $(document).ready(function () {
 });
 
 
-//Start When home click other section hide
+
 $('#home').click(function () {
     $('#dashboard').css('display', 'block')
     $('#customerSection').css('display', 'none');
@@ -18,9 +18,9 @@ $('#home').click(function () {
     $('#orderDetail').css('display','none');
 
 });
-// End When home click other section hide
 
-// Start When customer click other section hide
+
+
 $('#customer').click(function () {
     $('#dashboard').css('display', 'none')
     $('#customerSection').css('display', 'block');
@@ -29,9 +29,8 @@ $('#customer').click(function () {
     $('#orderDetail').css('display','none');
 
 });
-// End When customer click other section hide
 
-// Start When item click other section hide
+
 $('#item').click(function () {
     $('#dashboard').css('display', 'none')
     $('#customerSection').css('display', 'none');
@@ -41,9 +40,9 @@ $('#item').click(function () {
 
 
 });
-// End When item click other section hide
 
-// Start When order click other section hide
+
+
 $('#order').click(function () {
     $('#dashboard').css('display', 'none')
     $('#customerSection').css('display', 'none');
