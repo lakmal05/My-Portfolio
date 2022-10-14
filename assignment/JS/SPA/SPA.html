@@ -580,50 +580,46 @@
 
 
     <section id="orderDetail">
+<!--        Headline&ndash;&gt;-->
 
-        <div class="mb-5">
-            <h1 class="container-fluid">Order Details</h1>
-        </div>
-
-        <!-- Start Item Here-->
-        <section class="container-fluid mt-3 mb-5" id="OrderDetailContent">
-
-
+            <!--order details Headline-->
+            <div class="mb-5">
+                <h1 class="container-fluid">Order Details</h1>
+            </div>
 
             <!-- Search Bar -->
-            <section class="row mb-3">
+            <section class="row mb-3 container-fluid">
                 <form class="d-flex col-5" role="search">
-                    <input aria-label="Search" class="form-control me-2 "placeholder="ItemCode/Name"
+                    <input aria-label="Search" class="form-control me-2 " id="orderdetailsmyInput" placeholder="orderID"
                            type="search">
-                    <!--                <button class="btn btn-outline-success" type="submit">Search</button>-->
                 </form>
 
             </section>
 
-
-            <!--  Item Table -->
-            <section class="row ">
-                <div class="container-fluid col-12">
-                    <table class="table table-bordered table-hover">
-                        <thead class="bg-info text-white">
-                        <tr class="table-success">
-                            <td class="col-3">Item Code</td>
-                            <td class="col-3">Name</td>
-                            <td class="col-3">Qty On Hand</td>
-                            <td class="col-3">Price</td>
+            <!--  order details Table -->
+            <section class="row container-fluid">
+                <div class="container-fluid col-12"  >
+                    <table class="table table-hover table-bordered table-striped" id="orderDetailsTable_Main" >
+                        <thead class="bg-danger text-bg-dark" >
+                        <tr class="" >
+                            <th>Order ID</th>
+                            <th>Date</th>
+                            <th>Customer Id</th>
+                            <th>Customer Name</th>
+                            <th>Item Code</th>
+                            <th>Item Name</th>
+                            <th>Quantity</th>
+                            <th>Discount</th>
+                            <th>Total</th>
                         </tr>
                         </thead>
-
-                        <tbody id="tblorderDetail">
+                        <tbody class="table-light" id="orderDetailTable" >
 
                         </tbody>
                     </table>
                 </div>
             </section>
 
-        </section>
-        <!-- End Item Here-->
-    </section>
 
 
     </section>
@@ -641,6 +637,7 @@
 <script src="controller/customerController.js"></script>
 <script src="controller/itemController.js"></script>
 <script src="controller/orderController.js"></script>
+<script src="controller/orderDetailContoller.js"></script>
 
 
 <script src="db/db.js"></script>
@@ -651,6 +648,7 @@
 <script src="model/item.js"></script>
 <script src="model/order.js"></script>
 <script src="model/ordercart.js"></script>
+<script src="model/orderDetail.js"></script>
 
 
 
