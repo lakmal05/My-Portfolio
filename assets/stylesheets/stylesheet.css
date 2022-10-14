@@ -5884,13 +5884,12 @@ main > section:nth-child(9) > section > div > p {
     /*semi head line*/
     .mainAside {
         position: absolute;
-        top: -43px;
+        top: -82px;
         left: 71px;
         /* display: inline-block; */
         width: 325px;
         height: 73px;
     }
-
 
     #m01 {
         position: relative;
@@ -5950,6 +5949,28 @@ main > section:nth-child(9) > section > div > p {
         color: #FFFFFF;
     }
 
+
+    main>section:nth-child(1)>section:nth-child(4) {
+        display: flex;
+        bottom: 264px;
+        position: absolute;
+        column-gap: 0px;
+        left: 76px;
+    }
+
+    main>section:nth-child(1)>section:nth-child(4)>div>a>img {
+        height: 30px;
+        width: 30px;
+        /* display: inline-block; */
+        /* position: absolute; */
+    }
+
+    main>section:nth-child(1)>section:nth-child(4)>div {
+        height: 48px;
+        width: 41px;
+        display: inline-block;
+        /* position: absolute; */
+    }
 
     /*about me*/
     /*section*/
@@ -6072,6 +6093,16 @@ main > section:nth-child(9) > section > div > p {
     }
 
 
+
+
+
+
+
+
+
+
+
+
     /*Download Button*/
     #DownloadResume {
         padding: 6px 5px;
@@ -6127,14 +6158,14 @@ main > section:nth-child(9) > section > div > p {
 
     /*section*/
     main > section:nth-child(3) > section:nth-child(3) {
-        /*border: 1px solid red;*/
+        /* border: 1px solid red; */
         height: 285px;
-        width: 398px;
+        width: 388px;
         display: block;
         align-items: center;
         justify-content: center;
         position: relative;
-        top: 34px;
+        top: 46px;
         left: 9px;
     }
 
@@ -6149,7 +6180,6 @@ main > section:nth-child(9) > section > div > p {
         display: inline-block;
     }
 
-
     /*section 1 -div 2*/
     main > section:nth-child(3) > section:nth-child(3) > div:nth-child(2) {
         background-color: #d9d9d9;
@@ -6157,8 +6187,8 @@ main > section:nth-child(9) > section > div > p {
         flex-grow: 0;
         row-gap: 5px;
         position: absolute;
-        left: 190px;
-        top: 1px;
+        left: 197px;
+        top: 16px;
         display: inline-block;
     }
 
@@ -6188,14 +6218,15 @@ main > section:nth-child(9) > section > div > p {
 
     /*secftion 2*/
     main > section:nth-child(3) > section:nth-child(4) {
-        /*border: 1px solid red;*/
+        /* border: 1px solid red; */
         height: 221px;
         width: 406px;
         display: block;
         align-items: center;
         justify-content: center;
         position: relative;
-        top: 219px;
+        top: 236px;
+        /* left: 10px; */
         /* bottom: -1px; */
     }
 
@@ -6209,8 +6240,8 @@ main > section:nth-child(9) > section > div > p {
         row-gap: 5px;
         position: relative;
         display: inline-block;
-        left: 12px;
-        top: -10px;
+        left: 25px;
+        top: -22px;
     }
 
     /*div 2*/
@@ -6220,9 +6251,9 @@ main > section:nth-child(9) > section > div > p {
         flex-grow: 0;
         row-gap: 5px;
         position: absolute;
-        left: 200px;
+        left: 213px;
         display: inline-block;
-        top: 6px;
+        top: -5px;
     }
 
     /*div 3*/
@@ -6234,7 +6265,7 @@ main > section:nth-child(9) > section > div > p {
         position: relative;
         left: 35px;
         display: inline-block;
-        top: -228px;
+        top: -233px;
     }
 
     /*section2 -div*/
@@ -6245,6 +6276,105 @@ main > section:nth-child(9) > section > div > p {
         /* flex-shrink: 3; */
         flex-grow: 0;
     }
+
+/*Icons*/
+    main > section:nth-child(3) > section > div > i {
+        position: relative;
+        left: 62px;
+        top: 7px;
+        /* width: 169px; */
+        /* height: 119px; */
+        font-size: 33px;
+        color: #2eac95;
+        display: inline-block;
+    }
+
+    .serviceTitle {
+
+        top: 52px;
+        left: 24px;
+        font-size: 14px;
+        font-family: 'Poppins', "Segoe UI Semibold";
+        color: #FFFFFF;
+        position: absolute;
+    }
+
+
+
+    /*paragarf*/
+
+    main > section:nth-child(3) > section:nth-child(3) > div:nth-child(1) > p {
+        position: relative;
+        font-family: 'Poppins', "Regular";
+        font-size: 15px;
+        text-align: center;
+         color: black;
+        display: inline-block;
+        top: 51px;
+    }
+
+
+    main > section:nth-child(3) > section:nth-child(3) > div:nth-child(2) > p {
+        position: relative;
+        font-family: 'Poppins', "Regular";
+        font-size: 14px;
+        text-align: center;
+         color: black;
+        display: inline-block;
+        top: 46px;
+    }
+    main > section:nth-child(3) > section:nth-child(3) > div:nth-child(3) > p {
+        position: relative;
+        font-family: 'Poppins', "Regular";
+        font-size: 15px;
+        text-align: center;
+         color: black;
+        display: inline-block;
+        top: 48px;
+    }
+
+
+    main > section:nth-child(3) > section:nth-child(4) > div:nth-child(2) > p {
+        position: relative;
+        font-family: 'Poppins', "Regular";
+        font-size: 15px;
+        text-align: center;
+         color: black;
+        display: inline-block;
+        top: 47px;
+    }
+
+
+    main > section:nth-child(3) > section:nth-child(4) > div:nth-child(3) > p {
+        position: relative;
+        font-family: 'Poppins', "Regular";
+        font-size: 15px;
+        text-align: center;
+         color: black;
+        display: inline-block;
+        top: 51px;
+    }
+
+
+
+
+
+
+
+    main > section:nth-child(3) > section:nth-child(4) > div:nth-child(1) > p {
+        position: relative;
+        font-family: 'Poppins', "Regular";
+        font-size: 15px;
+        text-align: center;
+        /* color: red; */
+        display: inline-block;
+        top: 43px;
+    }
+
+
+
+
+
 
 
     /*skils*/
@@ -6542,8 +6672,8 @@ main > section:nth-child(9) > section > div > p {
 /**view more button*/
     main > section:nth-child(5) > button:nth-child(5) {
         position: relative;
-        left: 164px;
-        top: 982px;
+        left: 164px !important;
+        top: 982px !important;
     }
 
 
@@ -7021,7 +7151,7 @@ main > section:nth-child(9) > section > div > p {
 
     main > section:nth-child(9) > section > div > p {
         font-family: 'Poppins', "Regular";
-        font-size: 16px;
+        font-size: 9px;
         color: #a49d9d;
         display: inline-block;
     }
