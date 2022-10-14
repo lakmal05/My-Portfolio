@@ -5952,7 +5952,7 @@ main > section:nth-child(9) > section > div > p {
 
     main>section:nth-child(1)>section:nth-child(4) {
         display: flex;
-        bottom: 264px;
+        bottom: 263px;
         position: absolute;
         column-gap: 0px;
         left: 76px;
@@ -7246,10 +7246,20 @@ main > section:nth-child(9) > section > div > p {
         margin: auto;
     }
 
+    .headerNavigation{
+        display: none;
+    }
+
 }
 
 
 @media all and (max-width: 375px) {
+
+
+    .headerNavigation{
+        display: none;
+    }
+
     dfn{
         display:none;
     }
