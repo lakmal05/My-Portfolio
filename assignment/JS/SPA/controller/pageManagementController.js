@@ -4,6 +4,8 @@ $(document).ready(function () {
     $('#customerSection').hide();
     $('#itemSection').hide();
     $('#orderSection').hide();
+    $('#orderDetail').hide();
+
 });
 
 
@@ -13,6 +15,8 @@ $('#home').click(function () {
     $('#customerSection').css('display', 'none');
     $('#itemSection').css('display', 'none');
     $('#orderSection').css('display', 'none');
+    $('#orderDetail').css('display','none');
+
 });
 // End When home click other section hide
 
@@ -22,6 +26,8 @@ $('#customer').click(function () {
     $('#customerSection').css('display', 'block');
     $('#itemSection').css('display', 'none');
     $('#orderSection').css('display', 'none');
+    $('#orderDetail').css('display','none');
+
 });
 // End When customer click other section hide
 
@@ -31,6 +37,9 @@ $('#item').click(function () {
     $('#customerSection').css('display', 'none');
     $('#itemSection').css('display', 'block');
     $('#orderSection').css('display', 'none');
+    $('#orderDetail').css('display','none');
+
+
 });
 // End When item click other section hide
 
@@ -40,6 +49,7 @@ $('#order').click(function () {
     $('#customerSection').css('display', 'none');
     $('#itemSection').css('display', 'none');
     $('#orderSection').show();
+    $('#orderDetail').css('display','none');
 
 });
 
