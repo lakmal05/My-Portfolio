@@ -1,7 +1,10 @@
 #main{
     width:1000px;
     float:left;
-
+    /*my*/
+    left: 287px;
+    top: 107px;
+    position: absolute;
 }
 #board{
 
@@ -10,7 +13,19 @@
     width:650px;
     height:550px;
     float:left;
-    margin-top:8px;
+
+    /**/
+
+    margin-top: 14px;
+    margin-left: 7px;
     left:100px;
     top: 100px;
 }
+
+
+
+#uselesstext1{
+     float:left;
+     padding-left:10px;
+     padding-right:10px;
+ }
