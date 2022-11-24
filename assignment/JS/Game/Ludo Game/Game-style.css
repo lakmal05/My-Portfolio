@@ -1,3 +1,16 @@
 #main{
+    width:1000px;
+    float:left;
 
+}
+#board{
+
+    background:url(asests/board.gif)no-repeat;
+    background-size:cover;
+    width:650px;
+    height:550px;
+    float:left;
+    margin-top:8px;
+    left:100px;
+    top: 100px;
 }
