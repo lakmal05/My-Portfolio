@@ -2,6 +2,8 @@
 
 /*dic num*/
 var num = 0;
+/*Dic Clikced*/
+var clicked = false;
 
 
 
