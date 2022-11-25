@@ -64,7 +64,22 @@ function randomNum() {
     }
 }
 
-
+/*Changing player*/
+function changePlayer() {
+    if (num != 6){
+        var text = document.getElementById('player');
+        switch (text.innerText) {
+            case "red": text.innerText = text.style.color = "blue"; break;
+            case "blue": text.innerText = text.style.color = "yellow"; break;
+            case "yellow": text.innerText = text.style.color = "green"; break;
+            case "green": text.innerText = text.style.color = "red"; break;
+        }
+    }
+    var badtext = document.getElementById('badtext');
+    badtext.innerText = "";
+    var dice = document.getElementById('dice');
+    dice.style.backgroundImage = "url(Images/dice.gif)";
+}
 
 
 /*Bord icon moving*/
