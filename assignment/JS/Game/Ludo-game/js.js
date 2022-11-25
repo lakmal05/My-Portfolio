@@ -16,6 +16,38 @@ var allcolor = ["red", "blue", "green", "yellow"];
 var pawnOut = {red:0,blue:0,green:0,yellow:0}
 
 
+
+
+
+
+
+
+
+function ResetPawn(victim) {
+    onboard[victim] = 0;
+    positions[victim] = 0;
+    var pawnToMove = document.getElementById(victim);
+    switch (victim) {
+        case "redpawn1": pawnToMove.style.top = 149 + "px"; pawnToMove.style.left = 442 + "px"; break;
+        case "redpawn2": pawnToMove.style.top = 102 + "px"; pawnToMove.style.left = 395 + "px"; break;
+        case "redpawn3": pawnToMove.style.top = 55 + "px"; pawnToMove.style.left = 442 + "px"; break;
+        case "redpawn4": pawnToMove.style.top = 102 + "px"; pawnToMove.style.left = 490 + "px"; break;
+        case "bluepawn1": pawnToMove.style.top = 451 + "px"; pawnToMove.style.left = 490 + "px"; break;
+        case "bluepawn2": pawnToMove.style.top = 451 + "px"; pawnToMove.style.left = 395 + "px"; break;
+        case "bluepawn3": pawnToMove.style.top = 404 + "px"; pawnToMove.style.left = 442 + "px"; break;
+        case "bluepawn4": pawnToMove.style.top = 498 + "px"; pawnToMove.style.left = 442 + "px"; break;
+        case "greenpawn1": pawnToMove.style.top = 149 + "px"; pawnToMove.style.left = 93 + "px"; break;
+        case "greenpawn2": pawnToMove.style.top = 102 + "px"; pawnToMove.style.left = 140 + "px"; break;
+        case "greenpawn3": pawnToMove.style.top = 55 + "px"; pawnToMove.style.left = 93 + "px"; break;
+        case "greenpawn4": pawnToMove.style.top = 102 + "px"; pawnToMove.style.left = 47 + "px"; break;
+        case "yellowpawn1": pawnToMove.style.top = 451 + "px"; pawnToMove.style.left = 47 + "px"; break;
+        case "yellowpawn2": pawnToMove.style.top = 451 + "px"; pawnToMove.style.left = 140 + "px"; break;
+        case "yellowpawn3": pawnToMove.style.top = 404 + "px"; pawnToMove.style.left = 93 + "px"; break;
+        case "yellowpawn4": pawnToMove.style.top = 498 + "px"; pawnToMove.style.left = 93 + "px"; break;
+
+    }
+}
+
 /*Dick rowlling and aded random num*/
 function randomNum() {
     if (!clicked) {
