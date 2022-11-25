@@ -29,3 +29,12 @@
      padding-left:10px;
      padding-right:10px;
  }
+
+
+
+.pawns{
+    width:30px;
+    height:30px;
+    border-radius:20px;
+    position:absolute;
+}
