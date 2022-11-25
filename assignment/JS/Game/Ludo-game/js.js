@@ -1,7 +1,7 @@
 
 
-
-
+/*dic num*/
+var num = 0;
 
 
 
@@ -11,7 +11,7 @@ function randomNum() {
     if (!clicked) {
         num = Math.floor((Math.random() * 6) + 1);;
         var dice = document.getElementById('dice');
-        dice.style.backgroundImage = "url(asests/" + num + ".jpg)";
+        dice.style.backgroundImage = "url(Ludo-game/asests/" + num + ".jpg)";
         clicked = true;
     }
     if (num != 6&&DontHaveOtherFree()) {
