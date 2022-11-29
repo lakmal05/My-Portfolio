@@ -1,10 +1,25 @@
 #main{
-    width:1000px;
-    float:left;
-    /*my*/
-    left: 287px;
-    top: 107px;
+    /*width:1000px;*/
+    /*float:left;*/
+    /*!*my*!*/
+    /*left: 287px;*/
+    /*top: 107px;*/
+    /*position: absolute;*/
+
+/*new css*/
+    width: 955px;
+    /* float: left; */
+    /* left: 244px; */
+    /* top: 107px; */
     position: absolute;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    top: 0;
+    left: 162px;
+    bottom: 0;
+    right: 0;
+
 }
 #board{
 

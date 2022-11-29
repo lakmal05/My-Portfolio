@@ -38,7 +38,7 @@ function Stuck() {
             badtext.innerText = "Unfortunatlly you stuck";
             clicked = false;
             var dice = document.getElementById('dice');
-            dice.style.backgroundImage = "url(Images/dice.gif)";
+            dice.style.backgroundImage = "url(asests/dice.gif)";
             window.setTimeout(changePlayer, 1000);
         }
     }
