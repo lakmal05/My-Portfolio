@@ -35,7 +35,7 @@ function Stuck() {
     if (onboard[currpawn] == 0||currPos+num>44) {
         if (DontHaveOtherFree()||currPos+num>44) {
             var badtext = document.getElementById('badtext');
-            badtext.innerText = "Unfortunatlly you stuck";
+            badtext.innerText = "Unfortunately you stuck ";
             clicked = false;
             var dice = document.getElementById('dice');
             dice.style.backgroundImage = "url(asests/dice.gif)";
@@ -216,19 +216,11 @@ function DontHaveOtherFree() {
     }
     return true;
 }
-function CheckForWinner() {
-    if (pawnOut[currcolor] == 4) {
-        var dice = document.getElementById("dice");
-        var player = document.getElementById("player");
-        var uselesstext1 = document.getElementById("uselesstext1");
-        var uselesstext2 = document.getElementById("uselesstext2");
-        dice.innerText = "";
-        dice.style.visibility = "hidden";
-        uselesstext1.innerText = "";
-        uselesstext2.innerText = "";
-        player.innerText = "The Winner is the "+currcolor+" player";
-    }
-}
+
+
+
+
+
 function stepDown() {
     var doc = document.getElementById(currcolor + "pawn"+NumOfPaw);
     var curr = Number(doc.style.top.replace(/[a-z]/g, ''));
@@ -319,3 +311,21 @@ pushSteps(stepUp, stepsGreen,4);
 pushSteps(stepLeft, stepsGreen,4);
 pushSteps(stepUp, stepsGreen,1);
 pushSteps(stepRight, stepsGreen, 5);
+
+
+
+
+//Winnner
+function CheckForWinner() {
+    if (pawnOut[currcolor] == 4) {
+        var dice = document.getElementById("dice");
+        var player = document.getElementById("player");
+        var uselesstext1 = document.getElementById("uselesstext1");
+        var uselesstext2 = document.getElementById("uselesstext2");
+        dice.innerText = "";
+        dice.style.visibility = "hidden";
+        uselesstext1.innerText = "";
+        uselesstext2.innerText = "";
+        player.innerText = "The Winner is the "+currcolor+" player";
+    }
+}
